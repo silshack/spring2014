@@ -1,7 +1,7 @@
 ---
 layout: post
 author: tlchristian
-title: Thu-Mai's First Post
+title: ThuMai's First Post
 date: 2014-01-08
 ---
 

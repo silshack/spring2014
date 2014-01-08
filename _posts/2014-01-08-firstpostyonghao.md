@@ -1,5 +1,5 @@
 ---
-Layout: post
+layout: post
 author: yonghao
 title: Yonghao's first post
 date: 2014-01-08

@@ -17,4 +17,3 @@ Here is the text of Thu-Mai's First Post.
 * is
 * a
 * list
-

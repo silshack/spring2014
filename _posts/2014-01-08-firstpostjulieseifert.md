@@ -14,8 +14,11 @@ Here's the text of my post.
 *this is italics*
 
 *this
+
 *is
+
 *a
+
 *list
 
 Trying to fix this post!

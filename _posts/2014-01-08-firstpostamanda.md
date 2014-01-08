@@ -12,7 +12,7 @@ Here's the text of my post.
 
 *this is italics*
 
-*this
-*is
-*a
-*list
+* this
+* is
+* a
+* list

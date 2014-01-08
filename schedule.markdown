@@ -36,8 +36,6 @@ Key Questions
 
 * How Can Text Control Computers?
 
-Wednesday Aug 21st Readings: 
-
 1. None (first day of class)
 
 In-Class: Get set up on Google Plus

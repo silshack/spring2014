@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Xuxiang
+author: xuxiang
 title: Xuxiang's first post
 date: 2014-01-08
 ---

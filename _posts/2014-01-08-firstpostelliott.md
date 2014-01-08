@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Eliot
+author: elliott
 title: Elliott's first post
 date: 2014-01-08
 ---

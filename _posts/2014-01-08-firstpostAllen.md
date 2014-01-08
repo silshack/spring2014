@@ -2,6 +2,7 @@
 layout: post
 author: elliott
 date: 2014-01-10 11:59pm
+category: announcement
 title: Setup & First Post
 ---
 

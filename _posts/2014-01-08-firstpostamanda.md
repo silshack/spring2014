@@ -2,6 +2,7 @@
 layout: post
 author: amanda
 title: Amanda's first post
+date: 2014-01-08
 ---
 
 Here's the text of my post.

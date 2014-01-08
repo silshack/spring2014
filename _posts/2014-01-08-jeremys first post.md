@@ -5,7 +5,7 @@ title: jeremys first post
 date: 2014-01-08
 ---
 
-Here's the text of my post.
+here's the text of my post.
 
 ## this is a heading
 

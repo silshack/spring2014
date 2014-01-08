@@ -1,7 +1,10 @@
 - - -
 layout: post
+
 author: zbay
+
 title: zbay's first post
+
 date: 2014-01-08
 - - -
 

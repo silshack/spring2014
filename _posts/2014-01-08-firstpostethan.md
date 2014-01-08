@@ -9,7 +9,7 @@ Here is the text of my post.
 
 ## This is the way I live in the header 
 
-**I'm a bold butterfly **
+**I'm a bold butterfly**
 
 *this is italian italics*
 

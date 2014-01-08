@@ -14,6 +14,6 @@ Main text of the post.
 *this is italics*
 
 * this
-*is
-*a
-*list
+* is
+* a
+* list

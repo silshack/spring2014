@@ -1,42 +1,25 @@
-name: Professor Jekyll Teaches You to Blog Like a Hacker
+name: SILShack Spring 2014
 pygments: true
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
-baseurl: /professorjekyll
+baseurl: /spring2014
 
-python: false
+python: true
 
 course:
-  title: Intro to Hacking
-  number: Jekyll 101
-  instructor: Prof. Jekyll
-  
+  title: Programming for Information Professionals
+  number: INLS 560
+  instructor: Prof. Elliott Hauser
+  semester: Spring 2014
+
 authors:
-  einstein:
-      name: Albert Einstein
+  elliott:
+      name: Elliott Hauser
       prof: true
-      gravatar: 
-      website: http://www.relativity.com
-      github: 
-      twitter:
-      about:  Albert Einstein discovered that E=mc^2.  
-  wittgenstein:
-      name: Ludwig Wittgenstein
-      prof: true
-      gravatar:
-      website: http://www.tractatus.com
-      github:
-      twitter:
-      about:  Ludwig Wittgenstein discovered that the meaning of E=mc^2 is its use.  
-  mccarthy:
-      name: John McCarthy
-      prof: true
-      website: http://common-lisp.net/
-      about: John McCarthy invented LISP.  Use it.  
-  jdoe:
-      name: John Doe
-      prof: false
-      about: John Doe gets very strange test emails all the time.
-  squw:
-      name: Suzie Q
-      prof: false
-      about: Suzie Q once dated John Fogerty.
+      gravatar: 0d0d432948d262195358f339768f1240
+      website: http://www.elliotthauser.com
+      github: eah13
+      twitter: hauspoor
+      about:  Elliott Hauser is a PhD Student in information science at UNC Chapel Hill.  He's hacking education as one of the cofounders of Coursefork.org.  

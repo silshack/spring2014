@@ -1,6 +1,6 @@
 ---
 layout: post
-autor: dcowhig
+author: dcowhig
 title: David's first post
 date: 2014-01-08
 ---

@@ -206,7 +206,7 @@ Tactical help from me or peers on final projects.
 
 Presentation and discussion of projects.  A roadmap for where students want to go next.
 
-Final projects due Weds, May 3rd, 8am.
+Final projects due Sat, May 3rd, 8am.
 
 
 

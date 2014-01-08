@@ -9,7 +9,7 @@ Here is the text of my post.
 
 ##this is a heading 
 
-**this is bold
+**this is bold**
 
-*this is italic
+*this is italic*
 

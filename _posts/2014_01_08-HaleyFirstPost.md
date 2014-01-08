@@ -11,7 +11,7 @@ Posty McPosterson
 
 **Fortune Favors the Bold**
 
-*Sometimes you just have to get a liile sideways...*
+*Sometimes you just have to get a little sideways...*
 
 * All
 * the

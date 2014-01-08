@@ -18,4 +18,4 @@ Here's the text of my post.
 * a
 * list
 
-(https://www.google.com "This is Google's Homepage")
+[I'm a link to Google with title](https://www.google.com "This is Google's Homepage")

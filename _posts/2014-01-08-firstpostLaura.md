@@ -1,5 +1,5 @@
 ---
-Layout: post
+layout: post
 author: laura
 title: Laura's first post
 date: 2014-01-08

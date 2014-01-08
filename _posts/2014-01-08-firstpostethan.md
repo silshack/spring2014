@@ -13,7 +13,7 @@ Here is the text of my post.
 
 *this is italian italics*
 
-*this
-*is
-*a
-*list i guess 
+* this
+* is
+* a
+* list i guess 

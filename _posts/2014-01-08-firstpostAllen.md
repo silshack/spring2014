@@ -1,9 +1,9 @@
 ---
 layout: post
-author: elliott
-date: 2014-01-10 11:59pm
+author: allen
+date: 2014-01-08 1:51pm
 category: announcement
-title: Setup & First Post
+title: First Post for Allen
 ---
 
 ## First Post EVER

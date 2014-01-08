@@ -11,10 +11,5 @@ title: First Post for Allen
 My name is **Allen**
 
 I like *lots* of stuff
--computers
--movies
--tv
--kites
--music
--dogs
--**MORE DOGS**
+
+**DOGS**

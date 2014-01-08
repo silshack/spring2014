@@ -13,7 +13,7 @@ Main text of the post.
 
 *this is italics*
 
-*this
+* this
 *is
 *a
 *list

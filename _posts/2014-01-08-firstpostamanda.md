@@ -1,6 +1,6 @@
 ---
 layout: post
-author: amanda
+author: Amanda Holt
 title: Amanda's first post
 date: 2014-01-08
 ---

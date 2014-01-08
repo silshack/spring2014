@@ -7,7 +7,7 @@ Date: 2014-01-08
 
 Here is the text of my post.
 
-##this is a heading 
+##this is a heading## 
 
 **this is bold**
 

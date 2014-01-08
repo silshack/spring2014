@@ -14,7 +14,7 @@ Our google communtiy is where we'll share private, timely information together.
 ### Get set up on Github
 Sign up for a free Github Account.
 
-### Fill out [this form]({{site.baseurl}}announcement/2014/01/07/welcome.html)
+### Fill out [this form]({{site.baseurl}}/announcement/2014/01/07/welcome.html)
 So I can add you to the blog as an editor.
 
 ## Posting to Github

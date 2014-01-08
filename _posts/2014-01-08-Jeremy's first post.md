@@ -1,8 +1,8 @@
 ---
-Layout: post
-Author: jeremy
-Title: Jeremy's first post
-Date: 2014-01-08
+layout: post
+author: jeremy
+title: jeremys first post
+date: 2014-01-08
 ---
 
 Here's the text of my post.

@@ -1,10 +1,6 @@
-function scrollTo(hash) {
-    location.hash = "#" + hash;
-}
-
 function parseDate(date) {
   date = String(date);
-  newDate = new Date();
+  var newDate = new Date();
   newDate.setFullYear(date.substring(0,4));
   newDate.setMonth(date.substring(4,6)-1);
   newDate.setDate(date.substring(6,8));
@@ -16,13 +12,13 @@ function ScrollToToday(){
   var today = new Date();
   for (var i = 0; i < dates.length; i++)
   {
-    eventDate = parseDate(dates[i].getAttribute('d'));
+    var eventDate = parseDate(dates[i].getAttribute('d'));
 
     if( (eventDate >= (today.getTime() - (259200000))) && (eventDate <= (today.getTime() + 345600000)) )
     {
       dates[i].id = "today";
       dates[i].scrollIntoView();
-    } 
+    }
   }
 }
 ScrollToToday();

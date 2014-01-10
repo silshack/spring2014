@@ -1,6 +1,6 @@
 ---
 layout: post
-author: aogletree
+author: Adrian
 title: Adrian's First Post
 date: 2014-01-09
 ---

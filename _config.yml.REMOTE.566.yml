@@ -5,7 +5,6 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
 baseurl: /spring2014
-url: /spring2014
 
 python: true
 
@@ -32,13 +31,6 @@ authors:
       github: gerbal
       twitter: gerbal100
       about: Grant is a first year MSIS student. He's from Chapel Hil and like playing with new technologies and getting way in over his head.
-  Adrian:
-      name: Adrian Ogletree
-      prof: false
-      gravatar: 46713fd106ce3203526cf52e9caa4c64
-      github: aogletree
-      twitter: oftheadriatic
-      about: Adrian is a second year MSIS student. She is from Austin, Texas.
   katielmeyer:
       name: Katie Meyer
       prof: false

@@ -1,4 +1,4 @@
-- - -
+---
 layout: post
 
 author: zbay
@@ -6,7 +6,7 @@ author: zbay
 title: zbay's first post
 
 date: 2014-01-08
-- - -
+---
 
 Here's the text of my post.
 

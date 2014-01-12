@@ -15,6 +15,23 @@ course:
   semester: Spring 2014
 
 authors:
+ elliott:
+       name: Elliott Hauser
+       prof: true
+       gravatar: 0d0d432948d262195358f339768f1240
+       website: http://www.elliotthauser.com
+       github: eah13
+       twitter: hauspoor
+       about:  Elliott Hauser is a PhD Student in information science at UNC Chapel Hill.  He's hacking education as one of the cofounders of Coursefork.org.  
+   grant:
+       name: Grant McLendon
+       prof: true
+       gravatar: eeb73c80c4450528bf5eac5f1dedae9e
+       website: http://grantmclendon.com
+       github: gerbal
+       twitter: gerbal100
+       about: Grant is a first year MSIS student. He's from Chapel Hil and like playing with new technologies and getting way in over his head.
+
   zbay:
       name: Zachary Williams
       prof: false
@@ -22,4 +39,4 @@ authors:
       website: http://www.unc.edu/~zlwillia
       github: zbay
       twitter: 
-      about:  Zach is a sophomore Information Science major at UNC.
+      about:  Zach is a sophomore Information Science and Political Science double major at UNC. He hails from Fairfax, Virginia.

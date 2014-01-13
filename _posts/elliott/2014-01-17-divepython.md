@@ -31,5 +31,11 @@ Like much of the documentation we'll find in programming, these imply or depend 
 `raw_input` gets a value, and we have to store it somewhere to use it in our program.  That's why in the example on Stack Overflow there's an assignment of the statement to a variable.  For example, we might store the result like this:
 
 ```
-tess_color = raw_input("What color should tess be?")
+tess_color = raw_input("What color should Tess be?")
 ```
+
+This will cause a window to pop up asking "What color should Tess be?" and save the user input into the variable.  We can then use the `tess_color` variable later, in place of something like `"red"` or etc.
+
+Using this information, knock out the three components of the exercise above.
+
+

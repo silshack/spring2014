@@ -1,6 +1,6 @@
 --- 
 layout: post 
-author: jacob
+author: jacobthill
 title: Jacob's first post 
 date: 2014-01-13
 ---

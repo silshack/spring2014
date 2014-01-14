@@ -1,6 +1,6 @@
 ---
 layout: post
-author: jeremy
+author: jtbeeker
 title: jeremys first post
 date: 2014-01-08
 ---

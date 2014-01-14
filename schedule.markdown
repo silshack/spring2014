@@ -93,6 +93,8 @@ Readings:
 
 Readings:
 
+* Philip Guo: ["Two Cultures of Programming"](http://www.pgbovine.net/two-cultures-of-computing.htm)
+
 * Hitchhiker’s Guide to Python: [Code Style](http://docs.python-guide.org/en/latest/writing/style) -  There will be lots in here that may not make sense to you.  Practice your skimming/vocab learning skills.
 
 * Think Python: [Strings](http://interactivepython.org/runestone/static/thinkcspy/Strings/strings.html)

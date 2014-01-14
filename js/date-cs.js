@@ -4,7 +4,7 @@ function parseDate(date) {
   newDate.setFullYear(date.substring(0,4));
   newDate.setMonth(date.substring(4,6)-1);
   newDate.setDate(date.substring(6,8));
-  return newDate
+  return newDate;
 }
 
 function ScrollToToday(){

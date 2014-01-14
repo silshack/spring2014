@@ -32,9 +32,9 @@ authors:
       twitter: gerbal100
       about: Grant is a first year MSIS student. He's from Chapel Hil and like playing with new technologies and getting way in over his head.
 jtbeeker:
-    Name: Jeremy Beeker
-    Prof: false
-    Gravatar:
-    Website: http://www.unc.edu/~jtbeeker
-    Twitter:
-    About: Jeremy is a junior undergraduate information science student at unc chapel hill. 
+     name: Jeremy Beeker
+     prof: false
+     gravatar:
+     website: http://www.unc.edu/~jtbeeker
+     twitter:
+     about: Jeremy is a junior undergraduate information science student at unc chapel hill. 

@@ -11,7 +11,7 @@ I started playing with this code earlier in the day. I mainly wanted to figure o
 
 It took a bit of time to figure out the angles, etc. 
 
-I also decided to add a sun, because I found some lovely code from [here]({{site.url}}http://silshack.github.io/fall2013/post/2013/09/09/Sophie.html) and [here]({{site.url}}http://silshack.github.io/fall2013/gmclendon/2013/09/09/grants-turtle.html). These codes helped to clean up my image a bit.
+I also decided to add a sun, because I found some lovely code from [here](http://silshack.github.io/fall2013/post/2013/09/09/Sophie.html) and [here](http://silshack.github.io/fall2013/gmclendon/2013/09/09/grants-turtle.html). These codes helped to clean up my image a bit.
 
 Overall, I enjoyed the exercise. It was challenging and helped me to better understand what I was doing and how to manipulate the code.
 

@@ -32,6 +32,7 @@ authors:
       github: gerbal
       twitter: gerbal100
       about: Grant is a first year MSIS student. He's from Chapel Hil and like playing with new technologies and getting way in over his head.
+<<<<<<< HEAD
   zbay:
       name: Zachary Williams
       prof: false
@@ -199,3 +200,11 @@ authors:
       github: jacobthill
       twitter:
       about: Jacob is a second year PhD student. His research is in the area of digital humanities and Middle East studies.
+  slaffer:
+      name: Sophia Lafferty-Hess
+      prof: false
+      gravatar:
+      website:
+      github: slaffer
+      twitter:
+      about: Sophia is a third year dual-degree MSIS and Masters of Public Administration student.

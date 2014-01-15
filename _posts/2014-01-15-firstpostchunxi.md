@@ -1,6 +1,6 @@
 --
 layout: post
-author: Chunxi
+author: chunxi
 title: Chunxi's first post
 date: 2014-01-15
 ---

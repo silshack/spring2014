@@ -7,11 +7,11 @@ date: 2014-01-15
 
 Posty Chunxi Zhang
 
-## Joe the Heading
+## This is the Heading
 
-**Fortune Favors the Bold**
+**This is the Bold**
 
-*Sometimes you just have to get a little sideways...*
+*This is the list*
 
 * All
 * the

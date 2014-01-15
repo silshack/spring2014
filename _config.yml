@@ -33,6 +33,7 @@ authors:
       twitter: gerbal100
       about: Grant is a first year MSIS student. He's from Chapel Hil and like playing with new technologies and getting way in over his head.
 <<<<<<< HEAD
+<<<<<<< HEAD
   zbay:
       name: Zachary Williams
       prof: false
@@ -208,3 +209,10 @@ authors:
       github: slaffer
       twitter:
       about: Sophia is a third year dual-degree MSIS and Masters of Public Administration student.
+  jtbeeker:
+     name: Jeremy Beeker
+     prof: false
+     gravatar:
+     website: http://www.unc.edu/~jtbeeker
+     twitter:
+     about: Jeremy is a junior undergraduate information science student at unc chapel hill. 

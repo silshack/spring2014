@@ -126,4 +126,4 @@ wn.exitonclick()
 
 ```
 
-![Turtle image](https://drive.google.com/file/d/0By1Nvdrj1FrZMV9YdHl5Qm1WbWc/edit?usp=sharing)
+![Turtle image](http://i.imgur.com/Jxspcwq.png)

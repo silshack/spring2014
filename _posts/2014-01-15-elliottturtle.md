@@ -4,8 +4,6 @@ author: elliott
 title: "Elliott's Turtle Exercise"
 ---
 
-If i surround something with backticks it's rendered in `code`
-
 Here arew my awesome reflections, links, frustrations, and dreams.
 
 ```

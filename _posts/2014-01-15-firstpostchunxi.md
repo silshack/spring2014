@@ -5,7 +5,7 @@ title: Chunxi's First Post
 date: 2014-01-15
 ---
 
-Posty Chunxi Zhang
+Post by Chunxi Zhang
 
 ## This is the Heading
 

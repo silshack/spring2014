@@ -1,19 +1,23 @@
---
+---
 layout: post
 author: chunxi
-title: Chunxi's first post
-date: 2014-01-15
+title: Chunxi's First Post
+date: 2014-01-08
 ---
 
-Here is my text of post.
+Posty McPosterson
 
-## This is a heading
+## Joe the Heading
 
-**this is bold**
+**Fortune Favors the Bold**
 
-*this is italics*
+*Sometimes you just have to get a little sideways...*
 
-* this
-* is
+* All
 * the
+* things
+* can
+* be
+* in
+* this
 * list

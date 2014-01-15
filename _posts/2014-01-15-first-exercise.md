@@ -1,7 +1,7 @@
 ---
 layout: post
 author: katielmeyer
-title: Katie's Turtle Exercise: Fireworks
+title: Katie's Turtle Exercise
 ---
 
 Here's my code.

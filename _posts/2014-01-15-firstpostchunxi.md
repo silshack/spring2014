@@ -2,10 +2,10 @@
 layout: post
 author: chunxi
 title: Chunxi's First Post
-date: 2014-01-08
+date: 2014-01-15
 ---
 
-Posty McPosterson
+Posty Chunxi Zhang
 
 ## Joe the Heading
 

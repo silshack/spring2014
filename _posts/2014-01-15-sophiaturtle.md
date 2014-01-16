@@ -4,7 +4,7 @@ author: slaffer
 title: Sophia's Turtle Exercise
 ---
 
-Here is my True Blood inspired vampire named Bill. I started out playing with making overlapping circles, which now make up Bill's "nose." I then wanted to experiment with moving the turtle to another part of the screen without leaving a trace and make circles in the corners of the page and then decided to attempt make a happy vampire. I found information on slowing down the turtle for drawing the nose [here](http://docs.python.org/2/library/turtle.html?highlight=speed#turtle.speed). I also wanted to hide my turtles after completing the drawing and made use of a fellow classmate (Mandy) who had already discovered the code to hide a turtle. 
+Here is my True Blood inspired vampire named Bill. I started out playing with making overlapping circles, which now make up Bill's "nose." I wanted to experiment with moving turtles to other parts of the screen without leaving a trace. So I started to make circles in the corners of the screen and then decided to try to make a happy vampire. I found information on controlling the speed of the turtle for drawing the nose [here](http://docs.python.org/2/library/turtle.html?highlight=speed#turtle.speed). I also wanted to hide my turtles after completing the drawing and made use of a fellow classmate (Mandy) who had already discovered the code to hide a turtle. 
 
 ```
 import turtle

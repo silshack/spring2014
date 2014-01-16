@@ -4,6 +4,7 @@ author: tlchristian
 date: 2014-01-15
 title: "Thu-Mai's Turtle Exercise"
 ---
+
 **Does Turtle Love You or Love You Not?**
 
 For this Turtle Exercise, I ~~decided to make~~ ended up making an interactive love prediction flower. I wanted to play with user inputs, polygons, colors, and a little bit of cute. As I kept playing with the flower graphic, I decided to add some if-else code and write text in the window. This is what makes up the "prediction" part.

@@ -140,4 +140,4 @@ lafayette.hideturtle()
 wn.exitonclick()
 ```
 
-![Turtle image](http://i.imgur.com/nQ6HxJns.png)
+![Turtle image](http://i.imgur.com/fcJ6Pwj.png)

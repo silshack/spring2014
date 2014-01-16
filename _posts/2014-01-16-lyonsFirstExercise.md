@@ -5,7 +5,7 @@ date: 2014-01-16 2:15pm
 title: Allen's Turtle Exercise
 ---
 
-##Turtle Spyrograph
+##Turtle Spirograph
 
 Here's my turtle spirograph. I wanted to do a cool spirograph thing so I looked up a simple formula for it and as it turns out I can just 
 tell the turtle to follow that formula for x,y position. You can pick the turtle color, the background color, and the pensize. I have the 

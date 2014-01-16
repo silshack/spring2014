@@ -4,6 +4,8 @@ author: brittany
 title: Brittany's Turtle Exercise
 ---
 
+For my Turtle program, I did a flower-like design with a border around it. Code and image below:
+
 ```
 import turtle
 window = turtle.Screen()
@@ -102,4 +104,30 @@ window.exitonclick()
 
 ![Turtle image](http://www.unc.edu/~bmhayes/inls560/turtleimage.png)
 
-***Reflection***
+**Reflection**
+This was a fun exercise! I didn’t really have an inspiration for my image at the outset, but I wanted to try my hand at moving things around on the canvas, as well as using functions. I started out by creating the top and bottom borders. This gave me a chance to test out the goto() function. Trying to figure out what coordinates to use was tricky, but I just tested out lots of combinations until the turtle was stamping in the area I wanted it to. I also had a bit of trouble figuring out how to reverse the pattern; however, again, by testing out different combinations of right/left, degree values, and coordinate values. Even when I didn’t completely understand how the different elements of the canvas were laid out, by simply trying out various combinations I was able to get something I was satisfied with without too much difficulty.
+
+The center design was modified from one of the exercises given in the interactive textbook; I just changed the colors and pen shape, and kept the pen down as it cycled through the for-loop. Not too complicated, but I did find it easier to pick good coordinates when I got to this point (perhaps in part due to the practice from working with the borders).
+
+I started out by writing out chunks of the program just line by line, such as below (in creating a border):
+
+```
+...
+myrtle.up()
+myrtle.goto(-200,190)
+#myrtle.stamp()
+#myrtle.forward(10)
+#myrtle.stamp()
+#myrtle.forward(10)
+#myrtle.stamp()
+#myrtle.forward(10)
+#myrtle.stamp()
+#myrtle.forward(10)
+#myrtle.stamp()
+...
+
+```
+
+I knew that for-loops would offer a much better approach, but I found this helpful just as I was getting oriented with the different functions in the turtle library and how my ideas would actually be rendered on the canvas. Converting it to a for-loop was really easy, however, it still resulted in a lot of code. I decided to try my hand at writing some functions since a lot of the code was really repetitive. It seemed to work pretty well I think. I wasn’t sure where exactly to begin and end the function routines in some cases. For instance, with the first center shape, I wrote out a bit of the function directly in the code, then called the function for the next four instances since I didn’t want to use certain lines of the function for that first instance. In later cases (with the border functions), I found myself including some directional calls in the code itself rather than including them as part of the function since they varied depending on which border I was working with. Ultimately, my code ran and rendered the same when I refactored as it did when I wrote out all the for-loops, so I was satisfied!
+
+I also just wanted to try out some if-else statements and variable assignments in a couple of cases, which I found useful for the program. In the if-statement, I used a bit of logic I found on this site.

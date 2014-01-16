@@ -118,4 +118,5 @@ billy.right(105)
 billy.backward(20)
 billy.color("blue")
 ```
+
 ![Turtle image] (http://i.imgur.com/sRxT6ZA.png)

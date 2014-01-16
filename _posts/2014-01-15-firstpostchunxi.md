@@ -1,19 +1,23 @@
---
+---
 layout: post
 author: chunxi
-title: Chunxi's first post
+title: Chunxi's First Post
 date: 2014-01-15
 ---
 
-Here is my text of post.
+Post by Chunxi Zhang
 
-## This is a heading
+## This is the Heading
 
-**this is bold**
+**This is the Bold**
 
-*this is italics*
+*This is the list*
 
-* this
-* is
+* All
 * the
+* things
+* can
+* be
+* in
+* this
 * list

@@ -7,7 +7,7 @@ title: "Thu-Mai's Turtle Exercise"
 
 **Does Turtle Love You or Love You Not?**
 
-For this Turtle Exercise, I ~~decided to make~~ ended up making an interactive love prediction flower. I wanted to play with user inputs, polygons, colors, and a little bit of cute. As I kept playing with the flower graphic, I decided to add some if-else code and write text in the window. This is what makes up the "prediction" part.
+For this Turtle Exercise, I decided to make (read: ended up making) an interactive love prediction flower. I wanted to play with user inputs, polygons, colors, and a little bit of cute. As I kept playing with the flower graphic, I decided to add some if-else code and write text in the window. This is what makes up the "prediction" part.
 
 When you run the code, you will be asked to enter in a number of flower petals. The turtle will draw a flower with that number of randomly colored petals. Based on the number of petals selected, the turtle will tell you whether he loves you or loves you not.
 

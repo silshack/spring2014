@@ -1,6 +1,7 @@
 ---
 layout: post
 author: tlchristian
+date: 2014-01-15
 title: "Thu-Mai's Turtle Exercise"
 ---
 **Does Turtle Love You or Love You Not?**

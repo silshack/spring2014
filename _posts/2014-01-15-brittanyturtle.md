@@ -104,7 +104,7 @@ window.exitonclick()
 
 ![Turtle image](http://www.unc.edu/~bmhayes/inls560/turtleimage.png)
 
-**Reflection**
+## Reflection
 This was a fun exercise! I didn’t really have an inspiration for my image at the outset, but I wanted to try my hand at moving things around on the canvas, as well as using functions. I started out by creating the top and bottom borders. This gave me a chance to test out the goto() function. Trying to figure out what coordinates to use was tricky, but I just tested out lots of combinations until the turtle was stamping in the area I wanted it to. I also had a bit of trouble figuring out how to reverse the pattern; however, again, by testing out different combinations of right/left, degree values, and coordinate values. Even when I didn’t completely understand how the different elements of the canvas were laid out, by simply trying out various combinations I was able to get something I was satisfied with without too much difficulty.
 
 The center design was modified from one of the exercises given in the interactive textbook; I just changed the colors and pen shape, and kept the pen down as it cycled through the for-loop. Not too complicated, but I did find it easier to pick good coordinates when I got to this point (perhaps in part due to the practice from working with the borders).

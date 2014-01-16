@@ -11,7 +11,7 @@ For this Turtle Exercise, I decided to make (read: ended up making) an interacti
 
 When you run the code, you will be asked to enter in a number of flower petals. The turtle will draw a flower with that number of randomly colored petals. Based on the number of petals selected, the turtle will tell you whether he loves you or loves you not.
 
-**The code:**
+**The Code:**
 
 ```
 import turtle
@@ -79,5 +79,6 @@ wn.exitonclick()
 ![Turtle image](https://lh5.googleusercontent.com/-uHDSeiaLKps/UtgKcItCRJI/AAAAAAAAA58/0e1lfinD_dw/w418-h415-no/tlchristian_turtleflower1.png)
 
 
-(*Of course, as with real flowers, only an odd number of petals will result in turtle love.*)
+
+*Of course, as with real flowers, only an odd number of petals will result in turtle love.*
 

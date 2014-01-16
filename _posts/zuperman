@@ -1,0 +1,70 @@
+---
+layout: post
+author: zbay
+title: Zach's Turtle Exercise
+---
+
+I drew a picture that I intend to use as my new Gravatar. 
+It's a Superman logo with a "Z" instead of an "S", since I like my first initial so much. 
+Here it is: ![Turtle image](http://imgur.com/1b3QQKV)
+
+My code was brute force. I have a couple of for loops to make curves but for the most part I "freehanded" this picture by using Turtle's ```goto()``` method. 
+I commented out lines that would prompt the user to pick the colors for the logo. Here's my code:
+
+'''import turtle
+
+wn = turtle.Screen()
+wn.bgcolor('navy')
+#wn.bgcolor(raw_input('Background color?'))        
+zuperman = turtle.Turtle()
+zuperman.color('red')
+zuperman.speed(0)
+#zuperman.color(raw_input('Outer border color?'))
+i = 24
+#i = int(raw_input('Turtle pen size?'))
+zuperman.pensize(i)                 
+
+zuperman.penup()
+zuperman.fillcolor('gold')
+#zuperman.fillcolor(raw_input('Fill color?'))
+zuperman.begin_fill()
+zuperman.goto(0, -200)
+zuperman.pendown()
+zuperman.goto(-195, 75)
+zuperman.goto(-150, 195)
+zuperman.goto(150, 195)
+zuperman.goto(195, 75)
+zuperman.goto(0, -200)
+zuperman.end_fill()
+zuperman.penup()
+zuperman.goto(-150, 192)
+zuperman.pendown()
+zuperman.color('black')
+zuperman.fillcolor('red')
+zuperman.begin_fill()
+zuperman.pensize(i/4)
+zuperman.goto(150, 192)
+zuperman.goto(150, 170)
+zuperman.goto(0, -20)
+for i in range(90):
+    zuperman.forward(1)
+    zuperman.left(0.5)
+zuperman.right(45)
+zuperman.forward(70)
+zuperman.goto(70, -95)
+zuperman.goto(-70,-95)
+zuperman.goto(-140, 0)
+zuperman.goto(0, 140)
+zuperman.left(180)
+for i in range(90):
+    zuperman.forward(1)
+    zuperman.left(0.5)
+zuperman.right(45)
+zuperman.goto(-150, 50)
+zuperman.goto(-150, 192)
+zuperman.end_fill()
+zuperman.hideturtle()
+
+wn.exitonclick()```
+
+

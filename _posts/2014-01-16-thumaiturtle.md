@@ -1,7 +1,7 @@
 ---
 layout: post
 author: tlchristian
-date: 2014-01-15
+date: 2014-01-16
 title: "Thu-Mai's Turtle Exercise"
 ---
 

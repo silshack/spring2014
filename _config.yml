@@ -32,6 +32,14 @@ authors:
       github: gerbal
       twitter: gerbal100
       about: Grant is a first year MSIS student. He's from Chapel Hil and like playing with new technologies and getting way in over his head.
+  zbay:
+      name: Zachary Williams
+      prof: false
+      gravatar: 
+      website: http://zbay.github.io/spring2014/
+      github: zbay
+      twitter: 
+      about:  Zach is a sophomore Information Science and Political Science double major at UNC. He hails from Fairfax, Virginia.
   Adrian:
       name: Adrian Ogletree
       prof: false
@@ -183,3 +191,49 @@ authors:
       github: madeline13
       twitter:
       about: Madeline is a second-year MSIS student.  She enjoys data visualizations and information design.
+  jacobthill:
+      name: Jacob Hill
+      prof: false
+      gravatar:
+      website:
+      github: jacobthill
+      twitter:
+      about: Jacob is a second year PhD student. His research is in the area of digital humanities and Middle East studies.
+  slaffer:
+      name: Sophia Lafferty-Hess
+      prof: false
+      gravatar:
+      website:
+      github: slaffer
+      twitter:
+      about: Sophia is a third year dual-degree MSIS and Masters of Public Administration student.
+  jtbeeker:
+     name: Jeremy Beeker
+     prof: false
+     gravatar:
+     website: http://www.unc.edu/~jtbeeker
+     twitter:
+     about: Jeremy is a junior undergraduate information science student at unc chapel hill. 
+  jskaa:
+     name: Jessica Feng
+     prof: false
+     gravatar:
+     website:
+     twitter:
+     about: Jessica is a senior information science student at UNC.
+  lei:
+      name: Lei Wang
+      prof: false
+      gravator: 
+      website:
+      github: leiw414
+      twitter: zuoyou414
+      about: Lei Wang is a second year MSIS student. 
+  chunxi:
+      name: Chunxi Zhang
+      prof: false
+      gravator: 
+      website:
+      github: lanblue
+      twitter: 
+      about: Chunxi is a first year graduate year of SILS student. She is from China.

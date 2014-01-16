@@ -46,4 +46,4 @@ while count<(2*math.pi):
 window.exitonclick()
 ```
 
-Here's where I got the formula for a spirograph: (http://www.mathematische-basteleien.de/spirographs.htm)[right here]
+Here's where I got the formula for a spirograph: (http://www.mathematische-basteleien.de/spirographs.htm) [right here]

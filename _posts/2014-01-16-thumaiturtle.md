@@ -9,7 +9,7 @@ title: "Thu-Mai's Turtle Exercise"
 
 For this Turtle Exercise, I ~~decided to make~~ ended up making an interactive love prediction flower. I wanted to play with user inputs, polygons, colors, and a little bit of cute. As I kept playing with the flower graphic, I decided to add some if-else code and write text in the window. This is what makes up the "prediction" part.
 
-When you run the code, you will be asked to enter in a number of flower petals. The turtle will draw a flower with that number of randomly colored petals. Based on the number of petals selected, the turtle will tell you whether he loves you or loves you not.\*
+When you run the code, you will be asked to enter in a number of flower petals. The turtle will draw a flower with that number of randomly colored petals. Based on the number of petals selected, the turtle will tell you whether he loves you or loves you not.
 
 **The code:**
 
@@ -79,5 +79,5 @@ wn.exitonclick()
 ![Turtle image](https://lh5.googleusercontent.com/-uHDSeiaLKps/UtgKcItCRJI/AAAAAAAAA58/0e1lfinD_dw/w418-h415-no/tlchristian_turtleflower1.png)
 
 
-\* *Of course, as with real flowers, only an odd number of petals will result in turtle love.*
+(*Of course, as with real flowers, only an odd number of petals will result in turtle love.*)
 

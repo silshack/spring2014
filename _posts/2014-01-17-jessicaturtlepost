@@ -4,6 +4,18 @@ author: jskaa
 title: Jessica's Turtle Exercise
 ---
 
+### A colorful sundial
+
+For my turtle exercise, I made use of 3 separate turtles as well as the random generator for colors. Each time the code is run,
+the colors all change randomly. 
+
+I originally wanted to create something which looked like a windmill, but settled on more of a pinwheel design instead. 
+To add some design, I added in a sort of spiky looking design in the bacground, as well as a colorful spiral.
+
+The overall effect is quite colorful! 
+
+**My turtle exercise code:**
+
 ```
 import turtle
 import random

@@ -41,4 +41,4 @@ for size in range(12):
 Wn.exitonclick()
 
 ```
-http://www.unc.edu/~sunhwa/560/turtle.png
+![turtle picture]( http://www.unc.edu/~sunhwa/560/turtle.png) 

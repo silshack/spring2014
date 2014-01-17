@@ -32,9 +32,7 @@ for size in range(12):
     jane.stamp()
     jane.forward(-85)
     jane.right(30) 
-    
 jim.pendown()
-
 for size in range(12):
     jim.forward(120)
     jim.stamp()

@@ -22,6 +22,7 @@ jim.shape("dot")
 jim.color("red")
 Jose.penup()
 jane.pendown()
+jim.pendown()
 for size in range(12):
     Jose.forward(100)
     Jose.stamp()
@@ -32,7 +33,6 @@ for size in range(12):
     jane.stamp()
     jane.forward(-85)
     jane.right(30) 
-jim.pendown()
 for size in range(12):
     jim.forward(120)
     jim.stamp()

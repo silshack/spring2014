@@ -39,5 +39,6 @@ for size in range(12):
     jim.forward(-120)
     jim.right(30)
 Wn.exitonclick()
+http://www.unc.edu/~sunhwa/560/turtle.png
 
 ```

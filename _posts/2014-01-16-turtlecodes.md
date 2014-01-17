@@ -1,7 +1,7 @@
 ---
 
 layout: post
-author: sunhwa
+author: sunhwap
 title: sunhwa's turtle codes
 date: 2014-01-16
 

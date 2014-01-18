@@ -33,6 +33,6 @@ turtle.done()
 
 Here is the picture
 
-![Turtle image](http://farm6.staticflickr.com/5507/12005655074_5db8e4bbf3_m.jpg)
+![Turtle image](http://farm8.staticflickr.com/7446/12011961595_736940316f_m.jpg)
 
 

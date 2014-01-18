@@ -86,4 +86,4 @@ for size in range(1,70,3):
 wn.exitonclick()
 ```
 
-![Turtle image](http://www.flickr.com/photos/114755180@N03/12005564584/)
+![Turtle image](http://www.flickr.com/photos/114755180@N03/12005564584.png)

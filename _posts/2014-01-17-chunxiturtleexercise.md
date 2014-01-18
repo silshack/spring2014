@@ -29,9 +29,10 @@ chunxi.left(120)
 chunxi.circle(57)
 
 turtle.done()
+```
 
 Here is the picture
 
 ![Turtle image](http://farm6.staticflickr.com/5507/12005655074_5db8e4bbf3_m.jpg)
-```
+
 

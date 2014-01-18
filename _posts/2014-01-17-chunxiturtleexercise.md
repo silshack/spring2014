@@ -8,6 +8,7 @@ import turtle
 
 Here is the code
 
+```
 import turtle
 wn = turtle.Screen()
 wn.bgcolor("pink")
@@ -32,4 +33,5 @@ turtle.done()
 Here is the picture
 
 ![Turtle image](http://farm6.staticflickr.com/5507/12005655074_5db8e4bbf3_m.jpg)
+```
 

@@ -6,7 +6,9 @@ title: "Sierra's Turtle Exercise"
 
 If I surround something with backticks it's rendered in `code`
 
-Here are my awesome reflections, links and bla bla description what I thought.
+Here is a simple and ugly design because my dazzling design was abducted by aliens.
+I considered making it resemble a video game, but decided to draw a questionable house
+complete with underground fireworks.
 
 ```
 import turtle

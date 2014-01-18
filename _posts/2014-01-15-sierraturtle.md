@@ -6,7 +6,7 @@ title: "Sierra's Turtle Exercise"
 
 If I surround something with backticks it's rendered in `code`
 
-Here is a simple and ugly design because my dazzling design was abducted by aliens.
+Here is a simple and ugly design because my dazzling design was abducted by aliens( not a cat on the keyboard).
 I considered making it resemble a video game, but decided to draw a questionable house
 complete with underground fireworks.
 

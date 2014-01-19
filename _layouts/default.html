@@ -26,22 +26,21 @@
     </head>
     <body>
         <!-- Ribbon -->
-        <a href="https://github.com/silshack/professorjekyll"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+      <a href="https://github.com/silshack{{ site.baseurl }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
         
         <div class="container">
           <div class="site">
             <div class="header">
               <h1 class="title"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
               <p>
-              <a class="extra" href="{{ site.baseurl }}/syllabus.html">syllabus</a>
-              <a class="extra" href="{{ site.baseurl }}/schedule.html#today">schedule</a>
-              <a class="extra" href="{{ site.baseurl }}/exercises.html">exercises</a>
-              <a class="extra" href="{{ site.baseurl }}/people.html">people</a>
-              <a class="extra" href="{{ site.baseurl }}/feedback.html">feedback</a>
-              <a class="extra" href="{{ site.baseurl }}/music.html">music</a>
-              {% if site.python == true %}
-              <a class="extra" href="{{ site.baseurl }}/console.html">console</a>
-              {% endif %}
+                {% for pagename in site.page-order %}
+                <a class="extra" href="{{ site.baseurl }}/{{ pagename | lower }}.html">{{ pagename }}</a>
+                {% endfor %}
+                {% if site.python == true %}
+                {% for pagename in site.python-extra-pages %}
+                <a class="extra" href="{{ site.baseurl }}/{{ pagename }}.html">{{ pagename }}</a>
+                {% endfor %}                
+                {% endif %}
               </p>
             </div>
 

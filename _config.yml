@@ -8,6 +8,21 @@ special-categories:
   - "exercise"
   - "how-to"
 
+# These can contain uppercase: they'll be lowercased in the URL
+page-order:
+  - syllabus
+  - schedule
+  - exercises
+  - how-to
+  - people
+  - feedback
+  - music
+
+# Same note RE case above
+python-extra-pages:
+  - console
+  
+  
 baseurl: /spring2014
 url: /spring2014
 

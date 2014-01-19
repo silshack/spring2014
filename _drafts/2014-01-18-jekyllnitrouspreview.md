@@ -18,17 +18,11 @@ You can see there were a few typos and errors (e.g. Jekyll was already running s
 
 ## How to set up Asciicasting (for TAs and Profs)
 
-On nitrous it's a pain to install asciinema, but totally doable.
+Asciicasting is really easy to set up.
 
-Follow the instruction in the bottom (2 pt) answer [here](http://askubuntu.com/questions/339/how-can-i-install-a-package-without-root-access).  The `.deb` is here: https://launchpad.net/~zanchey/+archive/asciinema/+files/asciinema_0.9.7-1_all.deb  Instead of `tmp` I installed it in `workspace`.  You'll have a binary you can run then by typing its full path but you'll want to `alias` that binary to something simple.  I added
-
+```bash
+$ pip install --user asciinema
 ```
-alias asciinema="~/workspace/usr/bin/asciinema"
-```
-
-to my `.bashrc`.  Then you can `source ~/.bashrc` or open a new terminal window and this should
-
-On any other system where you have root access setup is [easy](http://asciinema.org/docs)
 
 ## How to post ASCIIcasts
 

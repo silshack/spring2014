@@ -57,7 +57,7 @@ wn.exitonclick()
 
 ```
 
-![Turtle Image](http://www.flickr.com/photos/63655989@N03/11988980026/)
+![Turtle Image](https://lh6.googleusercontent.com/-3texUyEP0Fg/UtwxCbEsK_I/AAAAAAAAEBg/S6wqUCsSobc/s0-I/julie_turtle.png)
 
 
 **Reflection**

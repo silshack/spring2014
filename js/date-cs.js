@@ -1,3 +1,18 @@
+function loadCSS(filename){ 
+  $("<link/>", {
+    rel: "stylesheet",
+    type: "text/css",
+    href: filename
+  }).appendTo("head"); 
+}
+
+function loadJS(filename){
+  $("<script>", {
+    src: filename,
+    type: "text/javascript"
+  }).appendTo("head"); 
+}
+
 function parseDate(date) {
   date = String(date);
   var newDate = new Date();

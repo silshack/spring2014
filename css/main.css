@@ -194,7 +194,7 @@ ul.posts span {
   background-color: #333;
 }
 
-#output {
+#edoutput {
     background: #ccc;
     color: #black;
     height: 100px;
@@ -203,3 +203,13 @@ ul.posts span {
     font-size: 9pt;
 }
 
+pre {
+margin-left: 14px;
+font-size: 16px;
+line-height: 1.2em;
+}
+
+code, pre {
+  color: #444;
+  margin: 1em;
+}

@@ -36,10 +36,18 @@ function ScrollToToday(){
     }
   }
 }
+function loadCSS(filename){ 
+  $("<link/>", {
+    rel: "stylesheet",
+    type: "text/css",
+    href: filename
+  }).appendTo("head"); 
+}
+
+function loadJS(filename){
+  $("<script>", {
+    src: filename,
+    type: "text/javascript"
+  }).appendTo("head"); 
+}
 ScrollToToday();
-$(document).ready(function(){
-  $('#clearoutput').click(function (e) {
-        $('#output').text('');
-        $('#mycanvas').hide();
-    });
-});

@@ -20,6 +20,7 @@ $(document).ready(function () {
                 Sk.configure({output: outf, read: builtinRead});
                 if (e.ctrlKey) {
                     e.stop();
+                    $('#edoutput').text('');
                     Sk.canvas = "mycanvas";
                     Sk.pre = "edoutput";
                     Sk.importMainWithBody("<stdin>", false, editor.getValue());
@@ -49,6 +50,8 @@ $(document).ready(function () {
         var outf = function (text) {
             output.text(output.text() + text);
         };
+        $('#edoutput').text('');
+        $('#mycanvas').hide();
         Sk.configure({output: outf, read: builtinRead})
         Sk.canvas = "mycanvas";
         Sk.pre = "edoutput";

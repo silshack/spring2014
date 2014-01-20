@@ -37,3 +37,9 @@ function ScrollToToday(){
   }
 }
 ScrollToToday();
+$(document).ready(function(){
+  $('#clearoutput').click(function (e) {
+        $('#output').text('');
+        $('#mycanvas').hide();
+    });
+});

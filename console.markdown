@@ -4,6 +4,8 @@ title: Python Console
 ---
 
 {% include python %}
+print "Type and run your python code here"
+print "="*25
 import turtle
 t = turtle.Turtle()
 for c in ['red', 'green', 'yellow', 'blue']:

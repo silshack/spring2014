@@ -1,2 +1,8 @@
-<form> 
-	<textarea id="code" rows="12" cols="80">
+<script type="text/javascript">
+loadCSS("css/codemirror.css");
+loadCSS("css/solarized.css");
+loadJS("js/codemirrorepl.js");
+loadJS("js/python.js");
+loadJS("js/editor.js");
+</script>
+<textarea id='code' rows="12" cols="80">

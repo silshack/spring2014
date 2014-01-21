@@ -1,4 +1,13 @@
 $(document).ready(function () {
+    function strip(html)
+    {
+      var tmp = document.createElement("DIV");
+      tmp.innerHTML = html;
+      return tmp.textContent || tmp.innerText || "";
+      console.log('stripping');
+    }
+    var strippedtext = strip($('#code').text());
+    $('#code').text(strippedtext);
     var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
         parserfile: ["parsepython.js"],
         autofocus: true,
@@ -68,7 +77,7 @@ $(document).ready(function () {
         $('#edoutput').text('');
         $('#mycanvas').hide();
     });
-
+    
 
     function builtinRead(x) {
         if (Sk.builtinFiles === undefined || Sk.builtinFiles["files"][x] === undefined)

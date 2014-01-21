@@ -5,6 +5,6 @@ loadJS("{{ site.baseurl}}/js/codemirrorepl.js");
 loadJS("{{ site.baseurl}}/js/python.js");
 loadJS("{{ site.baseurl}}/js/editor.js");
 </script>
-<textarea id='code' rows="12" cols="80">  
+<textarea id='code' rows="12" cols="80">
 
-```  
+```

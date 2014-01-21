@@ -7,7 +7,7 @@ $(document).ready(function () {
       console.log('stripping');
     }
     var strippedtext = strip($('#code').text());
-    $('#code').text(strippedtext);
+    $('#code').text(strippedtext.substr(1));
     var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
         parserfile: ["parsepython.js"],
         autofocus: true,

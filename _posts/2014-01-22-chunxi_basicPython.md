@@ -27,6 +27,7 @@ word10 = "boy."
 print(word1, word2, word3, word4, word5, word6, word7, word8, word9, word10)
 ```
 Here is the output.
+
 ```
 All work and no play makes Jack a dull boy.
 ```
@@ -46,6 +47,7 @@ else:
   print ("Your car is efficient.")
 ```
 Here is the output.
+
 ```
 The number of miles driven 120
 The number of gallons used 5
@@ -63,6 +65,7 @@ deg_f = deg_c * (9 / 5) + 32
 print (deg_c, " degrees Celsius is", deg_f, " degrees Farenheit.")
 ```
 Here is the output.
+
 ```
 55  degrees Celsius is 131  degrees Farenheit.
 ```
@@ -78,6 +81,7 @@ print (deg_f, " degrees Farenheit is", deg_c, " degrees Celsius.")
 
 ```
 Here is the output.
+
 ```
 120  degrees Farenheit is 48.888888888888886  degrees Celsius.
 ```
@@ -100,7 +104,9 @@ else :
 	print "wrong input"
 
 ```
+
 Here are the different outputs when you type different things.
+
 ```
 50  degrees Celsius is 122  degrees Farenheit.
 ```

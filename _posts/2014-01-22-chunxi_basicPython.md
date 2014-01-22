@@ -52,6 +52,7 @@ The number of gallons used 5
 Your MGP is 24.0
 Your car is efficient.
 ```
+
 *Text3*
 
 ```
@@ -65,6 +66,7 @@ Here is the output.
 ```
 55  degrees Celsius is 131  degrees Farenheit.
 ```
+
 *Text4*
 
 ```
@@ -79,6 +81,7 @@ Here is the output.
 ```
 120  degrees Farenheit is 48.888888888888886  degrees Celsius.
 ```
+
 *Text5*
 
 ```

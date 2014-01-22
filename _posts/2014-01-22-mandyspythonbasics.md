@@ -6,6 +6,8 @@ title: Mandy's Python Basics Exercises
 
 Here are my completed exercises with code. 
 
+I started working on some of these exercises after reading the chapters, so I was already a little ahead with these exercises. It was interesting to use the if function for the first time in a few of the exercises. I enjoy being able to customize the input and output a bit more. 
+
 **Exercise 1**
 
 ```
@@ -44,7 +46,13 @@ if int(mpg) >= 32: print("Based on an average of 32mpg being efficient, your car
 
 ![Output Image Two](http://i.imgur.com/kKyPovp.png)
 
-*Output:* Entered 250 miles and 25 gallons to get 10 mpg.
+*Input and Output:* 
+
+```
+
+Entered 250 miles and 25 gallons to get 10 mpg.
+
+```
 
 **Exercise 3**
 
@@ -60,7 +68,13 @@ print("The temperature in farenheiht is", int(fahrenheit))
 
 ![Output Image Three](http://i.imgur.com/YnV6N4V.png)
 
-*Output:* Entered 30 degrees celsius to get 86 degrees fahrenheit.
+*Input and Output:* 
+
+```
+
+Entered 30 degrees celsius to get 86 degrees fahrenheit.
+
+```
 
 **Exercise 4**
 
@@ -76,7 +90,13 @@ print("The temperature in celsius is", int(celsius))
 
 ![Output Image Four](http://i.imgur.com/OZhP7uQ.png)
 
-*Output:* Entered 86 degrees fahrenheit to get 30 degrees celsius.
+*Input and Output:* 
+
+```
+
+Entered 86 degrees fahrenheit to get 30 degrees celsius.
+
+```
 
 **Exercise 5**
 
@@ -104,4 +124,11 @@ if temperature == "fahrenheit":
 
 ![Output Image Five](http://i.imgur.com/KfTty89.png)
 
-*Output:* Entered celsius and then entered 86 degrees fahrenheit to get 30 degrees celsius. 
+*Input and Output:* 
+
+```
+
+Entered celsius and then entered 86 degrees fahrenheit to get 30 degrees celsius. 
+
+```
+

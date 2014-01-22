@@ -4,6 +4,25 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
+special-categories: 
+  - "exercise"
+  - "how-to"
+
+# These can contain uppercase: they'll be lowercased in the URL
+page-order:
+  - syllabus
+  - schedule
+  - exercises
+  - how-to
+  - people
+  - feedback
+  - music
+
+# Same note RE case above
+python-extra-pages:
+  - console
+  
+  
 baseurl: /spring2014
 url: /spring2014
 
@@ -50,6 +69,7 @@ authors:
   katielmeyer:
       name: Katie Meyer
       prof: false
+      gravatar: 1a03889fb33eb025aaf0f71fcde449ae
       website: http://www.katielmeyer.net
       github: katielmeyer
       twitter: katielmeyer
@@ -221,4 +241,19 @@ authors:
      website:
      twitter:
      about: Jessica is a senior information science student at UNC.
-
+  lei:
+      name: Lei Wang
+      prof: false
+      gravator: 
+      website:
+      github: leiw414
+      twitter: zuoyou414
+      about: Lei Wang is a second year MSIS student. 
+  chunxi:
+      name: Chunxi Zhang
+      prof: false
+      gravator: 
+      website:
+      github: lanblue
+      twitter: 
+      about: Chunxi is a first year graduate year of SILS student. She is from China.

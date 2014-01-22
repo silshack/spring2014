@@ -6,8 +6,7 @@ title: "Sierra's Python Exercises"
 
 Here are Sierra's python exercises.
 
-<b>(1) Take the sentence "All work and no play makes Jack a dull boy."
-Store each word in a separate variable, then print out the sentence on one line using print:</b>
+<b>(1) This is a program for taking the sentence "All work and no play makes Jack a dull boy" and storing each word in a separate variable, then printing out the sentence on one line using print(why not?):</b>
 
 ```
 a = "All"
@@ -24,7 +23,7 @@ k = "boy."
 
 print a, b, c, d, e, f, g, h, i, j, k
 ```
-Here is a sample input from the sentence program:
+Here is a sample input displaying a very wise adage:
 ![Jack](http://farm8.staticflickr.com/7333/12091866115_848778dd3f_b.jpg)
 
 <b>(2) Below is a program that will compute mpg for a car:</b>
@@ -43,7 +42,7 @@ print "The mpg of your car is:", mpg
 Here is a sample input from the mpg program:
 ![mpg](http://farm4.staticflickr.com/3759/12091836965_34487c3aa0_b.jpg)
 
-<b>(3) Here is a program that will convert a user-input number of degrees celsius to degrees farenheit:</b>
+<b>(3) This a program that will convert a user-input number of degrees celsius to degrees farenheit(Amazing!):</b>
 ```
 # Convert celsius to farenheit
 celsius_temp=int(raw_input("What is the celsious temperature?"))
@@ -55,7 +54,7 @@ print "The temperature in farenheit is:", farenheit_temp, "F"
 Here is a sample input from the farenheit program:
 ![to_far](http://farm6.staticflickr.com/5548/12092080875_d19f34e174_b.jpg)
 
-<b>(4) Here is a program that will convert a user-input number of degrees degrees farenheit to degrees celsius:</b>
+<b>(4) Here is a program that will convert a user-input number of degrees degrees farenheit to degrees celsius(Stupendous):</b>
 ```
 # Convert farenheit to celsius
 farenheit_temp = int(raw_input("What is the farenheit temperature?"))
@@ -67,7 +66,7 @@ print "The temperature in celsius is:", celsius_temp, "C"
 Here is a sample input from the celsius program:
 ![to_cel](http://farm8.staticflickr.com/7449/12092567446_c5998ab5d0_b.jpg)
 
-<b>(5) Here is a program that will convert degrees or celsius as above, depending on the users' choice:</b>
+<b>(5) Here is a program that will convert degrees or celsius as above, depending on the users' choice (Astonishing!):</b>
 ```
 
 convert_temp = int(raw_input(" Give a temperature input?"))

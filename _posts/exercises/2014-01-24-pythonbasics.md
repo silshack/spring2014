@@ -7,7 +7,7 @@ categories: exercise
 
 ## First things First: Updating your repo in Github
 
-In the new [how tos]({{ site.baseurl }}/how-tos.html }}) section on Updating your Repo using Github.com you'll find instructions for updating your code with recent changes (including your classmates' posts and the how tos themselves).  When you're done you should have:
+In the new [how tos]({{ site.baseurl }}/how-tos.html) section on Updating your Repo using Github.com you'll find instructions for updating your code with recent changes (including your classmates' posts and the how tos themselves).  When you're done you should have:
 
 * A Github issue in the Silshack repo saying something like "Your name has updated his/her repo" with a link to the closed pull request in *your* repo.
 

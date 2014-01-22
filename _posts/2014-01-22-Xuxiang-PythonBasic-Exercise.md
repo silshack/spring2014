@@ -5,7 +5,7 @@ title: Xuxiang's Python Basic Exercise
 date: 2014-01-22
 ---
 
-## out the sentence 
+## Print out the sentence 
 
 The code is:
 
@@ -28,7 +28,7 @@ The output is:
 ```
 All work and play makes jack a dull boy
 ```
-## compute MPG for a car
+## Compute MPG for a car
 
 The code for computing MPG for a car is:
 
@@ -44,7 +44,7 @@ I input 15 and 5, the output is:
 Your car's MPG is: 3
 ```
 
-## convert a degrees celsius to degrees fahrenheit
+## Convert a degrees celsius to degrees fahrenheit
 
 The code for converting a degrees celsius to degrees fahrenheit is:
 
@@ -60,7 +60,7 @@ I input 35 and the output is :
 The result of  converting a degrees celsius to degrees fahrenheit 95
 ```
 
-## convert a  degrees fahrenheit to degrees celsius
+## Convert a  degrees fahrenheit to degrees celsius
 
 The code for converting a degrees fahrenheit to degrees celsius is:
 
@@ -76,7 +76,7 @@ I input 95 and the output is:
 The result of  converting a degrees fahrenheit to degrees celsius: 35
 ```
 
-## convert fahrenheit or celsius as above, depending on the users' choice.
+## Convert fahrenheit or celsius as above, depending on the users' choice.
 
 The coude for converting fahrenheit or celsius as above, depending on the users' choice is:
 

@@ -33,6 +33,7 @@ All work and no play makes Jack a dull boy.
 
 2.A program that will compute MPG for a car. Prompt the user to enter the number of miles driven and the number of gallons used. Print a nice message with the answer. For stye points, cue the message printed off of how efficient (or not) the car is.
 Input:
+
 ```
 mile = int(raw_input("Please enter the number of miles driven?"))
 gallon = int(raw_input("Please enter the number of gallons used?"))
@@ -51,6 +52,7 @@ else:
 ```
 
 Output:
+
 ```
 You entered miles:  150
 You entered gallons:  5
@@ -62,6 +64,7 @@ Congratuation, you got a efficient car!
 
 3. A program that will convert a user-input number of degrees celsius to degrees fahrenheit.
 Input:
+
 ```
 deg_c = int(input("What is the temperature in Celsius? "))
 
@@ -73,6 +76,7 @@ print (deg_c, "degrees Celsius is", deg_f, "degrees Farenheit.")
 ```
 
 Output:
+
 ```
 15 degrees Celsius is 59 degrees Farenheit.
 
@@ -81,6 +85,7 @@ Output:
 4.A program that will convert a user-input number of degrees degrees fahrenheit to degrees celsius.
 
 Input:
+
 ```
 deg_f = int(input("What is the temperature in Farenheit? "))
 
@@ -91,6 +96,7 @@ print (deg_f, "degrees Farenheit is", deg_c, "degrees Celsius.")
 ```
 
 Output:
+
 ```
 59 degrees Farenheit is 15 degrees Celsius.
 
@@ -121,18 +127,20 @@ else :
 Output:
 
 If you enter y and the temperature in Celsius:
+
 ```
 15 degrees Celsius is 59 degrees Farenheit.
 
 ```
 
 If you enter y and the temperature in Farenheit:
+
 ```
 59 degrees Farenheit is 15 degrees Celsius.
 
 ```
 
-If you enter other characters
+If you enter other characters:
 
 ```
 Wrong Input

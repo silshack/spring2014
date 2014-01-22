@@ -127,8 +127,7 @@ if celsius < 5:
 ```
 
 # Get the type of degree
-degree_type = int(raw_input("Which kind of degree do you want to input?"))
-print "1 is celsius, 2 is fahrenheit"
+degree_type = int(raw_input("Which kind of degree do you want to input? 1 is celsius, 2 is fahrenheit"))
 
 # Get the degree
 degree1 = float(raw_input("Please input the degree of", degree_type))
@@ -151,7 +150,6 @@ Outputs
 
 ```
 
-1 is celsius, 2 is fahrenheit
 the fahrenheit is  104.0
 the celsius is  40.0
 

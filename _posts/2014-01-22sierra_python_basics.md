@@ -6,8 +6,8 @@ title: "Sierra's Python Exercises"
 
 Here are my python exercises.
 
-<bold>(1) Take the sentence: All work and no play makes Jack a dull boy. 
-Store each word in a separate variable, then print out the sentence on one line using print:<bold>
+<b>(1) Take the sentence: All work and no play makes Jack a dull boy. 
+Store each word in a separate variable, then print out the sentence on one line using print:</b>
 
 ```
 a = "All"

@@ -34,5 +34,5 @@ for size in range(5, 60, 2):
 wn.exitonclick()
 ```
 
-![Turtle image] (http://www.flickr.com/photos/114631193@N04/)
+![Turtle image] (http://i.imgur.com/BC4KTWp.png)
 

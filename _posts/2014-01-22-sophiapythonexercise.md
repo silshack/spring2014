@@ -4,6 +4,8 @@ author: slaffer
 title: Sophia's Python Basics
 ---
 
+I started working with a few of these exercises last night with success on Jack is a Dull Boy Program and mild success with the in class vacation exercise. In class I found it helpful how Elliot said it is useful to break down writing the code into knoweable parts prior to designing all the code. In the last exercise it was also exciting figuring out how to use the "if" statement, which we had seen earlier in class in Thu-Mai's turtle post. 
+
 ##Jack is a Dull Boy Program
 
 ```
@@ -21,7 +23,9 @@ j = "boy"
 print(a, b, c, d, e, f, g, h, i, j)
 ```
 
-Output: All work and no play makes Jack a dull boy
+```
+All work and no play makes Jack a dull boy
+```
 
 ##Computing MPGs Program
 
@@ -38,8 +42,10 @@ if int(mpg) >= 32: print("Your vehicle is efficient, way to go!")
 ```
 Input: 320 miles driven, 10 gallons of gas
 
-Output: Your mpg is: 32
-        Your vehicle is efficient, way to go!
+```
+Your mpg is: 32
+Your vehicle is efficient, way to go!
+```
 
 ##Convert Celsius to Farenheit Program
 
@@ -52,7 +58,10 @@ print ("The temperature in farenheit is:" , fahrenheit)
 ```
 
 Input: 0
-Output: The temperature in farenheit is: 32
+
+```
+The temperature in farenheit is: 32
+```
 
 ##Convert Farenheit to Celsius Program
 
@@ -65,7 +74,10 @@ print ("The temperature in celsius is:" , celsius)
 ```
 
 Input: 32
-Output: The temperature in celsius is: 0
+
+```
+The temperature in celsius is: 0
+```
 
 ##User's Choice Celsius or Farenheit Conversion
 
@@ -84,4 +96,7 @@ if conversion_choice == "celsius":
 ```
 
 Input: celsius, 45
-Output: The temperature in farenheit is: 113
+
+```
+The temperature in farenheit is: 113
+```

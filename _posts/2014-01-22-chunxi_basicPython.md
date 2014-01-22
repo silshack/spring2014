@@ -11,7 +11,7 @@ Post by Chunxi Zhang
 
 
 *Text1*
-Here is the input.
+
 ```
 word1 = "All"
 word2 = "work"
@@ -32,7 +32,7 @@ All work and no play makes Jack a dull boy.
 ```
 
 *Text2*
-Here is the input..
+
 ```
 mile_number = int(raw_input("How many miles you have driven?"))
 gallon_number = int(raw_input("How much gallons you have used"))
@@ -53,7 +53,7 @@ Your MGP is 24.0
 Your car is efficient.
 ```
 *Text3*
-Here is the input..
+
 ```
 deg_c = int(input("What is the temperature in Celsius? "))
 
@@ -66,7 +66,7 @@ Here is the output.
 55  degrees Celsius is 131  degrees Farenheit.
 ```
 *Text4*
-Here is the input..
+
 ```
 deg_f = int(input("What is the temperature in Farenheit? "))
 
@@ -80,7 +80,7 @@ Here is the output.
 120  degrees Farenheit is 48.888888888888886  degrees Celsius.
 ```
 *Text5*
-Here is the input..
+
 ```
 flag = raw_input('If convert Celsius to Farenheit, please type "c", if convert Farenheit to Celsius, please type "f".')
 if flag == "c":
@@ -105,18 +105,8 @@ Here are the examples.
 50  degrees Farenheit is 10  degrees Celsius.
 ```
 ```
-
-
-
-
-
-
-
-
-
-
-
-
+wrong input
+```
 
 
 

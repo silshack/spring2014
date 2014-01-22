@@ -4,7 +4,7 @@ author: xuxiang
 title: "Xuxiang Mao's Turtle Exercise"
 ---
 
-Just a try!
+
 
 If I surround something with backticks it is rendered in 'code'
 

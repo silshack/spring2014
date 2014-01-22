@@ -11,6 +11,7 @@ a simple .split() method which when used like this as definition for a variable 
 it automatically creates a list, which is super useful for our purposes.
 
 Then the for loop just prints every word out one by one.
+
 ```
 sentence=raw_input("Enter a sentence with at least 2 or three words: ")
 

@@ -32,6 +32,7 @@ All work and no play makes Jack a dull boy.
 ```
 
 2.A program that will compute MPG for a car. Prompt the user to enter the number of miles driven and the number of gallons used. Print a nice message with the answer. For stye points, cue the message printed off of how efficient (or not) the car is.
+
 Input:
 
 ```
@@ -63,6 +64,7 @@ Congratuation, you got a efficient car!
 
 
 3. A program that will convert a user-input number of degrees celsius to degrees fahrenheit.
+
 Input:
 
 ```

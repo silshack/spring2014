@@ -7,7 +7,7 @@ title: Thu-Mai's Basic Python Exercise
 
 I found this assignment to be useful not only because it offered practice in writing mathematical operations, but also because it helped me get used to writing in Python syntax.  Whenever I ran into issues, I found that the problem was most often found in my syntax. I hope that as my coding skills progress throughout the semester, I'll have fewer of these basic errors and/or be able to more quickly identify such problems in my code.
 
-### Jack is a Dull Boy
+## Jack is a Dull Boy
 
 **Code**:
 
@@ -36,7 +36,7 @@ All work and no play makes Jack a dull boy.
 
 ***
 
-### MPG Efficiency
+## MPG Efficiency
 **Code**:
 
 ```
@@ -70,7 +70,7 @@ Your vehicle is not efficient.
 
 ***
 
-### Celsius-to-Fahrenheit Conversion
+## Celsius-to-Fahrenheit Conversion
 **Code**:
 
 ```
@@ -92,7 +92,7 @@ print(celsius,"degrees celsius is equal to",fahrenheit,"degrees fahrenheit")
 
 ***
 
-### Fahrenheit-to-Celsius Conversion
+## Fahrenheit-to-Celsius Conversion
 **Code**:
 
 ```
@@ -114,7 +114,7 @@ print(fahrenheit,"degrees fahrenheit is equal to",celsius,"degrees celsius")
 
 ***
 
-### Temperature Conversion: User's Choice
+## Temperature Conversion: User's Choice
 **Code**:
 
 ```

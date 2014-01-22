@@ -6,8 +6,8 @@ title: "Sierra's Python Exercises"
 
 Here are my python exercises.
 
-(1)Take the sentence: All work and no play makes Jack a dull boy. 
-Store each word in a separate variable, then print out the sentence on one line using print:
+<bold>(1) Take the sentence: All work and no play makes Jack a dull boy. 
+Store each word in a separate variable, then print out the sentence on one line using print:<bold>
 
 ```
 a = "All"
@@ -27,7 +27,7 @@ print a, b, c, d, e, f, g, h, i, j, k
 Here is an example of the above program:
 ![Jack](http://farm8.staticflickr.com/7333/12091866115_848778dd3f_b.jpg)
 
-(2)Below is a program that will compute mpg for a car:
+(2) Below is a program that will compute mpg for a car:
 ```
 
 # Get the number of mpg for a car
@@ -67,7 +67,7 @@ print "The temperature in celsius is:", celsius_temp, "C"
 An example:
 ![to_cel](http://farm8.staticflickr.com/7449/12092567446_c5998ab5d0_b.jpg)
 
-(5)Here is a program that will convert degrees or celsius as above, depending on the users' choice:
+(5) Here is a program that will convert degrees or celsius as above, depending on the users' choice:
 ```
 
 convert_temp = int(raw_input(" Give a temperature input?"))

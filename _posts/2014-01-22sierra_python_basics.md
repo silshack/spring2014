@@ -22,6 +22,8 @@ k = "boy."
 
 print a, b, c, d, e, f, g, h, i, j, k
 ```
+Here is an example of the above program:
+![Jack](http://farm8.staticflickr.com/7333/12091866115_848778dd3f_b.jpg)
 Below is a program that will compute mpg for a car:
 ```
 
@@ -35,6 +37,9 @@ mpg= (miles_driven % gallons_used)
 print "The mpg of your car is:", mpg
 
 ```
+Here is an example of the mpg program:
+![mpg](http://farm4.staticflickr.com/3759/12091836965_34487c3aa0_b.jpg)
+
 Here is a program that will convert a user-input number of degrees celsius to degrees farenheit:
 ```
 # Convert celsius to farenheit
@@ -44,7 +49,10 @@ farenheit_temp=int(celcius_temp * 5/9 + 32)
 
 print "The temperature in farenheight is:", farenheit_temp, "F"
 ```
-Here is a program that will convert a user-input number of degrees degrees fahrenheit to degrees celsius:
+Here is an example of this program:
+![to_far](http://farm6.staticflickr.com/5548/12092080875_d19f34e174_b.jpg)
+
+Here is a program that will convert a user-input number of degrees degrees farenheit to degrees celsius:
 ```
 # Convert farenheit to celcius
 farenheit_temp = int(raw_input("What is the farenheit temperature?"))
@@ -53,6 +61,8 @@ celsius_temp = int((farenheit_temp -32) * 5/9)
 
 print "The temperature in celsius is:", celsius_temp, "C"
 ```
+An example:
+![to_cel](http://farm8.staticflickr.com/7449/12092567446_c5998ab5d0_b.jpg)
 
 Here is a program that will convert degrees or celsius as above, depending on the users' choice:
 ```
@@ -68,7 +78,8 @@ if (inputed_temp)== "celsius":
     farenheit_temp = int(convert_temp * 5/9 + 32)
     print "The temperature conversion is", farenheit_temp, "F"
 ```
-
+An example:
+![conversion](http://farm8.staticflickr.com/7439/12091890784_ed5bf9535b_b.jpg)
 
 
 

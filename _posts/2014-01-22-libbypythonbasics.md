@@ -31,14 +31,14 @@ All work and no play makes Jack a dull boy
 
 ```
 
-miles = float(raw_input("How many miles did you drive on your last trip?")) 	# stores miles as floating point variable
-gallons = float(raw_input("How many gallons of gas did you use?")) 	# stores gallons as floating point variable
+miles = float(raw_input("How many miles did you drive on your last trip?")) # stores miles as floating point variable
+gallons = float(raw_input("How many gallons of gas did you use?")) # stores gallons as floating point variable
 
-mpg = (miles / gallons) 	# calculates MPG
+mpg = (miles / gallons) # calculates MPG
 
-print "Your car delivers", mpg, "miles per gallon of fuel." 	# prints MPG in a sentnce
+print "Your car delivers", mpg, "miles per gallon of fuel." # prints MPG in a sentnce
 
-if (mpg<25):	# sassy messages based on what MPG value is
+if (mpg<25): # sassy messages based on what MPG value is
 	print "Ouch!"
 if (mpg>25 and mpg<50):
     print "Doing ok!"
@@ -63,9 +63,9 @@ Ouch!
 
 ```
 
-deg_celsius = float(raw_input("How many degrees Celsius is it outside?")) 	# get user to input Celsius temp
-deg_fahrenheit = (deg_celsius * 1.8) + 32 	# calculates Fahrenheit temp
-print "It is", deg_fahrenheit, "degrees Fahrenheit outside." 	# prints converted temperature
+deg_celsius = float(raw_input("How many degrees Celsius is it outside?")) # get user to input Celsius temp
+deg_fahrenheit = (deg_celsius * 1.8) + 32 # calculates Fahrenheit temp
+print "It is", deg_fahrenheit, "degrees Fahrenheit outside." # prints converted temperature
 
 ```
 
@@ -84,9 +84,9 @@ It is 77.0 degrees Fahrenheit outside.
 
 ```
 
-deg_fahrenheit = float(raw_input("How many degrees Fahrenheit is it outside?"))  # get user to input Fahrenheit temp
-deg_celsius = (deg_fahrenheit - 32) / 1.8   # calculates Celsius temp
-print "It is", deg_celsius, "degrees Celsius outside."     # prints converted temperature
+deg_fahrenheit = float(raw_input("How many degrees Fahrenheit is it outside?")) # get user to input Fahrenheit temp
+deg_celsius = (deg_fahrenheit - 32) / 1.8 # calculates Celsius temp
+print "It is", deg_celsius, "degrees Celsius outside." # prints converted temperature
 
 ```
 
@@ -106,14 +106,14 @@ It is 30.5555555556 degrees Celsius outside.
 ```
 
 def C2F (): # function for converting from Celsius to Fahrenheit
-	deg_celsius = float(raw_input("How many degrees Celsisus is it outside?")) 	# get user to input Celsius temp
-	deg_fahrenheit = (deg_celsius * 1.8) + 32 	# calculates Fahrenheit temp
-	print "It is", deg_fahrenheit, "degrees Fahrenheit outside." 	# prints converted temperature
+	deg_celsius = float(raw_input("How many degrees Celsisus is it outside?")) # get user to input Celsius temp
+	deg_fahrenheit = (deg_celsius * 1.8) + 32 # calculates Fahrenheit temp
+	print "It is", deg_fahrenheit, "degrees Fahrenheit outside." # prints converted temperature
 
 def F2C (): # function for converting from Fahrenheit to Celsius
-	deg_fahrenheit = float(raw_input("How many degrees Fahrenheit is it outside?"))  # get user to input Fahrenheit temp
-	deg_celsius = (deg_fahrenheit - 32) / 1.8   # calculates Celsius temp
-	print "It is", deg_celsius, "degrees Celsius outside."     # prints converted temperature
+	deg_fahrenheit = float(raw_input("How many degrees Fahrenheit is it outside?")) # get user to input Fahrenheit temp
+	deg_celsius = (deg_fahrenheit - 32) / 1.8 # calculates Celsius temp
+	print "It is", deg_celsius, "degrees Celsius outside." # prints converted temperature
 
 type_conversion = raw_input("Type C2F to convert from Celsius to Fahrentheit \n Type F2C to convert from Fahrenheit to Celsius") # asks user which conversion they want
 

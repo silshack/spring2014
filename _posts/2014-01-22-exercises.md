@@ -44,6 +44,10 @@ if mpg < 20:
     
 ```
 
+### Sample input
+400 miles
+20 gallons
+
 ### Sample output
 ![MPG output](http://i.imgur.com/sWSvufX.png)
 
@@ -58,6 +62,9 @@ fahrenheit = (celsius * 9/5) + 32
 
 print "That's", fahrenheit, "degrees Fahrenheit!"
 ```
+
+### Sample input
+26 degrees
 
 ### Sample output
 ![Fahrenheit output](http://i.imgur.com/1KXNxME.png)
@@ -75,6 +82,9 @@ celsius = (fahrenheit - 32) * 5/9
 print "That's", celsius, "degrees in Celsius!"
 
 ```
+
+### Sample input
+26 degrees
 
 ### Sample output
 ![Celsius output](http://i.imgur.com/kil2tO0.png)
@@ -95,9 +105,12 @@ elif choice == 'Fahrenheit':
     celsius = (fahrenheit - 32) * 5/9
     print "That's", celsius, "degrees in Celsius!"
 else:
-    choice = raw_input("You have to pick Celsius or Fahrenheit!")
+    print("You have to pick Celsius or Fahrenheit!")
 
 ```
 
-###Sample output
+### Sample input
+50 degrees
+
+### Sample output
 ![Celsius or Fahrenheit output](http://i.imgur.com/bY9p0sE.png)

@@ -6,8 +6,13 @@ title: "Coursehacker's Class Blog"
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}
-      {% if post.categories contains "exercise" %}
-      {% else %}
+      {% assign print = "true" %}
+      {% for category in site.special-categories %}
+          {% if post.categories contains category %}
+            {% assign print = false %}
+          {% endif %}
+      {% endfor %}
+      {% if print %}  
         {% for authors in post.author %}
     	  {% if {{site.authors[authors].prof}} == true %}
             <strong>

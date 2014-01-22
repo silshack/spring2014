@@ -13,6 +13,7 @@ Post by Chunxi Zhang
 *Text1*
 
 ```
+
 word1 = "All"
 word2 = "work"
 word3 = "and"
@@ -35,6 +36,7 @@ All work and no play makes Jack a dull boy.
 *Text2*
 
 ```
+
 mile_number = int(raw_input("How many miles you have driven?"))
 gallon_number = int(raw_input("How much gallons you have used"))
 mgp = mile_number/gallon_number
@@ -58,6 +60,7 @@ Your car is efficient.
 *Text3*
 
 ```
+
 deg_c = int(input("What is the temperature in Celsius? "))
 
 deg_f = deg_c * (9 / 5) + 32
@@ -73,6 +76,7 @@ Here is the output.
 *Text4*
 
 ```
+
 deg_f = int(input("What is the temperature in Farenheit? "))
 
 deg_c= (deg_f - 32)/ 1.8
@@ -89,6 +93,7 @@ Here is the output.
 *Text5*
 
 ```
+
 flag = raw_input('If convert Celsius to Farenheit, please type "c", if convert Farenheit to Celsius, please type "f".')
 if flag == "c":
 	deg_c = int(input("What is the temperature in Celsius? "))

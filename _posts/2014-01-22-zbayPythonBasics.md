@@ -28,7 +28,7 @@ Exercise 3: converting Celsius to Fahrenheit.
 
     celsius = float(raw_input("Convert how many degrees Celsius to Fahrenheit?"))
     fahrenheit = float((celsius*1.8) + 32.0)
-    print "You entered", celsius, "degrees Celsius, which converts to ", fahrenheit, "degrees Fahrenheit."```
+    print "You entered", celsius, "degrees Celsius, which converts to ", fahrenheit, "degrees Fahrenheit."
     
 Exercise 4: converting Fahrenheit to Celsius.
 

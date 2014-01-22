@@ -101,6 +101,9 @@ Readings:
 
 * Think Python: [Lists](http://interactivepython.org/runestone/static/thinkcspy/Lists/lists.html)
 
+Hands on with Python Data.
+
+Setting up Nitrous.io
 
 ### <date d="20140205">February 5th, Week 5: Problem Solving with Pseudocode</date>
 
@@ -129,28 +132,24 @@ Readings:
 
 * Check-in: Meetups
 
-**Extra Credit Exercise:** ThinkPython: [Using data structures](http://www.greenteapress.com/thinkpython/html/thinkpython014.html) An extra point on your final grade for a Github post with exercises 1-4 completed.  Due Friday.
+**Extra Credit Exercise:** ThinkPython: [Using data structures](http://www.greenteapress.com/thinkpython/html/thinkpython014.html) An extra point on your final grade for a Github post with exercises 1-4 completed.  This is especially relevant to those of you with an interest in data mining. Due Friday.
 
-### <date d="20140219">February 19th, Week 7: Functions & (The other kind of) Libraries</date>
+### <date d="20140219">February 19th, Week 7: Input/Output (i/o) & (The other kind of) Libraries</date>
 
 Self-contained, reusable bits of code.
 
-#### I/O and intro to Libraries
+* Think Python: [Functions](http://interactivepython.org/runestone/static/thinkcspy/Functions/functions.html)
 
-http://interactivepython.org/runestone/static/thinkcspy/Functions/functions.html
-
-http://interactivepython.org/runestone/static/thinkcspy/PythonModules/modules.html
+* Think Python: [Modules](http://interactivepython.org/runestone/static/thinkcspy/PythonModules/modules.html)
 
 * Software Carpentry: [Libraries](http://software-carpentry.org/v4/python/lib.html)
 
-* Skim over some intro docs for popular Python Web Frameworks: [Pyramid](http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/narr/firstapp.html), [Flask](http://flask.pocoo.org/docs/quickstart/), and [Django](https://docs.djangoproject.com/en/dev/intro/tutorial01/).  Django is the most in-depth of these, and the most robust.
-
-* In-Class: Input/Output exercise
+* In-Class: Input/Output SWC exercise
 
 * In-Class: Command line: pip.  Review some common python libraries.  Focus on documentation, initial testing, beginning use
 
 
-### <date d="20140226">February 26th, Week 8:  Ubuntu install & Command line Python</date>
+### <date d="20140226">February 26th, Week 8: Command line Git & Python</date>
 
 Working with real developer tools
 
@@ -163,9 +162,9 @@ Working with real developer tools
 ### <date d="20140312">March 12th, Week 10: No class</date>
 
 
-### <date d="20140319">March 19th, Week 11: Turtle redux; Starpusher Hacking; Git</date>
+### <date d="20140319">March 19th, Week 11: Flask; Git</date>
 
-Making awesome Turtle pictures & Hacking pygames
+Lightweight web framework.
 
 ### <date d="20140326">March 26th, Week 12: Flask; Git</date>
 

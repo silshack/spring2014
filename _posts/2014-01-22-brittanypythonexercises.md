@@ -44,7 +44,7 @@ MPG would be calculated by dividing the miles driven by gallons of gas used. I c
 #Calculating MPG
 miles_driven = float(input("Enter the number of miles driven"))
 gallons_used = float(input("Enter the number of gallons of gas used"))
-mpg = float(miles_driven / gallons_used)
+mpg = miles_driven / gallons_used
 #based efficiency on levels stated in article below
 #http://www.nytimes.com/2012/08/29/business/energy-environment/obama-unveils-tighter-fuel-efficiency-standards.html?_r=0
 if mpg >= 29:  #checks to see if mpg is >= a good fuel efficiency value

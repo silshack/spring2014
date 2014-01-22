@@ -52,7 +52,7 @@ farenheit_temp=int(celsius_temp * 5/9 + 32)
 print "The temperature in farenheit is:", farenheit_temp, "F"
 ```
 Here is a sample input from the farenheit program:
-![to_far](http://farm3.staticflickr.com/2880/12092782133_e99f58123f_b.jpg)
+![to_far](http://farm8.staticflickr.com/7352/12093160286_0e9961f13f_b.jpg)
 
 <b>(4) Here is a program that will convert a user-input number of degrees degrees farenheit to degrees celsius(stupendous):</b>
 ```

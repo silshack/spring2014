@@ -44,6 +44,7 @@ else:
 	print "You need to step up your mpg" 
 ```
 
+I put in 40 for miles and 2 for gallons 
 here is the output 1
 
 ```
@@ -51,6 +52,7 @@ Your car averaged  20  miles per gallon
 You need to step up your mpg
 ```
 
+I put in 60 for miles and 2 for gallons 
 here is output 2
 
 ```
@@ -68,7 +70,7 @@ df = (dc * 1.8) + 32
 print "It is ", df, " degrees Fahrenheit."
 ```
 
-output
+I put in 23. This is the output
 
 ```
 It is  73.4  degrees Fahrenheit.
@@ -84,10 +86,10 @@ dc = (df - 32) / 1.8
 print "It is ", dc, " degrees Celcius."
 ```
 
-output
+I put in 60. This is the output
 
 ```
-It is  14.4444444444  degrees Celcius.
+It is  15.5555555556  degrees Celcius.
 ```
 
 ##fifth one 
@@ -106,10 +108,16 @@ else:
 	print "It is ", dc, " degrees Celcius."
 ```
 
-output 
+I put in "C" and then 40. This is the output 
 
 ```
 It is  104.0  degrees Fahrenheit.
+```
+
+I put in "F" and then 56. This is the output
+
+```
+It is  13.3333333333  degrees Celcius.
 ```
 
 

@@ -4,7 +4,7 @@ author: slaffer
 title: Sophia's Python Basics
 ---
 
-I started working with a few of these exercises last night with success on Jack is a Dull Boy Program and mild success with the in class vacation exercise. In class I found it helpful how Elliot said it is useful to break down writing the code into knoweable parts prior to designing all the code. In the last exercise it was also exciting figuring out how to use the "if" statement, which we had seen earlier in class in Thu-Mai's turtle post. 
+I started working with a few of these exercises last night with success on Jack is a Dull Boy Program. In class I found it really helpful how Elliot taught us to break down writing code into knoweable parts prior to designing all the code because I have been trying to write it more linearly. In the last program, it was also exciting figuring out how to use the "if" statement, which we had seen earlier in class in Thu-Mai's turtle post. 
 
 ##Jack is a Dull Boy Program
 

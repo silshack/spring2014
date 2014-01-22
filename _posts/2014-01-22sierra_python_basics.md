@@ -4,9 +4,9 @@ author: srmoore5
 title: "Sierra's Python Exercises"
 ---
 
-Here are my python exercises.
+Here are Sierra's python exercises.
 
-<b>(1) Take the sentence: All work and no play makes Jack a dull boy. 
+<b>(1) Take the sentence "All work and no play makes Jack a dull boy."
 Store each word in a separate variable, then print out the sentence on one line using print:</b>
 
 ```

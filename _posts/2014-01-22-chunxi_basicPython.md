@@ -97,7 +97,7 @@ else :
 	print "wrong input"
 
 ```
-Here are the examples.
+Here are the different outputs when you type different things.
 ```
 50  degrees Celsius is 122  degrees Farenheit.
 ```

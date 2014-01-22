@@ -120,6 +120,10 @@ I put in "F" and then 56. This is the output
 It is  13.3333333333  degrees Celcius.
 ```
 
+I didn't really have any trouble with any of them until I got to the last one where the user got to chose. 
+I didn't know how to make it to where the user got to chose if they wanted to convert a certain way. Once
+I figured out how to make it to where they could then I had to make sure they did the right thing and that
+took some trial and error. Other than that, I think it was all okay. 
 
 Okay, well that's it! 
 babykav out. 

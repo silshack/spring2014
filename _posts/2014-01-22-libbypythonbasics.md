@@ -8,13 +8,15 @@ title: Libby's 5 Python Basics programs
 *Take the sentence: All work and no play makes Jack a dull boy. Store each word in a separate variable, then print out the sentence on one line using print.*
 
 **Code:**
- ```
+
+```
 text = "All work and no play makes Jack a dull boy" # The variable 'text' is our quote
 sentence = text.split() 				        # string split method to create list
 for x in range(len(sentence)): 				    # len method provides length of list
     print sentence[x],
- ```
+```
 **Output:**
+
  ```
 All work and no play makes Jack a dull boy
  ```

@@ -12,7 +12,7 @@ Here's the text of my post.
 
 ## this is a heading
 
-** This is bold**
+**This is bold**
 
 *this is italics*
 

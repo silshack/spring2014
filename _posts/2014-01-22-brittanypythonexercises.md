@@ -4,7 +4,7 @@ author: brittany
 title: Brittany's Python Exercises
 ---
 
-##First Exercise
+#First Exercise
 
 ```
 sentence = "All work and no play makes Jack a dull boy"
@@ -17,7 +17,7 @@ for word in words:
 print new_sentence.strip()
 ```
 
-#Output
+###Output
 
 ```
 All
@@ -33,7 +33,7 @@ boy
 All work and no play makes Jack a dull boy
 ```
 
-##Second Exercise
+#Second Exercise
 
 ```
 miles_driven = float(input("Enter the number of miles driven"))
@@ -47,7 +47,7 @@ else:
     print "Your MPG is %s. Your car has a low fuel efficiency." %mpg
 ```
 
-#Output
+###Output
 I entered inputs of miles_driven = 1050 and gallons_used = 35
 
 ```
@@ -55,7 +55,7 @@ Your MPG is 30.0. Your car has a high fuel efficiency.
 ```
 
 
-##Third Exercise
+#Third Exercise
 
 ```
 celcius_temp = float(input("Enter a temperature in degrees celcius"))
@@ -63,21 +63,21 @@ fahrenheit_temp = ((celcius_temp*1.8) + 32)
 print "The temperature you entered is equivalent to", fahrenheit_temp, "degrees Fahrenheit"
 ```
 
-#Output
+###Output
 I entered input of celcius_temp = 40
 
 ```
 The temperature you entered is equivalent to 104.0 degrees Fahrenheit
 ```
 
-##Fourth Exercise
+#Fourth Exercise
 ```
 fahrenheit_temp = float(input("Enter a temperature in degrees fahrenheit"))
 celcius_temp = (fahrenheit_temp - 32) / 1.8
 print "The temperature you entered is equivalent to", celcius_temp, "degrees Celcius"
 ```
 
-#Output
+###Output
 I entered input of fahrenheit_temp = 101
 
 ```
@@ -85,7 +85,7 @@ The temperature you entered is equivalent to 38.3333333333 degrees Celcius
 ```
 
 
-##Fifth Exercise
+#Fifth Exercise
 
 ```
 def convert_temp():
@@ -105,7 +105,7 @@ def convert_temp():
 convert_temp()
 ```
 
-#Output
+###Output
 I entered input of conversion_type = 0 and fahrenheit_temp = 45
 
 ```

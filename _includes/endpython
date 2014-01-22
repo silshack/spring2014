@@ -1,6 +1,6 @@
-
-	</textarea>
-	<button type="button" onclick="runit()">Run</button> 
-</form> 
-
-<pre id="output">Press Run to see the output of the code above</pre>
+```  
+</textarea>
+<br /><button>Run</button>
+<p>Output: (<a href="#" id="clearoutput">clear</a>)</p>
+<pre id="edoutput">Press Run to see the output of the code above</pre>
+<canvas id="mycanvas" height="400" width="400" style="border-style: solid; display: none"></canvas>

@@ -12,6 +12,7 @@ which could automatically split up a sentence into different variables.
 
 
 This was my code:
+
 ```
 line = "All work and no play makes Jack a dull boy."
 a = line.split()
@@ -20,16 +21,17 @@ print a
 ```
 
 This was the output:
+
 ```
 ['All', 'work', 'and', 'no', 'play', 'makes', 'Jack', 'a', 'dull', 'boy.']
 ```
-
 
 
 ## Is your car environmentally friendly?
 
 This exercise was pretty fun, as it was simple and allowed me to practice a logical statement (yay! I need the practice). 
 I set it so that if python calculated a mpg of 32 or better, a positive message would show, whereas if the mpg was lower than 32, a slightly condescending one would pop up. 
+
 
 ```
 #Get the number of miles driven
@@ -48,11 +50,13 @@ elif mpg<32:
 ```
 
 If the mpg was 32 or better, the output would be:
+
 ```
 Your car has a fuel efficiency of 48 MPG. Awesome!
 ```
 
 If the mpg was worse than 32, the output would be:
+
 ```
 Your car has a terrible fuel efficiency of 20 MPG. You should feel bad.
 ```
@@ -60,19 +64,48 @@ Your car has a terrible fuel efficiency of 20 MPG. You should feel bad.
 
 ## Finding Fahrenheit
 
+I had a bit of trouble at first, as my code originally was ```temp_f = (temp_c*(9/5))+32)```. This returned values that were off by a few, because of the way python handles numbers. I needed to allow for decimals in my answer, which is why a decimal need to be included in my function. I changed the ```temp_f = (temp_c*(9/5))+32)``` to ```temp_f = (temp_c*(1.8))+32)```, althought I could have just as easily changed it to ```temp_f = (temp_c*(9.0/5.0))+32)```
+My code was:
+
 ```
 #Get temperature in celsius
 temp_c = int(raw_input("What is the temperature in celsius?"))
 
 #Convert to fahrenheit
-temp_f = (temp_c*(9/5.0))+32
+temp_f = (temp_c*(1.8))+32
 
 #print message
-print "The temperature in fahrenheit is", temp_f
+print "Temperature:", temp_c, "C = ", temp_f, "F"
 ```
+
+The output for this is: 
+
+```
+Temperature: 28 C =  82.4  F
+```
+
 
 ## Finding Celsius
 
-```
+This was easy, as it was essentially the previous exercise, just tweaked a little bit. 
+
+My code was: 
 
 ```
+#Get degrees in fahrenheit
+temp_f = int(raw_input("What is the temperature in fahrenheit?"))
+
+#Convert to degrees celsius
+
+temp_c = (temp_f-32)*(5.0/9.0)
+
+#Print answer
+print "Temperature:", temp_f, "F = ", temp_c, "C"
+```
+
+The output was:
+
+```
+Temperature: 90 F =  32.2222222222 C
+```
+

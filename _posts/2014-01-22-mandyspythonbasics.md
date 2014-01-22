@@ -4,7 +4,7 @@ author: agooch
 title: Mandy's Python Basics Exercises
 ---
 
-Here are my completed exercises with code
+Here are my completed exercises with code. 
 
 **Exercise 1**
 ```

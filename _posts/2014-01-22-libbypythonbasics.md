@@ -10,13 +10,12 @@ title: Libby's 5 Python Basics programs
 **Code:**
 
 ```
-
 text = "All work and no play makes Jack a dull boy" # The variable 'text' is our quote
-sentence = text.split() 				        # string split method to create list
-for x in range(len(sentence)): 				    # len method provides length of list
+sentence = text.split() # string split method to create list
+for x in range(len(sentence)): # len method provides length of list
     print sentence[x],
-    
 ```
+
 **Output:**
 
 ```

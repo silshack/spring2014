@@ -96,12 +96,14 @@ elif flag == "f":
 else :
 	print "wrong input"
 
+```
 Here are the examples.
 ```
 50  degrees Celsius is 122  degrees Farenheit.
 ```
 ```
 50  degrees Farenheit is 10  degrees Celsius.
+```
 ```
 
 

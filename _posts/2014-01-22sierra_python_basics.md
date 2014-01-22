@@ -43,18 +43,18 @@ Here is an example of the mpg program:
 Here is a program that will convert a user-input number of degrees celsius to degrees farenheit:
 ```
 # Convert celsius to farenheit
-celcius_temp=int(raw_input("What is the celsious temperature?"))
+celsius_temp=int(raw_input("What is the celsious temperature?"))
 
-farenheit_temp=int(celcius_temp * 5/9 + 32)
+farenheit_temp=int(celsius_temp * 5/9 + 32)
 
-print "The temperature in farenheight is:", farenheit_temp, "F"
+print "The temperature in farenheit is:", farenheit_temp, "F"
 ```
 Here is an example of this program:
 ![to_far](http://farm6.staticflickr.com/5548/12092080875_d19f34e174_b.jpg)
 
 Here is a program that will convert a user-input number of degrees degrees farenheit to degrees celsius:
 ```
-# Convert farenheit to celcius
+# Convert farenheit to celsius
 farenheit_temp = int(raw_input("What is the farenheit temperature?"))
 
 celsius_temp = int((farenheit_temp -32) * 5/9)
@@ -69,8 +69,8 @@ Here is a program that will convert degrees or celsius as above, depending on th
 
 convert_temp = int(raw_input(" Give a temperature input?"))
     
-# Convert to farenheit or celcius
-inputed_temp = raw_input("Do you want to convert to farenheit or celcius?")
+# Convert to farenheit or celsius
+inputed_temp = raw_input("Do you want to convert to farenheit or celsius?")
 if (inputed_temp) == "farenheit":
     celsius_temp = int(convert_temp-32) * 5/9
     print "The temperature conversion is:", celsius_temp, "C"

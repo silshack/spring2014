@@ -1,7 +1,7 @@
 --- 
 layout: post 
-author: Jacob 
-title: Elliott's Turtle Exercise 
+author: jacobthill
+title: Jacob's Turtle Exercise 
 ---
 
 ```
@@ -216,4 +216,4 @@ wn.exitonclick()
 
 ```
 
-![Turtle Image] (https://www.facebook.com/photo.php?fbid=10152175220460610&set=p.10152175220460610&type=1&theater)
+![Turtle Image](https://scontent-a.xx.fbcdn.net/hphotos-prn1/1527102_10152175220460610_1747892270_n.jpg)

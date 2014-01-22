@@ -1,7 +1,7 @@
 ---
 layout: post
 author: lei
-title: Lei Wang's Turtle Exercise
+title: Lei Wang's Python Basics
 ---
 
 by Lei Wang

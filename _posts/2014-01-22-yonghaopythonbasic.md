@@ -120,34 +120,6 @@ if celsius<=30 and celsius>=5:
 if celsius < 5:
   print "It's cold!"
   
-```# Get the number of fahrenheit
-fahrenheit = float(raw_input("Please input the fahrenheit degree"))
-
-# convert fahrenheit to celsius 
-celsius = (fahrenheit-32.0)*5/9
-
-# Print the degree
-print "the fahrenheit is ",fahrenheit
-print "the celsius is ",celsius
-
-# printed off of how efficient (or not) the day is.
-
-if celsius > 30:
-  print "It's a hot day!"
-
-if celsius<=30 and celsius>=5:
-  print "It's a great day!"
-if celsius < 5:
-  print "It's cold!"
-
-Outputs
-
-```
-
-the fahrenheit is  32.0
-the celsius is  0.0
-It's cold!
-
 ```
 
 ## EX5: convert any type

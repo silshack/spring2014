@@ -5,11 +5,11 @@ date: 2014-01-22
 title: Thu-Mai's Basic Python Exercise
 ---
 
-I found this assignment to be useful not only because it offered practice in writing mathematical operations, but also because it helped me get used to writing in Python syntax.  Whenever I ran into issues, I found that the problem was most often found in my syntax. I hope that as my coding skills progress throughout the semester, I'll have fewer of these basic errors and/or be able to more quickly identify such problems in my code.
+I found this assignment to be useful not only because it offered practice in writing mathematical operations and if-else statements, but also because it helped me get used to writing in Python syntax.  Whenever I ran into issues, I found that the problem was most often found in my syntax. I hope that as my coding skills progress throughout the semester, I'll have fewer of these basic errors and/or be able to more quickly identify such problems in my code.
 
 ## Jack is a Dull Boy
 
-**Code**:
+**Code:**
 
 ```
 a = "All"
@@ -27,7 +27,7 @@ print(a,b,c,d,e,f,g,h,i,j)
 
 ```
 
-**Output**:
+**Output:**
 
 ```
 All work and no play makes Jack a dull boy.
@@ -37,7 +37,8 @@ All work and no play makes Jack a dull boy.
 ***
 
 ## MPG Efficiency
-**Code**:
+
+**Code:**
 
 ```
 # get number of miles and gallons of gas
@@ -59,7 +60,8 @@ else:
     print("Your vehicle is not efficient.")
 ```
 
-**Output** (miles = 80, gas = 3):
+**Output:**
+(miles = 80, gas = 3)
 
 ```
 Number of miles: 80
@@ -71,7 +73,8 @@ Your vehicle is not efficient.
 ***
 
 ## Celsius-to-Fahrenheit Conversion
-**Code**:
+
+**Code:**
 
 ```
 # get degrees celsius
@@ -84,7 +87,8 @@ fahrenheit = int(celsius) * (9 / 5) + 32
 print(celsius,"degrees celsius is equal to",fahrenheit,"degrees fahrenheit")
 ```
 
-**Output** (celsius = 56):
+**Output:** 
+(celsius = 56)
 
 ```
 56 degrees celsius is equal to 132.8 degrees fahrenheit
@@ -93,7 +97,8 @@ print(celsius,"degrees celsius is equal to",fahrenheit,"degrees fahrenheit")
 ***
 
 ## Fahrenheit-to-Celsius Conversion
-**Code**:
+
+**Code:**
 
 ```
 # get degrees fahrenheit
@@ -106,7 +111,8 @@ celsius = (int(fahrenheit) - 32) * (5 / 9)
 print(fahrenheit,"degrees fahrenheit is equal to",celsius,"degrees celsius")
 ```
 
-**Output** (fahrenheit = 101):
+**Output:**
+(fahrenheit = 101)
 
 ```
 101 degrees fahrenheit is equal to 38.333333333333336 degrees celsius
@@ -115,7 +121,8 @@ print(fahrenheit,"degrees fahrenheit is equal to",celsius,"degrees celsius")
 ***
 
 ## Temperature Conversion: User's Choice
-**Code**:
+
+**Code:**
 
 ```
 # get temperature selection
@@ -135,7 +142,9 @@ if select_temp == "fahrenheit":
 
 ```
 
-**Output** (select_temp = celsius, celsius = 30):
+**Output:**
+(select_temp = celsius, celsius = 30)
+
 ```
 30 degrees celsius is equal to 86 degrees fahrenheit
 ```

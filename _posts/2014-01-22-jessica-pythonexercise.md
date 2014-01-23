@@ -109,3 +109,59 @@ The output was:
 Temperature: 90 F =  32.2222222222 C
 ```
 
+
+## Choosing your own conversion
+
+Writing this code was pretty easy too, and I got to have some fun with it! All I did was combine my previous two exercise codes together, as well as add in a few lines allowing for the user to choose which formula should be run. I looked around online trying to see if there was some way of creating clickable buttons for the user to choose between Fahrenheit and Celsius. However, I couldn't find anything that I could understand, and I just went with having the user type in F or C to indicate what they wanted to convert to. After that, I had a little fun adding in if/elif statements which would return a short little message based upon whether it was cold or hot (set accordingly to how I usually dress for the weather!) 
+
+My code was:
+
+```
+#Ask user what they would like to convert input to
+convert_to = raw_input("Do you want to convert to Fahrenheit (F), or Celsius (C)?")
+
+#If the user chooses fahrenheit F
+if convert_to == "F":
+    #Get temperature in celsius
+    temp_c = int(raw_input("What is the temperature in celsius?"))
+
+    #Convert to fahrenheit
+    temp_f = (temp_c*(1.8))+32
+
+    #print message
+    if temp_f>=60:
+        print "Temperature:", temp_c, "C = ", temp_f, "F. Nice weather!"
+    elif temp_f<60:
+        print "Temperature:", temp_c, "C = ", temp_f, "F. Grab a jacket!"
+    
+    
+
+#if the user chooses Celsius C    
+elif convert_to == "C":
+    #Get temperature in fahrenheit
+    temp_f = int(raw_input("What is the temperature in fahrenheit?"))
+
+    #Convert to celsius
+    temp_c = (temp_f-32)*(5.0/9.0)
+
+    #Print message
+    if temp_c>=16:
+        print "Temperature:", temp_f, "F = ", temp_c, "C. Nice weather!"
+    elif temp_c<16:
+        print "Temperature:", temp_f, "F = ", temp_c, "C. Grab a jacket!"
+```
+
+The output for when the converted temperature is below 60 F is:
+
+```
+Temperature: 12 C =  53.6 F. Grab a jacket!
+```
+
+The output for when the converted temperature is above 16 C is:
+
+```
+Temperature: 79 F =  26.1111111111 C. Nice weather!
+```
+
+
+

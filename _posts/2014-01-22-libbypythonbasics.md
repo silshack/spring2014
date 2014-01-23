@@ -22,6 +22,8 @@ for x in range(len(sentence)): # len method provides length of list
 All work and no play makes Jack a dull boy
 ```
 
+
+
 ## Program 2
 *A program that will compute MPG for a car. Prompt the user to enter the number of miles driven and the number of gallons used. Print a nice message with the answer. For stye points, cue the message printed off of how efficient (or not) the car is.*
 
@@ -50,6 +52,8 @@ Your car delivers 15.3846153846 miles per gallon of fuel.
 Ouch!
 ```
 
+
+
 ## Program 3
 *A program that will convert a user-input number of degrees celsius to degrees fahrenheit.*
 
@@ -67,7 +71,9 @@ print "It is", deg_fahrenheit, "degrees Fahrenheit outside." # prints converted 
 It is 77.0 degrees Fahrenheit outside.
 ```
 
-## Program 4
+
+
+##Program 4
 *A program that will convert a user-input number of degrees degrees fahrenheit to degrees celsius.*
 
 **Code:**
@@ -83,6 +89,8 @@ print "It is", deg_celsius, "degrees Celsius outside." # prints converted temper
 ```
 It is 30.5555555556 degrees Celsius outside.
 ```
+
+
 
 ## Program 5
 *A program that will convert degrees or celsius as above, depending on the users' choice.*

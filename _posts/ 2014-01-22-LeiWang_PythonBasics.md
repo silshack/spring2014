@@ -8,7 +8,8 @@ by Lei Wang
 
 1.Take the sentence: All work and no play makes Jack a dull boy. Store each word in a separate variable, then print out the sentence on one line using print.
 
-Input:
+Code:
+
 ```
 word1 = "All"
 word2 = "work"
@@ -33,7 +34,7 @@ All work and no play makes Jack a dull boy.
 
 2.A program that will compute MPG for a car. Prompt the user to enter the number of miles driven and the number of gallons used. Print a nice message with the answer. For stye points, cue the message printed off of how efficient (or not) the car is.
 
-Input:
+Code:
 
 ```
 mile = int(raw_input("Please enter the number of miles driven?"))
@@ -65,7 +66,7 @@ Congratuation, you got a efficient car!
 
 3. A program that will convert a user-input number of degrees celsius to degrees fahrenheit.
 
-Input:
+Code:
 
 ```
 deg_c = int(input("What is the temperature in Celsius? "))
@@ -86,7 +87,7 @@ Output:
 
 4.A program that will convert a user-input number of degrees degrees fahrenheit to degrees celsius.
 
-Input:
+Code:
 
 ```
 deg_f = int(input("What is the temperature in Farenheit? "))
@@ -106,7 +107,8 @@ Output:
 
 5.A program that will convert degrees or celsius as above, depending on the users' choice.
 
-Input:
+Code:
+
 ```
 flag = raw_input('If convert C to F, please enter "y", if convert F to C, please enter"n".')
 if flag == "y":

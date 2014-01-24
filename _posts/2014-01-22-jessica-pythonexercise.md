@@ -26,6 +26,7 @@ This was the output:
 ['All', 'work', 'and', 'no', 'play', 'makes', 'Jack', 'a', 'dull', 'boy.']
 ```
 
+======
 
 ## Is your car environmentally friendly?
 
@@ -61,6 +62,7 @@ If the mpg was worse than 32, the output would be:
 Your car has a terrible fuel efficiency of 20 MPG. You should feel bad.
 ```
 
+======
 
 ## Finding Fahrenheit
 
@@ -84,6 +86,7 @@ The output for this is:
 Temperature: 28 C =  82.4  F
 ```
 
+======
 
 ## Finding Celsius
 
@@ -109,6 +112,7 @@ The output was:
 Temperature: 90 F =  32.2222222222 C
 ```
 
+======
 
 ## Choosing your own conversion
 

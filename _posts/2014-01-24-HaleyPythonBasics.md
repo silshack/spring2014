@@ -12,8 +12,8 @@ Version 1:
 
 ```
 sentence = "All work and no play makes Jack a dull boy"
-a = sentence.split(" ")                 #makes a list of all the words in the string
-print a                                 #prints the comma separated list
+a = sentence.split(" ")    #makes a list of all the words in the string
+print a    #prints the comma separated list
     
 ```
 
@@ -22,23 +22,31 @@ Version 2:
 ```
 sentence = "All work and no play makes Jack a dull boy"
 a,b,c,d,e,f,g,h,i,j = sentence.split(" ")    #splits the sentence into 10 different variables, allowing the user to     manipulate which ones get printed and in what order
-print a,b,c,d,e,f,g,h,i,j                     #prints each variable value individually
+print a,b,c,d,e,f,g,h,i,j    #prints each variable value individually
 
 ```
 
+Version 2 where only a new words get printed:
+
+```
+sentence = "All work and no play makes Jack a dull boy"
+a,b,c,d,e,f,g,h,i,j = sentence.split(" ")
+print b,c,d,f,g,i
+
+```
 
 ## 2. Gas on a Student Budget:
 
 ```
 miles_driven = int(raw_input("How many miles were driven during the trip?"))
-gallons_used = int(raw_input("How many gallons were used during the trip?"))    #user inputs string values that are then converted to integers
-mpg = miles_driven / gallons_used                                               #calculates the miles per gallon by dividing the integer values
+gallons_used = int(raw_input("How many gallons were used during the trip?"))    
+mpg = miles_driven / gallons_used    #calculates the miles per gallon by dividing the integer values
 print "Your car gets", mpg , "miles to the gallon."
 
 if mpg > 35:
     print ("That's very fuel efficient! Go you and stuff.")
 if mpg < 35:
-    print ("That isn't very fuel efficient. Planet killer!")                     #if statements instruct the program to evaluate the mpg integer and output text based on that evaluation
+    print ("That isn't very fuel efficient. Planet killer!")    #if statements evaluate the mpg integer and output text
 
 ```
 
@@ -66,16 +74,16 @@ print "Temperature in Celsius:", degrees_c
 ## 5. Temperature Conversions - Choose Your Own Adventure!
 
 ```
-temperature = float(raw_input("What is the temperature?"))                        #user inputs number, likely an integer, and it is converted to a decimal number. decimal values are accepted as well
-scale = str(raw_input("Is that temperature in Celsius (C) or Fahrenheit (F)?"))   #user inputs the type of scale used to measure the temperature
+temperature = float(raw_input("What is the temperature?"))    #numbers input are converted to decimals
+scale = str(raw_input("Is that temperature in Celsius (C) or Fahrenheit (F)?"))
 
-if scale.lower() in ['celsius', 'c']:                                                     #the function reduces a C or Celsius string to lower case so that the programmer has to code fewer options
-    degrees_f = round(((temperature * 9) / 5 + 32), 2)                                    #performs the conversion and rounds the result to the tenths place
-    print temperature, "degrees Celsius is equal to", degrees_f, "degrees Fahrenheit."    #prints both the original temperature input and the resultant conversion in a pretty, readable way
+if scale.lower() in ['celsius', 'c']:   #the function reduces a C or Celsius string to lower case
+    degrees_f = round(((temperature * 9) / 5 + 32), 2)    #performs the conversion and rounds to the tenths place
+    print temperature, "degrees Celsius is equal to", degrees_f, "degrees Fahrenheit." 
 
-if scale.lower() in ['fahrenheit', 'f']:                                                  #the function reduces a F or Fahrenheit string to lower case so that the programmer has to code fewer options
-    degrees_c = round(((temperature - 32) * 5 / 9), 2)                                    #performs the conversion and rounds the result to the tenths place
-    print temperature, "degrees Fahrenheit is equal to", degrees_c, "degrees Celsius."    #prints both the original temperature input and the resultant conversion in a pretty, readable way
+if scale.lower() in ['fahrenheit', 'f']:
+    degrees_c = round(((temperature - 32) * 5 / 9), 2) 
+    print temperature, "degrees Fahrenheit is equal to", degrees_c, "degrees Celsius."
 
 ```
 

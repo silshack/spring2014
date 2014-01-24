@@ -12,8 +12,11 @@ Version 1:
 
 ```
 sentence = "All work and no play makes Jack a dull boy"
-a = sentence.split(" ")    #makes a list of all the words in the string
-print a    #prints the comma separated list
+
+#makes a list of all the words in the string
+a = sentence.split(" ")
+
+print a
     
 ```
 
@@ -21,8 +24,12 @@ Version 2:
 
 ```
 sentence = "All work and no play makes Jack a dull boy"
-a,b,c,d,e,f,g,h,i,j = sentence.split(" ")    #splits the sentence into 10 different variables
-print a,b,c,d,e,f,g,h,i,j    #prints each variable value individually
+
+#splits the sentence into 10 different variables
+a,b,c,d,e,f,g,h,i,j = sentence.split(" ")    
+
+#prints each variable value individually
+print a,b,c,d,e,f,g,h,i,j    
 
 ```
 
@@ -40,7 +47,7 @@ print b,c,d,f,g,i
 ```
 miles_driven = int(raw_input("How many miles were driven during the trip?"))
 gallons_used = int(raw_input("How many gallons were used during the trip?"))    
-mpg = miles_driven / gallons_used    #calculates the miles per gallon by dividing the integer values
+mpg = miles_driven / gallons_used
 print "Your car gets", mpg , "miles to the gallon."
 
 if mpg > 35:
@@ -74,11 +81,14 @@ print "Temperature in Celsius:", degrees_c
 ## 5. Temperature Conversions - Choose Your Own Adventure!
 
 ```
-temperature = float(raw_input("What is the temperature?"))    #numbers input are converted to decimals
+#numbers input are converted to decimals
+temperature = float(raw_input("What is the temperature?"))    
+
 scale = str(raw_input("Is that temperature in Celsius (C) or Fahrenheit (F)?"))
 
-if scale.lower() in ['celsius', 'c']:   #the function reduces a C or Celsius string to lower case
-    degrees_f = round(((temperature * 9) / 5 + 32), 2)    #performs the conversion and rounds to the tenths place
+#the function reduces a C or Celsius string to lower case, converts, & rounds
+if scale.lower() in ['celsius', 'c']:  
+    degrees_f = round(((temperature * 9) / 5 + 32), 2)
     print temperature, "degrees Celsius is equal to", degrees_f, "degrees Fahrenheit." 
 
 if scale.lower() in ['fahrenheit', 'f']:

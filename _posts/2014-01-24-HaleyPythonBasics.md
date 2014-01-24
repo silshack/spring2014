@@ -80,5 +80,7 @@ if scale.lower() in ['fahrenheit', 'f']:                                        
 ```
 
 These little programs taught me to use a couple of common functions, but also to think critically about where lines need to go.
-In Program 5, I had originally placed the degrees_c and degrees_f above the IF statements. Naturally, the program wouldn't run.
+In Program 5, I had originally placed the "degrees_c" and "degrees_f" above the IF statements. Naturally, the program wouldn't run.
 So, I messed around with the order, looking at a couple of examples of other code on teh interwebs, until it worked! That was a great feeling to see it do exactly what I wanted it to do.
+
+Here's the link to my personal page where this post shows up: http://gefionne.github.io/spring2014/

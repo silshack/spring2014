@@ -126,6 +126,8 @@ The degrees in Fahrenheit is 19.4444444444
 **Exercise 8**
 Problem: A program that will convert degrees or celsius as above, depending on the users' choice.
 
+For this exercise I got some great help from my fellow student Jessica Feng. Thank you!
+
 ```
 #First offer the choice of conversion
 convert = input("Which conversion would you like to do? Fahrenheit (F) or Celsius (C)?")

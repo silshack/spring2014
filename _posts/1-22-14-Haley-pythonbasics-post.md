@@ -6,7 +6,7 @@ title: Haley's Python Basics Assignment
 
 Here are the 5 programs I wrote for this exercise:
 
-1. Homage to The Shining:
+* 1. Homage to The Shining:
 
 Version 1:
 
@@ -27,7 +27,7 @@ print a,b,c,d,e,f,g,h,i,j                     #prints each variable value indivi
 ```
 
 
-2. Gas on a Student Budget:
+* 2. Gas on a Student Budget:
 
 ```
 miles_driven = int(raw_input("How many miles were driven during the trip?"))

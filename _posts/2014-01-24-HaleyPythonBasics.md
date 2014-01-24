@@ -21,7 +21,7 @@ Version 2:
 
 ```
 sentence = "All work and no play makes Jack a dull boy"
-a,b,c,d,e,f,g,h,i,j = sentence.split(" ")    #splits the sentence into 10 different variables, allowing the user to     manipulate which ones get printed and in what order
+a,b,c,d,e,f,g,h,i,j = sentence.split(" ")    #splits the sentence into 10 different variables
 print a,b,c,d,e,f,g,h,i,j    #prints each variable value individually
 
 ```
@@ -46,7 +46,7 @@ print "Your car gets", mpg , "miles to the gallon."
 if mpg > 35:
     print ("That's very fuel efficient! Go you and stuff.")
 if mpg < 35:
-    print ("That isn't very fuel efficient. Planet killer!")    #if statements evaluate the mpg integer and output text
+    print ("That isn't very fuel efficient. Planet killer!")
 
 ```
 

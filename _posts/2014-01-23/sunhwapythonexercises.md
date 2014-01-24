@@ -13,6 +13,7 @@ word = s.split(' ')
 print ' '.join(word)
 
 ```
+
 ##Output
 
 ```
@@ -28,7 +29,9 @@ MPG =( number_miles / number_gallons)
 print 'The number of miles per gallon of your car is',MPG,'.' 
 
 ```
+
 ##Output
+
 ```
 
 The number of miles per gallon of your car is 9.75 .
@@ -43,18 +46,19 @@ celcius = float(raw_input ("Enter the number of degrees in celcius."))
 farenheit = (celcius  * 9)/5 + 32 
 print 'The number of degrees that you entered in farenheit is',farenheit,'.'
 
-
----
+```
 
 ## Output
 
 ```
+
 The number of degrees that you entered in farenheit is 98.6 .
 
 
 ```
 
 ##Forth program codes
+
 ```
 farenheit = float(raw_input ("enter the number of degrees?"))
 celcius = (farenheit - 32 )* 5/9
@@ -66,7 +70,6 @@ print 'The number of degrees that you entered in farenheit  is', celcius,'.'
 
 ```
 The number of degrees that you entered in farenheit  is 37.0 .
-
 
 ```
 
@@ -94,6 +97,7 @@ else:
 The temperature that you entered is 37.0 in celcius.
 
 ```
+
 ## Output-When the user enter 0 for farenheit 
 
 ```
@@ -101,6 +105,7 @@ The temperature that you entered is 37.0 in celcius.
 The temperature that you entered is 98.6 in farenheit.
 
 ```
+
 ##Sixth program codes
 
 ```
@@ -113,6 +118,7 @@ if MPG >= 29:
 else:
     print 'Your car has a low fuel efficiency.'
 ```
+
 ##Output
 
 ```
@@ -123,7 +129,7 @@ Your car has a low fuel efficiency.
 
 
 
-http://sunhwap.github.io/spring2014/2014/01/23/sunhwapythonexercises.html
+
 
 
 

@@ -13,9 +13,9 @@ x = 'All work and no play makes Jack a dull boy"
 x.split(' ', 1)
 print x
 
-print("This program calculates mpg.")
- 
 #to convert miles to gallons
+print("This program calculates mpg.")
+
 miles = input("How many miles did you drive?")
 miles = int(miles)
  

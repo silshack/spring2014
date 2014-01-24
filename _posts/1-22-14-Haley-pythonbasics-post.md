@@ -10,21 +10,21 @@ Here are the 5 programs I wrote for this exercise:
 
 Version 1:
 
-    ```
-    sentence = "All work and no play makes Jack a dull boy"
-    a = sentence.split(" ")                 #makes a list of all the words in the string
-    print a                                 #prints the comma separated list
+```
+sentence = "All work and no play makes Jack a dull boy"
+a = sentence.split(" ")                 #makes a list of all the words in the string
+print a                                 #prints the comma separated list
     
-    ```
+```
 
 Version 2:
 
-    ```
-    sentence = "All work and no play makes Jack a dull boy"
-    a,b,c,d,e,f,g,h,i,j = sentence.split(" ")    #splits the sentence into 10 different variables, allowing the user to     manipulate which ones get printed and in what order
-    print a,b,c,d,e,f,g,h,i,j                     #prints each variable value individually
+```
+sentence = "All work and no play makes Jack a dull boy"
+a,b,c,d,e,f,g,h,i,j = sentence.split(" ")    #splits the sentence into 10 different variables, allowing the user to     manipulate which ones get printed and in what order
+print a,b,c,d,e,f,g,h,i,j                     #prints each variable value individually
 
-    ```
+```
 
 
 *2. Gas on a Student Budget:

@@ -6,7 +6,7 @@ title: Haley's Python Basics Assignment
 
 Here are the 5 programs I wrote for this exercise:
 
-*1. Homage to The Shining:
+1. Homage to The Shining:
 
 Version 1:
 
@@ -27,7 +27,7 @@ print a,b,c,d,e,f,g,h,i,j                     #prints each variable value indivi
 ```
 
 
-*2. Gas on a Student Budget:
+2. Gas on a Student Budget:
 
 ```
 miles_driven = int(raw_input("How many miles were driven during the trip?"))
@@ -43,7 +43,7 @@ if mpg < 35:
 ```
 
 
-*3. From Canada Degrees to 'Merica Degrees:
+3. From Canada Degrees to 'Merica Degrees:
 
 ```
 degrees_c = int(raw_input("Temperature in Celsius:"))
@@ -53,7 +53,7 @@ print "Temperature in Fahrenheit:", degrees_f
 ```
 
 
-*4. And back again:
+4. And back again:
 
 ```
 degrees_f = int(raw_input("Temperature in Fahrenheit:"))
@@ -63,7 +63,7 @@ print "Temperature in Celsius:", degrees_c
 ```
 
 
-*5. Temperature Conversions - Choose Your Own Adventure!
+5. Temperature Conversions - Choose Your Own Adventure!
 
 ```
 temperature = float(raw_input("What is the temperature?"))                        #user inputs number, likely an integer, and it is converted to a decimal number. decimal values are accepted as well

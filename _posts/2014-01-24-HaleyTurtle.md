@@ -6,10 +6,7 @@ title: Haley's Turtle Design
 
 I'd have to say this experience was quite different from the Python Basics. I got the chance to create a very tasty picture with a TON of lines of code rather than concise little programs with lots of functions. I am absolutely positive that there are better ways to have written this program, but I was having so much fun and it was working, so I just stuck with it. Reminds me of some choice Jonathan Coulton lyrics:
 
-**Rob say Code Monkey very diligent
-But his output stink
-His code not "functional" or "elegant"
-What do Code Monkey think?**
+*Rob say Code Monkey very diligent/ But his output stink/ His code not "functional" or "elegant"/ What do Code Monkey think?*
 
 In this case, my code is functional, but a far cry from elegant. Still, this was a really fun way to learn about Python.
 

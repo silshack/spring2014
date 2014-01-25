@@ -1,6 +1,6 @@
 ---
 layout: post
-author: sunhwa
+author: sunhwap
 title: program excercise
 date: 2014-01-24
 ---

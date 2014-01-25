@@ -1,8 +1,8 @@
 ---
 layout: post
-author: Sunhwa
+author: sunhwa
 title: program excercise
-date: 01-22-14
+date: 2014-01-24
 ---
 
 ##First program codes

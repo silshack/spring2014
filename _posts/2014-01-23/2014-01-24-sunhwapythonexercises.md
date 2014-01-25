@@ -23,8 +23,8 @@ All work and no play makes jack a dull boy
 ##Second program codes
 
 ```
-number_miles = float(raw_input ("enter the number of miles?"))
-number_gallons =float (raw_input ("enter the number of gallons?"))
+number_miles = float(raw_input ("enter the number of miles"))
+number_gallons =float (raw_input ("enter the number of gallons"))
 MPG =( number_miles / number_gallons)
 print 'The number of miles per gallon of your car is',MPG,'.' 
 

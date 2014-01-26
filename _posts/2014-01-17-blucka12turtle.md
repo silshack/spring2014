@@ -1,3 +1,10 @@
+---
+format: post
+author: Blucka12
+title: Oak's Turtle Post
+---
+## Oak's Turtle Post
+```
 import turtle
 wn = turtle.Screen()             
 wn.bgcolor("white")
@@ -42,4 +49,4 @@ stew.color("green")
 stew.stamp
 
 wn.exitonclick()
-
+```

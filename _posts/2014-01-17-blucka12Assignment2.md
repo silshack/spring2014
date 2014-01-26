@@ -61,6 +61,6 @@ if Question == "0":
     Fahrenheit = int(raw_input("Enter a temperature in Fahrenheit: "))
 
 Celsius = (Fahrenheit - 32) * 5 / 9
-```
 
 print "Temperature:", Fahrenheit, "Fahrenheit = ", Celsius, " C"
+```

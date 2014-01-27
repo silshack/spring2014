@@ -1,7 +1,7 @@
 ---
 layout: post
 author: srmoore5
-title: "Sierra's Python Exercises"
+title: "Sierra's Python Basics"
 ---
 
 Here are Sierra's python exercises.

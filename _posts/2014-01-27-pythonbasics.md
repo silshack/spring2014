@@ -67,6 +67,7 @@ Here is a sample input from the celsius program:
 ![to_cel](http://farm8.staticflickr.com/7449/12092567446_c5998ab5d0_b.jpg)
 
 <b>(5) Here is a program that will convert degrees or celsius as above, depending on the users' choice(astonishing!):</b>
+
 ```
 
 convert_temp = int(raw_input(" Give a temperature input?"))
@@ -81,7 +82,7 @@ if (inputed_temp)== "celsius":
     print "The temperature conversion is", farenheit_temp, "F"
 ```
 Here is a sample input from the temperature conversion program:
-![conversion](http://farm8.staticflickr.com/7428/12093103966_566388f15a_b.jpg)
+![conversion](http://www.flickr.com/photos/114755180@N03/12092855384/)
 
 
 ![the_bitter_end](http://farm1.staticflickr.com/168/371341803_3249a38ca4_z.jpg)

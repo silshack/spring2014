@@ -1,6 +1,6 @@
 ---
 format: post
-author: Blucka12
+author: blucka12
 title: Oak's Turtle Post
 ---
 ## Oak's Turtle Post

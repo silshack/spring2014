@@ -58,7 +58,7 @@
                   Another <a href="http://github.com/silshack/professorjekyll">silshack</a> by  <a href="http://twitter.com/hauspoor/">@hauspoor</a> & friends<br />
                 </p>
                 <p>
-                  This page was generated on {{ site.time | date: "%x" }} at {{ site.time | date: "%I:%M.%S %p" }} EST.
+                  This page was generated on <script type="text/javascript"> var date = new Date('{{ site.time | date: "%D %T %z" }}');document.write(date.toLocaleDateString()+ " " + date.toLocaleTimeString())</script>
                 </p>
               </div>
             </div>

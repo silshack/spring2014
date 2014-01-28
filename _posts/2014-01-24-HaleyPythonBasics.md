@@ -20,6 +20,13 @@ print a
     
 ```
 
+Output:
+
+```
+['All', 'work', 'and', 'no', 'play', 'makes', 'Jack', 'a', 'dull', 'boy']
+
+```
+
 Version 2:
 
 ```
@@ -33,6 +40,13 @@ print a,b,c,d,e,f,g,h,i,j
 
 ```
 
+Output:
+
+```
+All work and no play makes Jack a dull boy
+
+```
+
 Version 2 where only a new words get printed:
 
 ```
@@ -41,6 +55,14 @@ a,b,c,d,e,f,g,h,i,j = sentence.split(" ")
 print b,c,d,f,g,i
 
 ```
+
+Output:
+
+```
+work and no makes Jack dull
+
+```
+
 
 ## 2. Gas on a Student Budget:
 
@@ -57,6 +79,15 @@ if mpg < 35:
 
 ```
 
+Input: 200 miles, 4 gallons
+
+Output:
+
+```
+Your car gets 50 miles to the gallon.
+That's very fuel efficient! Go you and stuff.
+
+```
 
 ## 3. From Canada Degrees to 'Merica Degrees:
 
@@ -67,6 +98,14 @@ print "Temperature in Fahrenheit:", degrees_f
 
 ```
 
+Input: 15
+
+Output:
+
+```
+Temperature in Fahrenheit: 59
+
+```
 
 ## 4. And back again:
 
@@ -77,6 +116,14 @@ print "Temperature in Celsius:", degrees_c
 
 ```
 
+Input: 55
+
+Output:
+
+```
+Temperature in Celsius: 12
+
+```
 
 ## 5. Temperature Conversions - Choose Your Own Adventure!
 
@@ -94,6 +141,15 @@ if scale.lower() in ['celsius', 'c']:
 if scale.lower() in ['fahrenheit', 'f']:
     degrees_c = round(((temperature - 32) * 5 / 9), 2) 
     print temperature, "degrees Fahrenheit is equal to", degrees_c, "degrees Celsius."
+
+```
+
+Input: 60
+
+Output:
+
+```
+60.0 degrees Fahrenheit is equal to 15.56 degrees Celsius.
 
 ```
 

@@ -82,7 +82,7 @@ if (inputed_temp)== "celsius":
     print "The temperature conversion is", farenheit_temp, "F"
 ```
 Here is a sample input from the temperature conversion program:
-![conversion](http://www.flickr.com/photos/114755180@N03/12092855384/)
+![conversion](http://farm4.staticflickr.com/3691/12092855384_8238f55272.jpg)
 
 
 ![the_bitter_end](http://farm1.staticflickr.com/168/371341803_3249a38ca4_z.jpg)

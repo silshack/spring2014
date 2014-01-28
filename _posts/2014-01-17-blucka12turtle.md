@@ -50,3 +50,4 @@ stew.stamp
 
 wn.exitonclick()
 ```
+[Imgur](http://i.imgur.com/Um6Mc3T.png)

@@ -11,7 +11,7 @@ $(document).ready(function () {
     var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
         parserfile: ["parsepython.js"],
         autofocus: true,
-        theme: "solarized dark",
+        theme: "monokai",
         //path: "static/env/codemirror/js/",
         lineNumbers: true,
         textWrapping: false,

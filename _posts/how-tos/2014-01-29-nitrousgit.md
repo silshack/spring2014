@@ -62,9 +62,15 @@ Now, go to **Preview** -> **Port 4000** and add **/spring2014/** to the end of t
 
 Now, suppose you've made some changes to the site and want to push them up to your github repo so you can open a pull request to get it into the Class Site
 
-First, we need to make a commit. Do the following in the spring2014 directory
+We need to check and see what's up in our local git repository, and what files we need to add by running
 
-We can check to see if we do need to commit, and what files we need to add by running `git status`
+```
+$ git status
+```
+
+Next, we need to make a commit. Do the following in the spring2014 directory
+
+
 
 ```bash
 $ git add _posts/date-newpost.md #This makes sure Git knows the post exists

@@ -34,4 +34,4 @@ wn.exitonclick()                # wait for a user click on the canvas
 
 ```
 
-![Turtle image](http://farm6.staticflickr.com/5505/11974925354_dff3297ca1_b.jpg)
+![Turtle image](http://farm8.staticflickr.com/7458/12089313146_6cf53a9d52_o.png)

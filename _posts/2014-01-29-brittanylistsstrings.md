@@ -18,15 +18,16 @@ print reverse("blue")
 print reverse("Carolina")
 ```
 
-```
-#OUTPUT
+####Output
 
+```
 eulb
 aniloraC
-
 ```
 
 ###Exercise 7
+
+I should have recycled the code from exercise 6 to do this problem (i.e., just call reverse(initial_string) within mirror(initial_string)) since there is a lot of repeated code here, but this was my initial solution.
 
 ```
 def mirror(initial_string):
@@ -102,10 +103,11 @@ def remove_all(substr,initial_string):
                 index = index + 1
             else:
                 index = index + 1
-        if new_string.find(substr) == -1:
-            return new_string
-        else:        
-            return remove_all(substr, new_string)
+        if new_string.find(substr) == -1:  #no more instances of the substring can be found 
+            return new_string      
+        else:                              #string contains additional instances of the substr        
+            return remove_all(substr, new_string)   #recursively call the function to remove addtional instances
+                                                    #of substr
 
 print remove_all("llo", "hello, hello, hello!")
 print remove_all("le", "purple people eater")
@@ -127,9 +129,9 @@ purp peop eater
 def count_odds(list):
     count = 0
     for num in list:
-        if num%2 != 0:
+        if num%2 != 0:      #num is odd
             count = count + 1
-        else:
+        else:               #num is even, don't increment
             count = count
     return count
 
@@ -150,9 +152,9 @@ print count_odds([2,4,6,8])
 def sum_evens(list):
     sum = 0
     for num in list:
-        if num%2 == 0:
+        if num%2 == 0:   #num is even
             sum = sum + num
-        else:
+        else:            #num is odd, don't add
             sum = sum
     return sum                  
             
@@ -176,9 +178,9 @@ print sum_evens([1,3,5,6,2])
 def sum_negatives(list):
     sum = 0
     for num in list:
-        if num < 0:
+        if num < 0:         #num is negative
             sum = sum + num
-        else:
+        else:               #num is positive (or zero), don't add
             sum = sum
     return sum
 
@@ -199,8 +201,8 @@ print sum_negatives([0,-1,-2,-3,1,2,3])
 
 ```
 def replace(s, old, new):
-    words = s.split(old)
-    new_sentence = new.join(words)
+    words = s.split(old)            #split string into 'words' where divider is the old string to be replaced
+    new_sentence = new.join(words)  #join words together, placing the new/replacement string between split 'words' 
     return new_sentence
 
 s = "Mississippi"

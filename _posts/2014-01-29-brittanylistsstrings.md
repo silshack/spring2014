@@ -48,25 +48,26 @@ CarolinaaniloraC
 ```
 
 ###Exercise 11
+Looking at the solution in textbook reveals that this could have been done much easier, but this was my initial approach.
 
 ```
 def remove(substr,initial_string):
-    beg_index = initial_string.find(substr)
-    end_index = initial_string.find(substr)+len(substr)
+    beg_index = initial_string.find(substr)              #find where first instance of substr begins
+    end_index = initial_string.find(substr)+len(substr)  #find where that substr ends
     index = 0
     new_string = ""
-    if beg_index == -1:
+    if beg_index == -1:           #cases where substr is not found
         return initial_string
     else:
         while index < len(initial_string):
-            if index < beg_index:
-                new_string = new_string + initial_string[index] 
-                index = index + 1
-            elif index >= end_index:
-                new_string = new_string + initial_string[index]
-                index = index + 1
-            else:
-                index = index + 1  
+            if index < beg_index:     #character comes before first substr
+                new_string = new_string + initial_string[index] #add characters before substr to a new string
+                index = index + 1     #increment index
+            elif index >= end_index:  #character comes after first substr
+                new_string = new_string + initial_string[index] #add characters after substr to the new string
+                index = index + 1     #increment index
+            else:     #characters make up first instance of substr
+                index = index + 1    #just increment  
     return new_string
 
 print remove("llo", "hello hello hello!")
@@ -87,27 +88,27 @@ I didn't expect this one to be particularly difficult after completing the previ
 
 ```
 def remove_all(substr,initial_string): 
-    beg_index = initial_string.find(substr)
-    end_index = initial_string.find(substr)+len(substr)
+    beg_index = initial_string.find(substr)             #find where first instance of substr begins
+    end_index = initial_string.find(substr)+len(substr) #find where that substr ends
     index = 0
     new_string = ""
-    if beg_index == -1:
+    if beg_index == -1:       #cases where substr is not found
         return initial_string
     else:
         while index < len(initial_string):
-            if index < beg_index:
-                new_string = new_string + initial_string[index] 
-                index = index + 1
-            elif index >= end_index:
-                new_string = new_string + initial_string[index]
-                index = index + 1
-            else:
-                index = index + 1
+            if index < beg_index:     #character comes before first substr
+                new_string = new_string + initial_string[index] #add characters before substr to a new string
+                index = index + 1     #increment index
+            elif index >= end_index:  #character comes after first substr
+                new_string = new_string + initial_string[index] #add characters after substr to the new string
+                index = index + 1     #increment index
+            else:     #characters make up first instance of substr
+                index = index + 1    #just increment
         if new_string.find(substr) == -1:  #no more instances of the substring can be found 
             return new_string      
         else:                              #string contains additional instances of the substr        
-            return remove_all(substr, new_string)   #recursively call the function to remove addtional instances
-                                                    #of substr
+            return remove_all(substr, new_string)   #recursively call function to remove addtional instances of substr
+                                                    
 
 print remove_all("llo", "hello, hello, hello!")
 print remove_all("le", "purple people eater")

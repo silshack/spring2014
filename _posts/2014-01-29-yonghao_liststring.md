@@ -1,7 +1,7 @@
 ---
 layout: post
 author: yonghao
-title: yonghao's Python Basic Exercise
+title: yonghao's list and string exercise
 ---
 
 ## String EX 6

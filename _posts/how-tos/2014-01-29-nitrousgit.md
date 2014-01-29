@@ -16,10 +16,9 @@ Now got to **Boxes** and [create a box](https://www.nitrous.io/app#/intro/create
 
 Don't worry, you don't need to pay for more N2O, the free 155 is more than enough to do everything we need to do for our class. 
 
-Now your box is running you can click on it and click **Terminal**.  
+Now your box is running you can click on it and click **IDE**.  
 
-Now you should be looking at a black screen with a cursor on it. something like this:  
-![terminal](http://i.imgur.com/nKH2jtN.png)  
+Now you should be looking at a black screen with several different sub-windows in it. 
 
 In front of you is a full-fledge linux/unix terminal with all the power therein. This is where we will be spending the rest of the semester.
 

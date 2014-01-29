@@ -39,12 +39,11 @@ print mirror("blue")
 print mirror("Carolina")
 ```
 
-```
-#OUTPUT
+####Output
 
+```
 blueeulb
 CarolinaaniloraC
-
 ```
 
 ###Exercise 11
@@ -74,9 +73,9 @@ print remove("le", "purple people eater")
 print remove("he", "hello")
 ```
 
-```
-#OUTPUT
+####Output
 
+```
 he hello hello!
 purp people eater
 llo
@@ -112,9 +111,9 @@ print remove_all("llo", "hello, hello, hello!")
 print remove_all("le", "purple people eater")
 ```
 
-```
-#OUTPUT
+####Output
 
+```
 he, he, he!
 purp peop eater
 ```
@@ -138,9 +137,9 @@ print count_odds([1,2,3,4,5,6,7,8,9])
 print count_odds([2,4,6,8])
 ```
 
-```
-#Output
+####Output
 
+```
 5
 0
 ```
@@ -162,8 +161,9 @@ print sum_evens([1,3,5])
 print sum_evens([1,3,5,6,2])
 ```
 
+####Output
+
 ```
-#OUTPUT
 12
 0
 8
@@ -187,9 +187,9 @@ print sum_negatives([0,1,2,3,4,5,6,7,-64])
 print sum_negatives([0,-1,-2,-3,1,2,3])
 ```
 
-```
-#OUTPUT
+####Output
 
+```
 0
 -64
 -6
@@ -211,9 +211,9 @@ s = "I love spom!  Spom is my favorite food.  Spom, spom, spom, yum!"
 print replace(s, 'o', 'a')
 ```
 
-```
-#OUTPUT
+####Output
 
+```
 MIssIssIppI
 I love spam!  Spam is my favorite food.  Spam, spam, spam, yum!
 I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum!

@@ -77,8 +77,9 @@ Hannah | hannaH
 def removeString(aString, bString):
         if len(aString) > 0 and len(bString) > 0: #prevent empty strings
             if bString in aString: # look for b in a
-                aString = aString.strip(bString) #remove first occurrence
-                return aString
+                index = aString.index(bString)
+                return_str = aString[:index] + aString[index+len(bString):]
+                return return_str
             else:
                 return "%s isn't in %s" %(bString, aString)
         else:
@@ -102,6 +103,28 @@ ow
 ### #12
 <strong>Directions:</strong> Write a function that removes all occurrences of a string from another string.
 
+```
+def removeString(aString, bString):
+        if len(aString) > 0 and len(bString) > 0: #prevent empty strings
+            if bString in aString: # look for b in a
+                containsString = True
+                return_str = ''
+                while containsString:
+                    index = aString.index(bString)
+                    aString = aString[:index] + aString[index+len(bString):]
+                    if bString not in aString:
+                    	return aString
+                    	break
+                return aString
+            else:
+                return "%s isn't in %s" %(bString, aString)
+        else:
+            return "Your strings can't be empty" #prevent empty strings
+        
+aString = raw_input('Gimme a string, any string.').lower() #ask for strings
+bString = raw_input('Gimmie a string inside %s .' %aString).lower() #get rid of case
+print removeString(aString, bString) #give modified string
+```
 
 ***
 
@@ -110,6 +133,23 @@ ow
 
 ### #7
 <strong>Directions:</strong> Write a function to count how many odd numbers are in a list.
+```
+def countOdd(list):
+    i = 0
+    for number in list:
+        if number % 2 == 1:
+            i += 1
+    return i
+    
+list = [3, 4, 6, 8, 9, 11]
+print countOdd(list)
+
+```
+
+#### Sample output
+```
+3
+```
 
 ### #8
 <strong>Directions:</strong> Sum up all the even numbers in a list.

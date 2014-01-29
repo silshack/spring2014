@@ -46,3 +46,84 @@ gninroM dooG
 
 My code:
 
+```
+
+from test import testEqual
+
+def reverse(phrase):
+    reversed = ''
+    for char in phrase:
+        reversed = char + reversed
+    return reversed
+
+def mirror(phrase):
+    return phrase + reverse(phrase)
+
+testEqual(mirror('GoodMorning'),'GoodMorninggninroMdooG')
+testEqual(mirror('GoodNight'),'GoodNightthgiNdooG')
+
+print mirror("Good Night")
+
+```
+
+My Output:
+
+```
+
+Pass
+Pass
+Good NightthgiN dooG
+
+```
+
+**Strings Exercise 11**
+
+My code:
+
+**Strings Exercise 12**
+
+My code:
+
+**Lists Exercise 7**
+
+My code:
+
+```
+
+def count_odd(list):
+    #make a counting variable
+    odd_count = 0    
+    
+    for number in list:
+    
+        #is it odd?
+        if number % 2 == 1:
+            odd_count += 1 
+    
+    return odd_count
+
+print (count_odd([5, 1, 3]))
+print (count_odd([5, 1, 2, 4, 5, 6, 9]))
+
+```
+
+My output:
+
+```
+
+3
+4
+
+```
+
+**Lists Exercise 8**
+
+My code:
+
+**Lists Exercise 9**
+
+My code:
+
+**Lists Exercise 14**
+
+

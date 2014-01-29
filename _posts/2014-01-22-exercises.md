@@ -109,8 +109,32 @@ else:
 
 ```
 
-### Sample input
-50 degrees
+### Sample input 1
+Fahrenheit
+50
 
-### Sample output
+### Sample output 1
 ![Celsius or Fahrenheit output](http://i.imgur.com/bY9p0sE.png)
+
+### Sample input 2
+Celsius
+10
+
+### Sample output 2
+
+```
+
+That's 50 degrees Fahrenheit!
+
+```
+
+### Sample input 3
+Blueberry
+
+### Sample output 3
+
+```
+
+You have to pick Celsius or Fahrenheit!
+
+```

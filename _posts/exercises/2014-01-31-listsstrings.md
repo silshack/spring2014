@@ -2,6 +2,7 @@
 layout: post
 author: elliott
 categories: exercise
+title: Lists and Strings Exercises
 ---
 
 ## Strings exercises

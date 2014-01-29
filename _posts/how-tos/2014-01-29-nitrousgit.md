@@ -64,6 +64,8 @@ Now, suppose you've made some changes to the site and want to push them up to yo
 
 First, we need to make a commit. Do the following in the spring2014 directory
 
+We can check to see if we do need to commit, and what files we need to add by running `git status`
+
 ```bash
 $ git add _posts/date-newpost.md #This makes sure Git knows the post exists
 $ git commit -m "A Commit Message, be descriptive"

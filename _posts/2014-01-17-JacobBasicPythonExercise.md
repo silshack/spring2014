@@ -1,7 +1,7 @@
 ---
 layout: post
 author: jacobthill
-title: Jacob's Python Execises
+title: 2014-22-01 Jacob's Python Execises
 ---
 
 ## Jack's a Dull Boy Code

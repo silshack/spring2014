@@ -321,7 +321,7 @@ print(evensum(numberlist))
 
 **9. Sum up all the negative numbers in a list.**
 
-{% include python %}
+```
 
 # define list of numbers
 numberlist = [-1, 3, -4, 5, 6, 7, -8, 10, 12]
@@ -446,7 +446,7 @@ def main():
 
 main()
 
-```
+{% include endpython %}
 
 ***
 

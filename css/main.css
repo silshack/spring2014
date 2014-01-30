@@ -158,6 +158,22 @@ ul.posts span {
 }
 
 /* standard */
+.post h1 {
+  font-size: 140%;
+  margin-top: 1em;
+}
+
+.post h2 {
+  font-size: 120%;
+  margin-top: .5em;
+}
+
+.post h1 {
+  font-size: 110%;
+  margin-top: .5em;
+}
+
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -194,3 +210,21 @@ ul.posts span {
   background-color: #333;
 }
 
+#edoutput {
+    background: #ccc;
+    color: #black;
+    height: 100px;
+    overflow: auto;
+    font-family: "Consolas","Lucida Console","Monaco",monospace;
+    font-size: 9pt;
+}
+
+pre {
+margin-left: 14px;
+font-size: 16px;
+line-height: 1.2em;
+}
+
+code, pre {
+  color: #444;
+}

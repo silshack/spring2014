@@ -1,10 +1,10 @@
-<form>
-    <textarea id="code" rows="12" cols="80">
+<script type="text/javascript">
+loadCSS("{{ site.baseurl}}/css/codemirror.css");
+loadCSS("{{ site.baseurl}}/css/monokai.css");
+loadJS("{{ site.baseurl}}/js/codemirrorepl.js");
+loadJS("{{ site.baseurl}}/js/python.js");
+loadJS("{{ site.baseurl}}/js/editor.js");
+</script>
+<textarea id='code' rows="12" cols="80">
 
-{{ include.code }}
-
-    </textarea>
-    <button type="button" onclick="runit()">Run</button>
-</form>
-
-<pre id="output">Press Run to see the output of the code above</pre>
+```

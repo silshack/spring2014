@@ -26,7 +26,7 @@ We’ll have a series of programming professionals come in and discuss their exp
 
 * Jeff Heard, Senior Researcher, RENCI
 
-### January 8th, Week 1: Digging into Source Code
+### <date d="20140108">January 8th, Week 1: Digging into Source Code</date>
 
 Key Questions
 
@@ -35,8 +35,6 @@ Key Questions
 * What is a Computer?
 
 * How Can Text Control Computers?
-
-Wednesday Aug 21st Readings: 
 
 1. None (first day of class)
 
@@ -54,7 +52,7 @@ In-Class Exercise: Modify the class blog
 
 * Note: As we’ll learn, `git` is an open source command line version control system.  Github.com is the fastest growing `git` repository on the internet.  This distinction isn’t always immediately apparent.
 
-## January 15th, Week 2: Hello Python
+### <date d="20140115">January 15th, Week 2: Hello Python</date>
 
 Key Questions
 
@@ -70,7 +68,7 @@ Read the text, do the exercises, and be prepared to explore what Turtles can do 
 
 * In-Class Exercise: Write a simple post with syntax highlighting and a screenshot of your turtle program.
 
-### January 22nd, Week 3: Stepping back a bit: What is code?
+### <date d="20140122">January 22nd, Week 3: Stepping back a bit: What is code?</date>
 
 
 Readings:
@@ -84,8 +82,7 @@ Readings:
 
 * In-Class Exercise: Hands on with Code
 
-
-### January 29th, Week 4: Reading Code; Data in Programs
+### <date d="20140129">January 29th, Week 4: Reading Code; Data in Programs</date>
 
 
 ```
@@ -96,14 +93,19 @@ Readings:
 
 Readings:
 
+* Philip Guo: ["Two Cultures of Programming"](http://www.pgbovine.net/two-cultures-of-computing.htm)
+
 * Hitchhiker’s Guide to Python: [Code Style](http://docs.python-guide.org/en/latest/writing/style) -  There will be lots in here that may not make sense to you.  Practice your skimming/vocab learning skills.
 
 * Think Python: [Strings](http://interactivepython.org/runestone/static/thinkcspy/Strings/strings.html)
 
 * Think Python: [Lists](http://interactivepython.org/runestone/static/thinkcspy/Lists/lists.html)
 
+Hands on with Python Data.
 
-### February 5th, Week 5: Problem Solving with Pseudocode
+Setting up Nitrous.io
+
+### <date d="20140205">February 5th, Week 5: Problem Solving with Pseudocode</date>
 
 * What is pseudocode?
 
@@ -117,7 +119,9 @@ Readings:
 
 * In class/Homework: Codingbat.com
 
-### February 12th, Week 6:  Complex data; flow of control
+Nitrous.io exercise
+
+### <date d="20140212">February 12th, Week 6:  Complex data; flow of control</date>
 
 Readings:
 * ThinkPython: [More iteration](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/moreiteration.html)
@@ -130,49 +134,50 @@ Readings:
 
 * Check-in: Meetups
 
-**Extra Credit Exercise:** ThinkPython: [Using data structures](http://www.greenteapress.com/thinkpython/html/thinkpython014.html) An extra point on your final grade for a Github post with exercises 1-4 completed.  Due Friday.
+Nitrous Exercise
 
-### February 19th, Week 7: Functions & (The other kind of) Libraries
+**Extra Credit Exercise:** ThinkPython: [Using data structures](http://www.greenteapress.com/thinkpython/html/thinkpython014.html) An extra point on your final grade for a Github post with exercises 1-4 completed.  This is especially relevant to those of you with an interest in data mining. Due Friday.
 
-Self-contained, reusable bits of code.
-
-Monday Sept 30th - I/O and intro to Libraries
-
-http://interactivepython.org/runestone/static/thinkcspy/Functions/functions.html
-
-http://interactivepython.org/runestone/static/thinkcspy/PythonModules/modules.html
-
-* Software Carpentry: [Libraries](http://software-carpentry.org/v4/python/lib.html)
-
-* Skim over some intro docs for popular Python Web Frameworks: [Pyramid](http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/narr/firstapp.html), [Flask](http://flask.pocoo.org/docs/quickstart/), and [Django](https://docs.djangoproject.com/en/dev/intro/tutorial01/).  Django is the most in-depth of these, and the most robust.
-
-* In-Class: Input/Output exercise
-
-* In-Class: Command line: pip.  Review some common python libraries.  Focus on documentation, initial testing, beginning use
-
-
-### February 26th, Week 8:  Ubuntu install & Command line Python
+### <date d="20140219">February 19th, Week 7: Input/Output (i/o) & (The other kind of) Libraries</date>
 
 Working with real developer tools
 
-* In class: Command line git
+* In class: Command line git posts
 
-### March 5th, Week 9: Problem Solving with Libraries and Frameworks
+All posts from here on out should be via Nitrous!
+
+### <date d="20140226">February 26th, Week 8: Command line Git & Python</date>
+
+Self-contained, reusable bits of code.
+
+* Think Python: [Functions](http://interactivepython.org/runestone/static/thinkcspy/Functions/functions.html)
+
+* Think Python: [Modules](http://interactivepython.org/runestone/static/thinkcspy/PythonModules/modules.html)
+
+* Software Carpentry: [Libraries](http://software-carpentry.org/v4/python/lib.html)
+
+* In-Class: Command line: pip.  Review some common python libraries.  Focus on documentation, initial testing, beginning use
+
+Nitrous Flask introduction
+
+### <date d="20140305">March 5th, Week 9: Problem Solving with Libraries and Frameworks</date>
+
+Catch-up
 
 * Check-in: Meetups
 
-### March 12th, Week 10: No class
+### <date d="20140312">March 12th, Week 10: No class</date>
 
 
-### March 19th, Week 11: Turtle redux; Starpusher Hacking; Git
-
-Making awesome Turtle pictures & Hacking pygames
-
-### March 26th, Week 12: Flask; Git
+### <date d="20140319">March 19th, Week 11: Flask; Git</date>
 
 Lightweight web framework.
 
-### April 2nd, Week 13: Flask; Git; Project Ideas
+### <date d="20140326">March 26th, Week 12: Flask; Git</date>
+
+Lightweight web framework.
+
+### <date d="20140402">April 2nd, Week 13: Flask; Git; Project Ideas</date>
 
 Web framework continued
 
@@ -190,23 +195,23 @@ Web framework continued
 
 * Revisit: [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
 
-### April 9th, Week 14: Beginning Projects; Contributing to Open Source
+### <date d="20140409">April 9th, Week 14: Beginning Projects; Contributing to Open Source</date>
 
 How to give back or start a project.   Code Refactoring and Cleanup.  Documentation.  Guests.
 
 * Reading: ProGit Ch. 5.2  [Contributing to a Project](http://git-scm.com/book/en/Distributed-Git-Contributing-to-a-Project)
 
 
-### April 16th, Week 15: Project Work
+### <date d="20140416">April 16th, Week 15: Project Work</date>
 
 Tactical help from me or peers on final projects.
 
 
-### April 30th, Week 16: Project Presentations
+### <date d="20140430">April 30th, Week 16: Project Presentations</date>
 
 Presentation and discussion of projects.  A roadmap for where students want to go next.
 
-Final projects due Weds, December 11th, 8am.
+**Final projects due Sat, May 3rd, 8am.**
 
 
 

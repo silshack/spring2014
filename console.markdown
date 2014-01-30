@@ -3,8 +3,13 @@ layout: default
 title: Python Console
 ---
 
-<iframe
-      style="width: 640px; height: 480px; border: none;"
-      name="embedded_python_anywhere"
-      src="https://www.pythonanywhere.com/embedded/">
-</iframe>
+{% include python %}
+print "Type and run your python code here"
+print "="*25
+import turtle
+t = turtle.Turtle()
+for c in ['red', 'green', 'yellow', 'blue']:
+    t.color(c)
+    t.forward(75)
+    t.left(90)
+{% include endpython %}

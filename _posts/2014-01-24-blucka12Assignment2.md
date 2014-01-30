@@ -22,6 +22,12 @@ j = "boy"
 print a, b, c, d, e, f, g, h, i, j
 ```
 
+Output:
+
+```
+All work and no play makes Jack a dull boy
+```
+
 #2
 
 ```

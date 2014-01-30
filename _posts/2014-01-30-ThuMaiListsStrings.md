@@ -191,7 +191,7 @@ Pass
 
 **15. Here is something called an arrowhead curve. Use 60 degrees.**
 
-```
+{% include python %}
 
 import turtle
 
@@ -251,7 +251,8 @@ def main():
 
 main()
 
-```
+
+{% include endpython %}
 
 **Output:**
 

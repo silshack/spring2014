@@ -6,7 +6,7 @@ title: Oak's Second Assignment
 
 ## Assignment 2
 
-#1 This is very likely inefficient, but it worked well for me and I will look forward to learning how to simplify it soon.
+#1 
 
 ```
 a = "All"
@@ -39,6 +39,12 @@ mpg = miles/gallons
 print mpg
 ```
 
+Output:
+
+```
+17
+```
+
 #3
 
 ```
@@ -47,6 +53,12 @@ Celcius = int(raw_input("Enter a temperature in Celcius: "))
 Fahrenheit = Celcius * 9 / 5 + 32
 
 print "Temperature:", Celcius, "Celcius = ", Fahrenheit, " F"
+```
+
+Output:
+
+```
+Temperature: 35 Celcius =  95  F
 ```
 
 #4 
@@ -59,22 +71,34 @@ Celsius = (Fahrenheit - 32) * 5 / 9
 print "Temperature:", Fahrenheit, "Fahrenheit = ", Celsius, " C"
 ```
 
+Output:
+
+```
+Temperature: 89 Fahrenheit =  31  C
+```
+
 #5
 
 ```
 question = raw_input("Do You Use Celcius (0), or Fahrenheit (1) ?")
 
-if question == "1":
+if question == "0":
     Celcius = int(raw_input("Enter a temperature in Celcius: "))
 
-Fahrenheit = Celcius * 9 / 5 + 32
+    Fahrenheit = Celcius * 9 / 5 + 32
 
-print "Temperature:", Celcius, "Celcius = ", Fahrenheit, " F"
+    print "Temperature:", Celcius, "Celcius = ", Fahrenheit, " F"
 
-if Question == "0":
+if question == "1":
     Fahrenheit = int(raw_input("Enter a temperature in Fahrenheit: "))
 
-Celsius = (Fahrenheit - 32) * 5 / 9
+    Celsius = (Fahrenheit - 32) * 5 / 9
 
-print "Temperature:", Fahrenheit, "Fahrenheit = ", Celsius, " C"
+    print "Temperature:", Fahrenheit, "Fahrenheit = ", Celsius, " C"
+```
+
+Output:
+
+```
+Temperature: 89 Fahrenheit =  31  C
 ```

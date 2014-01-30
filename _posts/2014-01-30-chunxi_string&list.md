@@ -11,7 +11,7 @@ Post by Chunxi Zhang
 
 *Write a function that reverses its string argument.*
 
-output
+ 
 ```
 from test import testEqual
 
@@ -44,7 +44,7 @@ Pass
 Pass
 ```
 *Write a function that mirrors its argument.*
-input
+
 ```
 from test import testEqual
 
@@ -70,7 +70,7 @@ Pass
 Pass
 ```
 *Write a function that removes the first occurrence of a string from another string.*
-Input
+
 ```
 from test import testEqual
 
@@ -96,7 +96,7 @@ Pass
 Pass
 ```
 *Write a function that removes all occurrences of a string from another string.*
-Input
+
 ```
 from test import testEqual
 
@@ -119,7 +119,7 @@ Pass
 
 *Write a function to count how many odd numbers are in a list.*
 
-input
+
 ```
 import random
 
@@ -141,7 +141,7 @@ output
 332
 ```
 *Sum up all the even numbers in a list.*
-input
+
 ```
 import random
 
@@ -164,7 +164,7 @@ output
 2396
 ```
 *Sum up all the negative numbers in a list.*
-input
+
 ```
 import random
 
@@ -187,7 +187,7 @@ output
 -23563
 ```
 *Write a function replace(s, old, new) that replaces all occurences of old with new in a string s:*
-input
+
 ```
 from test import testEqual
 def replace(s, old, new):

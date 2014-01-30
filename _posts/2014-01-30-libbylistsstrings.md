@@ -30,8 +30,15 @@ testEqual(reverse("Python"), "nohtyP")
 testEqual(reverse(""),"")
 ```
 
+Output:
 
-
+```
+Here is your string, in reverse: nohtyP
+Tests:
+Pass
+Pass
+Pass
+```
 
 ###7
 Write a function that mirrors its argument.
@@ -40,14 +47,9 @@ Write a function that mirrors its argument.
 ```
 from test import testEqual
 
-# code from problem 6
-# reverse using splicing
-def reverse(input):
-    revString = input[::-1]
-    return revString
-
 def mirror(input):
-    return input + reverse(input)
+    # index splicing from problem 6
+    return input + input[::-1]
 text = raw_input("Type the string you would like to reverse.")
 
 print("Here is your string, with its mirror: " + mirror(text))
@@ -59,6 +61,16 @@ testEqual(mirror(''), '')
 testEqual(mirror('a'),'aa')
 ```
 
+Output:
+
+```
+Here is your string, with its mirror: PythonnohtyP
+Tests:
+Pass
+Pass
+Pass
+Pass
+```
 
 ###11
 Write a function that removes the first occurrence of a string from another string.
@@ -73,13 +85,25 @@ def remove(substr,theStr):
     return_str = theStr[:index] + theStr[index+len(substr):]
     return return_str
 
+b_str = raw_input("What is the string you wish to remove from?")
+a_str = raw_input("What would you like to remove from that?")
+print(remove(a_str, b_str))
+
 testEqual(remove('egg', 'bicycle'), 'bicycle')
 testEqual(remove('an', 'banana'),'bana')
 testEqual(remove('cyc', 'bicycle'), 'bile')
 testEqual(remove('iss', 'Mississippi'), 'Missippi')
 ```
 
+Output:
 
+```
+bana
+Pass
+Pass
+Pass
+Pass
+```
 
 ###12
 Write a function that removes all occurrences of a string from another string.
@@ -88,12 +112,13 @@ Write a function that removes all occurrences of a string from another string.
 ```
 from test import testEqual
 
-def remove_all(substr,theStr):
-    from test import testEqual
-
-def remove_all(substr,theStr):
-    new_string = theStr.replace(substr, "")
+def remove_all(substr, the_str):
+    new_string = the_str.replace(substr, "")
     return new_string
+
+b_str = raw_input("What string would you like to remove from?")
+a_str = raw_input("What would you like to remove from that string?")
+print(remove_all(a_str, b_str))
 
 testEqual(remove_all('an', 'banana'), 'ba')
 testEqual(remove_all('cyc', 'bicycle'), 'bile')
@@ -101,6 +126,15 @@ testEqual(remove_all('iss', 'Mississippi'), 'Mippi')
 testEqual(remove_all('eggs', 'bicycle'), 'bicycle')
 ```
 
+Output:
+
+```
+ba
+Pass
+Pass
+Pass
+Pass
+```
 
 #Lists
 

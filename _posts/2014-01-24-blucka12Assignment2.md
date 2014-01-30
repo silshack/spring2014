@@ -7,6 +7,7 @@ title: Oak's Second Assignment
 ## Assignment 2
 
 *1 This is very likely inefficient, but it worked well for me and I will look forward to learning how to simplify it soon.
+
 ```
 a = "All"
 b = "work"

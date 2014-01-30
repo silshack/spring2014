@@ -4,7 +4,7 @@ author: slaffer
 title: Sophia's Strings and Lists Exercises
 ---
 
-These exercises confused me at first because I was not experienced at building functions, but going through the string exercise #6 in class helped me to further understand how to define and build functions. The exercise that gave me the most trouble was list exercise #14. Although I pretty quickly figured out how to use the split and join methods using the examples in the chapter, I had a mistake that tripped me up where instead of referencing ```new_string``` when I was defining my ```final_string``` I was referencing ```s``` (the original string), which I had not performed the split method.
+These exercises confused me at first because I was not experienced at building functions, but going through the exercises in class helped me to further understand how to define and build functions. The exercise that gave me the most trouble was list exercise #14. Although I pretty quickly figured out how to use the split and join methods using the examples in the chapter, I had a mistake that tripped me up where instead of referencing ```new_string``` when I was defining my ```final_string``` I was referencing ```s``` (the original string), which I had not performed the split method.
 
 ##Strings #6: Reverse Function
 ```

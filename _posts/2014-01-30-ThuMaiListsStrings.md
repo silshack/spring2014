@@ -191,7 +191,7 @@ Pass
 
 **15. Here is something called an arrowhead curve. Use 60 degrees.**
 
-{% include python %}
+```
 
 import turtle
 
@@ -251,8 +251,7 @@ def main():
 
 main()
 
-
-{% include endpython %}
+```
 
 **Output:**
 
@@ -551,7 +550,7 @@ main()
 
 **16. Here is another L-System. Use an Angle of 25.**
 
-{% include python %}
+```
 
 import turtle
 
@@ -617,7 +616,7 @@ def main():
 
 main()
 
-{% include endpython %}
+```
 
 **Output:**
 

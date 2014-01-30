@@ -5,7 +5,11 @@ title: Thu-Mai's Lists and Strings Exercises
 date: 2014-01-30
 ---
 
-This week's exercises had me doing a lot of experimentation!  I definitely had to slow down and re-read the chapters and walk through the examples to get a good grasp on the strings and lists.  At times, it was quite helpful to put pencil to paper to sketch out the processes in order to figure out how to get the program working.  The best part of the exercises were the victory dances after finally getting the program to work!
+This week's exercises had me doing a lot of experimentation!  I definitely had to slow down and re-read the chapters and walk through the examples to get a good grasp on the strings and lists.  At times, it was quite helpful to put pencil to paper to sketch out the processes in order to figure out how to get the program working.  The best part of the exercises were the victory dances after finally getting the programs to work!
+
+One real issue I ran into was running the code for the L-Systems. At times, it would lock up my desktop or I got a ``` TimeLimitError: Program exceeded run time limit. on line ## ```.  I ended up reducing the number of iterations in the code and switching to my Mac, which seemed to be able to handle the program better.  Also, the text outputs were quite long for the L-Systems, so I provided only the image outputs.
+
+Otherwise, a fun project!
 
 ## String Exercises
 
@@ -36,6 +40,17 @@ testEqual(reverse(""),"")
 
 ```
 
+**Output:**
+
+```
+
+gnirts ym esrever
+Pass
+Pass
+Pass
+
+```
+
 ***
 
 **7. Write a function that mirrors its argument.**
@@ -63,6 +78,18 @@ testEqual(mirror('good'),'gooddoog')
 testEqual(mirror('Python'),'PythonnohtyP')
 testEqual(mirror(''), '')
 testEqual(mirror('a'),'aa')
+
+```
+
+**Output:**
+
+```
+
+mirror my stringgnirts ym rorrim
+Pass
+Pass
+Pass
+Pass
 
 ```
 
@@ -100,6 +127,18 @@ testEqual(remove('egg', 'bicycle'), 'bicycle')
 
 ```
 
+**Output:**
+
+```
+
+Helo
+Pass
+Pass
+Pass
+Pass
+
+```
+
 ***
 
 **12. Write a function that removes all occurences of a string from another string.**
@@ -133,6 +172,18 @@ testEqual(remove_all('an', 'banana'), 'ba')
 testEqual(remove_all('cyc', 'bicycle'), 'bile')
 testEqual(remove_all('iss', 'Mississippi'), 'Mippi')
 testEqual(remove_all('eggs', 'bicycle'), 'bicycle')
+
+```
+
+**Output:**
+
+```
+
+Remove all subs from , even if  has lots of those subs.
+Pass
+Pass
+Pass
+Pass
 
 ```
 
@@ -185,7 +236,7 @@ def drawLsystem(aTurtle,instructions,angle,distance):
             print('Error:', cmd, 'is an unknown command')
 
 def main():
-    inst = createLSystem(5,"YF")   #create the string
+    inst = createLSystem(4,"YF")   #create the string
     print(inst)
     t = turtle.Turtle()           #create the turtle
     wn = turtle.Screen()
@@ -201,6 +252,10 @@ def main():
 main()
 
 ```
+
+**Output:**
+
+![Arrowhead image](https://lh5.googleusercontent.com/-T9wi6fD_tKI/Uuqf5SyrwTI/AAAAAAAAA7o/FnJjuTEbnoE/w415-h414-no/arrowhead.png)
 
 ***
 
@@ -251,7 +306,7 @@ def drawLsystem(aTurtle,instructions,angle,distance):
             print('Error:', cmd, 'is an unknown command')
 
 def main():
-    inst = createLSystem(4,"FX")   #create the string
+    inst = createLSystem(3,"FX")   #create the string
     print(inst)
     t = turtle.Turtle()           #create the turtle
     wn = turtle.Screen()
@@ -267,6 +322,10 @@ def main():
 main()
 
 ```
+
+**Output:**
+
+![PeanoGosper image](https://lh4.googleusercontent.com/-rWtGuM3yRgc/Uuqf6Fz4HmI/AAAAAAAAA7w/U2QmjkJn2Zk/w414-h412-no/peano-gosper.png)
 
 ***
 ***
@@ -294,6 +353,14 @@ print(oddcount(numberlist))
 
 ```
 
+**Output:**
+
+```
+
+7
+
+```
+
 ***
 
 **8. Sum up all the even numbers in a list.**
@@ -317,6 +384,14 @@ print(evensum(numberlist))
 
 ```
 
+**Output:**
+
+```
+
+40
+
+```
+
 ***
 
 **9. Sum up all the negative numbers in a list.**
@@ -337,6 +412,14 @@ def negsum(numberlist):
     
 # print sum of negative numbers
 print(negsum(numberlist))
+
+```
+
+**Output:**
+
+```
+
+-13
 
 ```
 
@@ -374,11 +457,22 @@ testEqual(replace(s, 'o', 'a'), 'I lave spam!  Spam is my favarite faad.  Spam, 
 
 ```
 
+**Output:**
+
+```
+
+I love spam! Spam is my favorite food!
+Pass
+Pass
+Pass
+
+```
+
 ***
 
 **15. Here are the rules for an L-system that creates something that resembles a common garden herb. Implement the following rules and try it. Use an angle of 25.7 degrees.**
 
-{% include python %}
+```
 
 import turtle
 
@@ -446,7 +540,11 @@ def main():
 
 main()
 
-{% include endpython %}
+```
+
+**Output:**
+
+![Herb image](https://lh5.googleusercontent.com/-iEzm_iCtmqI/UuqfrKepcDI/AAAAAAAAA7U/JxqjAKiI2HQ/w413-h411-no/herb.png)
 
 ***
 
@@ -519,5 +617,9 @@ def main():
 main()
 
 {% include endpython %}
+
+**Output:**
+
+![Branch image](https://lh3.googleusercontent.com/-XLmV9qqxgbg/Uuqfrb6jqCI/AAAAAAAAA7Q/aWaLicqWZPM/w413-h410-no/branch.png)
 
 ***

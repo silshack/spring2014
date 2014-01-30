@@ -6,8 +6,7 @@ title: Lists and Strings exercises
 
 #Strings
 
-###6
-Write a function that reverses its string argument.
+###6.) Write a function that reverses its string argument.
 
 
 ``` 
@@ -17,11 +16,11 @@ def reverse(input):
     # reverse string by slicing, counting DOWN 1 at a time
     # nifty technique from Stack Overflow discussion
     # http://stackoverflow.com/questions/931092/reverse-a-string-in-python
-    revString = input[::-1]
-    return revString
+    rev_string = input[::-1]
+    return rev_string
 
+# user input for visible example
 text = raw_input("Type the string you would like to reverse.")
-
 print("Here is your string, in reverse: " + reverse(text))
 
 print("Tests:")
@@ -40,8 +39,7 @@ Pass
 Pass
 ```
 
-###7
-Write a function that mirrors its argument.
+###7.) Write a function that mirrors its argument.
 
 
 ```
@@ -50,8 +48,9 @@ from test import testEqual
 def mirror(input):
     # index splicing from problem 6
     return input + input[::-1]
-text = raw_input("Type the string you would like to reverse.")
 
+# user input for visible example
+text = raw_input("Type the string you would like to reverse.")
 print("Here is your string, with its mirror: " + mirror(text))
 
 print("Tests:")
@@ -72,19 +71,21 @@ Pass
 Pass
 ```
 
-###11
-Write a function that removes the first occurrence of a string from another string.
+###11.) Write a function that removes the first occurrence of a string from another string.
 
 ```
 from test import testEqual
 
-def remove(substr,theStr):
-    index = theStr.find(substr)
-    if index < 0: # substr doesn't exist in theStr
-        return theStr
-    return_str = theStr[:index] + theStr[index+len(substr):]
+def remove(substr,the_str):
+    # find method returns index of first occurance
+    index = the_str.find(substr)
+    if index < 0: # substr doesn't exist in the_str
+        return the_str
+    # return_str variable made by index splicing of the_str around removed substr
+    return_str = the_str[:index] + the_str[index+len(substr):]
     return return_str
 
+# get user input for example
 b_str = raw_input("What is the string you wish to remove from?")
 a_str = raw_input("What would you like to remove from that?")
 print(remove(a_str, b_str))
@@ -105,17 +106,18 @@ Pass
 Pass
 ```
 
-###12
-Write a function that removes all occurrences of a string from another string.
+###12.) Write a function that removes all occurrences of a string from another string.
 
 
 ```
 from test import testEqual
 
 def remove_all(substr, the_str):
+    # replace method essentially removes variable substr
     new_string = the_str.replace(substr, "")
     return new_string
 
+# get user input for example
 b_str = raw_input("What string would you like to remove from?")
 a_str = raw_input("What would you like to remove from that string?")
 print(remove_all(a_str, b_str))
@@ -138,8 +140,7 @@ Pass
 
 #Lists
 
-###7
-Write a function to count how many odd numbers are in a list.
+###7.) Write a function to count how many odd numbers are in a list.
 
 ```
 from test import testEqual
@@ -159,43 +160,68 @@ testEqual(count_odd([5, 1, 3]), 3)
 testEqual(count_odd([0, 8]), 0)
 ```
 
+Output:
 
-###8
-Sum up all the even numbers in a list.
+```
+Pass
+Pass
+Pass
+```
+
+###8.) Sum up all the even numbers in a list.
 
 ```
 ```
 
-
-###9
-Sum up all the negative numbers in a list.
-
+Output:
 
 ```
-test_list = [-6, 5, 4, 0 , -3]
-
-def sum_all_negs(lst):
-    neg_sum = 0
-    for e in lst:
-        if e < 0:
-            neg_sum = e + neg_sum
-    return neg_sum
-
-print(sum_all_negs(test_list))
 ```
 
-
-###14
-Write a function replace(s, old, new) that replaces all occurences of old with new in a string s:
+###9.) Sum up all the negative numbers in a list.
 
 
 ```
 from test import testEqual
 
+def sum_all_negs(lst):
+    neg_sum = 0
+    # go through list one at a time
+    for e in lst:
+        # if e is negative
+        if e < 0:
+            # update negative sum
+            neg_sum = e + neg_sum
+    return neg_sum
+
+# visible test case
+test_list = [-6, 5, 4, 0 , -3]
+print(sum_all_negs(test_list))
+
+testEqual(sum_all_negs([0, -3, 4, 5]), -3)
+testEqual(sum_all_negs([-2, -4, 0, -1]), -7)
+```
+
+Output:
+
+```
+-9
+Pass
+Pass
+
+```
+
+###14.) Write a function replace(s, old, new) that replaces all occurences of old with new in a string s:
+
+```
+from test import testEqual
+
 def replace(s, old, new):
+    # split string into list by the occurance of "old"
+    # use "new" to rejoin the split string/list
     return new.join(s.split(old))
 
-print(replace('I love spam!', 'o', 'a'))
+print(replace('Mississippi', 'i', 'I'))
 
 testEqual(replace('Mississippi', 'i', 'I'), 'MIssIssIppI')
 
@@ -207,3 +233,11 @@ testEqual(replace(s, 'o', 'a'),
        'I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum!')
 ```
 
+Output:
+
+```
+MIssIssIppI
+Pass
+Pass
+Pass
+```

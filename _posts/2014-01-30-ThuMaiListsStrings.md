@@ -5,7 +5,7 @@ title: Thu-Mai's Lists and Strings Exercises
 date: 2014-01-30
 ---
 
-This week's exercises had me doing a lot of experimentation!  I definitely had to slow down and re-read the chapters and walk through the examples to get a good grasp on the strings and lists.  At times, it was quite helpful to put pencil to paper to sketch out the processes in order to figure out how to get the program working.  The best part of the exercises was the victory dancing after finally getting the program to work!
+This week's exercises had me doing a lot of experimentation!  I definitely had to slow down and re-read the chapters and walk through the examples to get a good grasp on the strings and lists.  At times, it was quite helpful to put pencil to paper to sketch out the processes in order to figure out how to get the program working.  The best part of the exercises were the victory dances after finally getting the program to work!
 
 ## String Exercises
 
@@ -36,6 +36,8 @@ testEqual(reverse(""),"")
 
 {% include endpython %}
 
+***
+
 **7. Write a function that mirrors its argument.**
 
 {% include python %}
@@ -63,6 +65,8 @@ testEqual(mirror(''), '')
 testEqual(mirror('a'),'aa')
 
 {% include endpython %}
+
+***
 
 **11. Write a function that removes the first occurrence of a string from another string.**
 
@@ -95,6 +99,8 @@ testEqual(remove('iss', 'Mississippi'), 'Missippi')
 testEqual(remove('egg', 'bicycle'), 'bicycle')
 
 {% include endpython %}
+
+***
 
 **12. Write a function that removes all occurences of a string from another string.**
 
@@ -130,7 +136,9 @@ testEqual(remove_all('eggs', 'bicycle'), 'bicycle')
 
 {% include endpython %}
 
-**15. Here is something called an arrowhead curve. User 60 degrees.**
+***
+
+**15. Here is something called an arrowhead curve. Use 60 degrees.**
 
 
 {% include python %}
@@ -194,6 +202,8 @@ def main():
 main()
 
 {% include endpython %}
+
+***
 
 **16. Try the Peano-Gosper curve. Use 60 degrees.**
 
@@ -259,6 +269,9 @@ main()
 
 {% include endpython %}
 
+***
+***
+
 ## List Exercises
 
 **7. Write a function to count how many odd numbers are in a list.**
@@ -282,6 +295,8 @@ print(oddcount(numberlist))
 
 {% include endpython %}
 
+***
+
 **8. Sum up all the even numbers in a list.**
 
 {% include python %}
@@ -303,6 +318,7 @@ print(evensum(numberlist))
 
 {% include endpython %}
 
+***
 
 **9. Sum up all the negative numbers in a list.**
 
@@ -324,6 +340,8 @@ def negsum(numberlist):
 print(negsum(numberlist))
 
 {% include endpython %}
+
+***
 
 **14. Write a function ``` replace(s, old, new) ``` that replaces all occurences of ``` old ``` with ``` new ``` in a string ``` s ```:
 
@@ -356,6 +374,8 @@ testEqual(replace(s, 'om', 'am'), 'I love spam!  Spam is my favorite food.  Spam
 testEqual(replace(s, 'o', 'a'), 'I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum!')
 
 {% include endpython %}
+
+***
 
 ***15. Here are the rules for an L-system that creates something that resembles a common garden herb. Implement the following rules and try it. Use an angle of 25.7 degrees.***
 
@@ -429,6 +449,8 @@ main()
 
 {% include endpython %}
 
+***
+
 ***16. Here is another L-System. Use an Angle of 25.***
 
 {% include python %}
@@ -498,3 +520,5 @@ def main():
 main()
 
 {% include endpython %}
+
+***

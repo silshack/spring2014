@@ -343,7 +343,7 @@ print(negsum(numberlist))
 
 ***
 
-**14. Write a function ``` replace(s, old, new) ``` that replaces all occurences of ``` old ``` with ``` new ``` in a string ``` s ```:
+**14. Write a function ``` replace(s, old, new) ``` that replaces all occurences of ``` old ``` with ``` new ``` in a string ``` s ```:**
 
 {% include python %}
 

@@ -134,8 +134,6 @@ ee
 tarhls chrfully brd rie ls
 
 
-***
-
 
 ## Lists exercises
 

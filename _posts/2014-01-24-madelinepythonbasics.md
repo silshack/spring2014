@@ -1,7 +1,9 @@
+---
 layout: post
 author: Madeline Coven
 title: Madeline's Python Basics
 date: 2014-01-24
+---
 
 ## My Python Basics
 

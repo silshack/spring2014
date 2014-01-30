@@ -11,7 +11,7 @@ This week's exercises had me doing a lot of experimentation!  I definitely had t
 
 **6. Write a function that reverses its string argument.**
 
-{% include python %}
+```
 
 # import testEqual function from test library
 from test import testEqual
@@ -34,13 +34,13 @@ testEqual(reverse("happy"), "yppah")
 testEqual(reverse("Python"), "nohtyP")
 testEqual(reverse(""),"")
 
-{% include endpython %}
+```
 
 ***
 
 **7. Write a function that mirrors its argument.**
 
-{% include python %}
+```
 
 # import testEqual function from test library
 from test import testEqual
@@ -64,13 +64,13 @@ testEqual(mirror('Python'),'PythonnohtyP')
 testEqual(mirror(''), '')
 testEqual(mirror('a'),'aa')
 
-{% include endpython %}
+```
 
 ***
 
 **11. Write a function that removes the first occurrence of a string from another string.**
 
-{% include python %}
+```
 
 # import testEqual function from test library
 from test import testEqual
@@ -98,13 +98,13 @@ testEqual(remove('cyc', 'bicycle'), 'bile')
 testEqual(remove('iss', 'Mississippi'), 'Missippi')
 testEqual(remove('egg', 'bicycle'), 'bicycle')
 
-{% include endpython %}
+```
 
 ***
 
 **12. Write a function that removes all occurences of a string from another string.**
 
-{% include python %}
+```
 
 # import testEqual function from test library
 from test import testEqual
@@ -134,14 +134,13 @@ testEqual(remove_all('cyc', 'bicycle'), 'bile')
 testEqual(remove_all('iss', 'Mississippi'), 'Mippi')
 testEqual(remove_all('eggs', 'bicycle'), 'bicycle')
 
-{% include endpython %}
+```
 
 ***
 
 **15. Here is something called an arrowhead curve. Use 60 degrees.**
 
-
-{% include python %}
+```
 
 import turtle
 
@@ -201,13 +200,13 @@ def main():
 
 main()
 
-{% include endpython %}
+```
 
 ***
 
 **16. Try the Peano-Gosper curve. Use 60 degrees.**
 
-{% include python %}
+```
 
 import turtle
 
@@ -267,7 +266,7 @@ def main():
 
 main()
 
-{% include endpython %}
+```
 
 ***
 ***
@@ -276,7 +275,7 @@ main()
 
 **7. Write a function to count how many odd numbers are in a list.**
 
-{% include python %}
+```
 
 # define list of numbers
 numberlist = [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 16, 81]
@@ -293,13 +292,13 @@ def oddcount(numberlist):
 # print odd number count
 print(oddcount(numberlist))
 
-{% include endpython %}
+```
 
 ***
 
 **8. Sum up all the even numbers in a list.**
 
-{% include python %}
+```
 
 # define list of numbers
 numberlist = [0, 1, 3, 4, 5, 6, 7, 8, 10, 12]
@@ -316,7 +315,7 @@ def evensum(numberlist):
 # print sum of even numbers
 print(evensum(numberlist))
 
-{% include endpython %}
+```
 
 ***
 
@@ -339,13 +338,13 @@ def negsum(numberlist):
 # print sum of negative numbers
 print(negsum(numberlist))
 
-{% include endpython %}
+```
 
 ***
 
 **14. Write a function ``` replace(s, old, new) ``` that replaces all occurences of ``` old ``` with ``` new ``` in a string ``` s ```:**
 
-{% include python %}
+```
 
 # import testEqual
 from test import testEqual
@@ -373,11 +372,11 @@ s = 'I love spom!  Spom is my favorite food.  Spom, spom, spom, yum!'
 testEqual(replace(s, 'om', 'am'), 'I love spam!  Spam is my favorite food.  Spam, spam, spam, yum!')
 testEqual(replace(s, 'o', 'a'), 'I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum!')
 
-{% include endpython %}
+```
 
 ***
 
-***15. Here are the rules for an L-system that creates something that resembles a common garden herb. Implement the following rules and try it. Use an angle of 25.7 degrees.***
+**15. Here are the rules for an L-system that creates something that resembles a common garden herb. Implement the following rules and try it. Use an angle of 25.7 degrees.**
 
 {% include python %}
 
@@ -447,11 +446,11 @@ def main():
 
 main()
 
-{% include endpython %}
+```
 
 ***
 
-***16. Here is another L-System. Use an Angle of 25.***
+**16. Here is another L-System. Use an Angle of 25.**
 
 {% include python %}
 

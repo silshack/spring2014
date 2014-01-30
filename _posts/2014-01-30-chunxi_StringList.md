@@ -110,6 +110,7 @@ testEqual(remove_all('iss', 'Mississippi'), 'Mippi')
 testEqual(remove_all('eggs', 'bicycle'), 'bicycle')
 ```
 Output
+
 ```
 Pass
 Pass
@@ -137,9 +138,11 @@ for i in range(611):
 print(countOdd(test))
 ```
 output
+
 ```
 332
 ```
+
 *Sum up all the even numbers in a list.*
 
 ```
@@ -159,7 +162,9 @@ for i in range(100):
 print(sumEven(lst))
 
 ```
+
 output
+
 ```
 2396
 ```
@@ -183,8 +188,11 @@ print(sumNegative(lst))
 
 ```
 output
+
 ```
+
 -23563
+
 ```
 *Write a function replace(s, old, new) that replaces all occurences of old with new in a string s:*
 
@@ -204,6 +212,7 @@ testEqual(replace(s, 'o', 'a'),
        'I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum!') 
 ```
 output
+
 ```
 Pass
 Pass

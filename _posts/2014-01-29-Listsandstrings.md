@@ -1,7 +1,7 @@
 ---
-Layout: post
-Author: katielmeyer
-Date: Lists and Strings
+layout: post
+author: katielmeyer
+title: Lists and strings
 ---
 
 ## Strings exercises

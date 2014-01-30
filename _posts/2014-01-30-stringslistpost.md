@@ -4,9 +4,7 @@ author: slaffer
 title: Sophia's Strings and Lists Exercises
 ---
 
-These exercises confused me when we first started working through them, but going through the string exercise #6 in class helped me to 
-further understand how to define and build functions. 
-
+These exercises confused me at first because I was not experienced at building functions, but going through the string exercise #6 in class helped me to further understand how to define and build functions. The exercise that gave the most trouble was list exercise #14, although I pretty quickly figured out how to use the split and join methods using the examples in the chapter, I had a mistake that tripped me up where instead of referencing ```new_string``` when I was defining my ```final_string``` I was referencing ```s``` (the original string), which I had not performed the split method.
 
 ##Strings #6: Reverse Function
 ```
@@ -15,6 +13,9 @@ def reverse(astring):
     for i in xrange(len(astring) -1, -1, -1):
         bstring = bstring + astring[i]
     return bstring
+
+astring = "happy"
+print reverse(astring)
 
 testEqual(reverse("happy"), "yppah")
 testEqual(reverse("Python"), "nohtyP")
@@ -69,7 +70,7 @@ from test import testEqual
 def remove(substr,theStr):
     #locate the substring
     find_substr = theStr.find(substr)
-    if find_substr < 0: # returns original string if substring doesn't exist
+    if find_substr < 0: #returns original string if substring doesn't exist
         return theStr
     #builds new string without substring
     remove_substr = theStr[:find_substr] + theStr[find_substr + len(substr):]
@@ -162,5 +163,55 @@ print(sum_numbers([2,2,2,4,9]))
 10
 ```
 
+##List #9: Sum Negative Numbers
 
+```
+def neg_numbers(list):
+    neg_count = 0
+    for number in list:
+        #is it negative
+        if number < 0:
+            neg_count += number    #add up negative numbers
+            
+    return neg_count
+
+print(neg_numbers([-1,2,-9,4,9]))
+```
+
+**Output**
+```
+-10
+```
+
+##List #14: Replacing Old with New
+
+```
+def replace(s, old, new):
+    #splits string at old 
+    new_string = s.split(old)
+    #adds new occurences
+    glue = new
+    final_string = glue.join(new_string)
+    
+    return final_string
+
+print(replace('happy', 'p', 'P'))
+
+print(replace('Mississippi', 'i', 'I'), 'MIssIssIppI')
+
+s = 'I love spom!  Spom is my favorite food.  Spom, spom, spom, yum!'
+print(replace(s, 'om', 'am'),
+       'I love spam!  Spam is my favorite food.  Spam, spam, spam, yum!')
+
+print(replace(s, 'o', 'a'),
+       'I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum!')
+```
+
+**Output**
+```
+haPPy
+MIssIssIppI MIssIssIppI
+I love spam!  Spam is my favorite food.  Spam, spam, spam, yum! I love spam!  Spam is my favorite food.  Spam, spam, spam, yum!
+I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum! I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum!
+```
 

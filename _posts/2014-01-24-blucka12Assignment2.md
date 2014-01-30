@@ -6,7 +6,7 @@ title: Oak's Second Assignment
 
 ## Assignment 2
 
-*1 This is very likely inefficient, but it worked well for me and I will look forward to learning how to simplify it soon.
+#1 This is very likely inefficient, but it worked well for me and I will look forward to learning how to simplify it soon.
 
 ```
 a = "All"
@@ -22,7 +22,8 @@ j = "boy"
 print a, b, c, d, e, f, g, h, i, j
 ```
 
-*2
+#2
+
 ```
 miles = int(raw_input("How many miles did you drive?"))
 gallons = int(raw_input("How many gallons did it take to fill your tank?"))
@@ -31,7 +32,9 @@ mpg = miles/gallons
 
 print mpg
 ```
-*3
+
+#3
+
 ```
 Celcius = int(raw_input("Enter a temperature in Celcius: "))
 
@@ -39,7 +42,9 @@ Fahrenheit = Celcius * 9 / 5 + 32
 
 print "Temperature:", Celcius, "Celcius = ", Fahrenheit, " F"
 ```
-*4 
+
+#4 
+
 ```
 Fahrenheit = int(raw_input("Enter a temperature in Fahrenheit: "))
 
@@ -47,7 +52,9 @@ Celsius = (Fahrenheit - 32) * 5 / 9
 
 print "Temperature:", Fahrenheit, "Fahrenheit = ", Celsius, " C"
 ```
-*5
+
+#5
+
 ```
 question = raw_input("Do You Use Celcius (0), or Fahrenheit (1) ?")
 

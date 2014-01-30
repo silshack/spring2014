@@ -544,7 +544,7 @@ def main():
     t.down()
     t.speed(9)
     drawLsystem(t,inst,27.5,8)      #draw the picture
-                                  #angle 60, segment length 5
+                                  #angle 27.5, segment length 8
     wn.exitonclick()
 
 main()

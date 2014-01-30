@@ -7,9 +7,10 @@ date: 2014-01-30
 
 This week's exercises had me doing a lot of experimentation!  I definitely had to slow down and re-read the chapters and walk through the examples to get a good grasp on the strings and lists.  At times, it was quite helpful to put pencil to paper to sketch out the processes in order to figure out how to get the program working.  The best part of the exercises were the victory dances after finally getting the programs to work!
 
-One real issue I ran into was running the code for the L-Systems. At times, it would lock up my desktop or I got a ``` TimeLimitError: Program exceeded run time limit. on line ## ```.  I ended up reducing the number of iterations in the code and switching to my Mac, which seemed to be able to handle the program better.  Also, the text outputs were quite long for the L-Systems, so I provided only the image outputs.
+One real issue I ran into was running the code for the L-Systems. At times, it would lock up my desktop or I got a ``` TimeLimitError: Program exceeded run time limit. on line ## ```. I ended up reducing the number of iterations in the code and switching to my Mac, which seemed to be able to handle the program better.  Also, the text outputs were quite long for the L-Systems, so I provided only the image outputs.
 
 Otherwise, a fun project!
+
 
 ## String Exercises
 
@@ -40,7 +41,8 @@ testEqual(reverse(""),"")
 
 ```
 
-**Output:**
+**Output:** 
+(input string = "reverse my string")
 
 ```
 
@@ -81,7 +83,8 @@ testEqual(mirror('a'),'aa')
 
 ```
 
-**Output:**
+**Output:** 
+(input string = "mirror my string")
 
 ```
 
@@ -127,7 +130,8 @@ testEqual(remove('egg', 'bicycle'), 'bicycle')
 
 ```
 
-**Output:**
+**Output:** 
+(input string = "Hello", substring = "l")
 
 ```
 
@@ -176,6 +180,7 @@ testEqual(remove_all('eggs', 'bicycle'), 'bicycle')
 ```
 
 **Output:**
+(input string = "Remove all substrings from string, even if string has lots of those substrings", substring = "string")
 
 ```
 
@@ -354,6 +359,7 @@ print(oddcount(numberlist))
 ```
 
 **Output:**
+(input list = [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 16, 81])
 
 ```
 
@@ -385,6 +391,7 @@ print(evensum(numberlist))
 ```
 
 **Output:**
+(input list = [0, 1, 3, 4, 5, 6, 7, 8, 10, 12])
 
 ```
 
@@ -416,6 +423,7 @@ print(negsum(numberlist))
 ```
 
 **Output:**
+(input list = [-1, 3, -4, 5, 6, 7, -8, 10, 12])
 
 ```
 
@@ -458,6 +466,7 @@ testEqual(replace(s, 'o', 'a'), 'I lave spam!  Spam is my favarite faad.  Spam, 
 ```
 
 **Output:**
+(input string = "I love spom! Spom is my favorite food!", old string = "om", new string = "am")
 
 ```
 

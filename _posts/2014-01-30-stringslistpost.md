@@ -23,6 +23,7 @@ testEqual(reverse(""), "")
 ```
 
 **Output:**
+
 ```
 yppah
 Pass
@@ -54,6 +55,7 @@ testEqual(mirror('a'),'aa')
 ```
 
 **Output**
+
 ```
 happyyppah
 Pass
@@ -85,6 +87,7 @@ testEqual(remove('egg', 'bicycle'), 'bicycle')
 ```
 
 **Output**
+
 ```
 hay
 Pass
@@ -111,6 +114,7 @@ testEqual(remove_all('eggs', 'bicycle'), 'bicycle')
 ```
 
 **Output**
+
 ```
 Mippi
 Pass
@@ -138,6 +142,7 @@ print(count_odd([0,2,6]))
 ```
 
 **Output**
+
 ```
 3
 0
@@ -200,14 +205,12 @@ print(replace('happy', 'p', 'P'))
 print(replace('Mississippi', 'i', 'I'), 'MIssIssIppI')
 
 s = 'I love spom!  Spom is my favorite food.  Spom, spom, spom, yum!'
-print(replace(s, 'om', 'am'),
-       'I love spam!  Spam is my favorite food.  Spam, spam, spam, yum!')
-
-print(replace(s, 'o', 'a'),
-       'I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum!')
+print(replace(s, 'om', 'am'))
+print(replace(s, 'o', 'a'))
 ```
 
 **Output**
+
 ```
 haPPy
 MIssIssIppI MIssIssIppI

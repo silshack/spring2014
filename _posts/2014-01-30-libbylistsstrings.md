@@ -8,7 +8,6 @@ title: Lists and Strings exercises
 
 ###6.) Write a function that reverses its string argument.
 
-
 ``` 
 from test import testEqual
 
@@ -108,7 +107,6 @@ Pass
 
 ###12.) Write a function that removes all occurrences of a string from another string.
 
-
 ```
 from test import testEqual
 
@@ -171,11 +169,33 @@ Pass
 ###8.) Sum up all the even numbers in a list.
 
 ```
+from test import testEqual
+
+def sum_all_evens(lst):
+    # begin the sum as zero
+    even_sum = 0
+    for e in lst:
+        # if e is an even integer
+        if e % 2 == 0:
+            # update the sum as each even is encountered
+            even_sum = even_sum + e
+         
+    return even_sum
+
+# provides a visible example
+test_list = [6, 5, 4, 0 , -3]
+print(sum_all_evens(test_list))
+
+testEqual(sum_all_evens([4, -2, 3]), 2)
+testEqual(sum_all_evens([4, 2, 3]), 6)
 ```
 
 Output:
 
 ```
+10
+Pass
+Pass
 ```
 
 ###9.) Sum up all the negative numbers in a list.

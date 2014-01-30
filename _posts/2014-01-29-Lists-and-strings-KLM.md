@@ -102,16 +102,16 @@ ow
 
 ### #12
 <strong>Directions:</strong> Write a function that removes all occurrences of a string from another string.
+While I was working on this one I ended up causing several infinite loops... I had to shut down Chrome to get it to stop. Grant suggested creating a Python file in my Nitrous.IO IDE, where I could terminate a program from within the console (CTRL + C).
 
 ```
 def removeString(aString, bString):
         if len(aString) > 0 and len(bString) > 0: #prevent empty strings
             if bString in aString: # look for b in a
-                containsString = True
-                return_str = ''
+                containsString = True # create a boolean variable to check string
                 while containsString:
-                    index = aString.index(bString)
-                    aString = aString[:index] + aString[index+len(bString):]
+                    index = aString.index(bString) # get index of bString in aString
+                    aString = aString[:index] + aString[index+len(bString):] # set aString as aString - bString
                     if bString not in aString:
                     	return aString
                     	break
@@ -122,9 +122,17 @@ def removeString(aString, bString):
             return "Your strings can't be empty" #prevent empty strings
         
 aString = raw_input('Gimme a string, any string.').lower() #ask for strings
-bString = raw_input('Gimmie a string inside %s .' %aString).lower() #get rid of case
+bString = raw_input('Gimme a string inside %s .' %aString).lower() #get rid of case
 print removeString(aString, bString) #give modified string
 ```
+
+#### Sample input
+Tarheels cheerfully breed eerie eels
+ee
+
+#### Sample output
+tarhls chrfully brd rie ls
+
 
 ***
 
@@ -133,6 +141,7 @@ print removeString(aString, bString) #give modified string
 
 ### #7
 <strong>Directions:</strong> Write a function to count how many odd numbers are in a list.
+
 ```
 def countOdd(list):
     i = 0
@@ -147,6 +156,7 @@ print countOdd(list)
 ```
 
 #### Sample output
+
 ```
 3
 ```
@@ -154,22 +164,75 @@ print countOdd(list)
 ### #8
 <strong>Directions:</strong> Sum up all the even numbers in a list.
 
+```
+def sumEven(list):
+    i = 0
+    sum = 0
+    for number in list:
+        if number % 2 == 0:
+            sum += number
+            i += 1
+    return sum
+list = [2, 4, 5, 6, 7]
+print sumEven(list)
+```
+
+#### Sample output
+
+```
+12
+```
+
 ### #9
 <strong>Directions:</strong> Sum up all the negative numbers in a list.
+
+```
+def sumNeg(list):
+    i = 0
+    sum = 0
+    for number in list:
+        if number < 0:
+            sum += number
+            i += 1
+    return sum
+list = [2, -4, 5, -6, 7, -14]
+print sumNeg(list)
+```
+
+#### Sample output
+
+```
+24
+```
 
 ### #14
 <strong>Directions:</strong> Write a function replace(s, old, new) that replaces all occurences of old with new in a string s:
 Hint: use the split and join methods.
 
 ```
-test(replace('Mississippi', 'i', 'I'), 'MIssIssIppI')
+def replaceChar(astring, old, new):
+  if len(astring) > 0 or len(old) > 0 or len(new) > 0:
+    if old in astring:
+        astring = astring.split(old)
+        astring = new.join(astring)
+        return astring
+    else: 
+      return "%s isn't in %s" % (old, astring)
+  else:
+    return "Your strings can't be empty"
+
+
+print replaceChar('Mississippi', 'i', 'I')
 
 s = 'I love spom!  Spom is my favorite food.  Spom, spom, spom, yum!'
-test(replace(s, 'om', 'am'),
-       'I love spam!  Spam is my favorite food.  Spam, spam, spam, yum!')
-
-test(replace(s, 'o', 'a'),
-       'I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum!')
+print replaceChar(s, 'om', 'am')
+print replaceChar(s, 'o', 'a')
 ```
 
+#### Sample output
 
+```
+MIssIssIppI                                                                                                                                                                                       
+I love spam!  Spam is my favorite food.  Spam, spam, spam, yum!                                                                                                                                   
+I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum!    
+```

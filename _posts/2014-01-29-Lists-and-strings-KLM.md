@@ -1,7 +1,7 @@
 ---
 Layout: post
 Author: katielmeyer
-Date: Class Exercise - Lists & Strings
+Date: Lists and Strings
 ---
 
 ## Strings exercises

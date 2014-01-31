@@ -56,6 +56,14 @@ print(mirror('a'))
 
 ```
 
+*Output*
+```
+gooddoog
+PythonnohtyP
+.,..,.
+aa
+```
+
 **Probelm 11**
 
 *Write a function that removes the first occurrence of a string from another string.*
@@ -84,6 +92,14 @@ print(remove('egg', 'bicycle'))
 
 ```
 
+*Output*
+```
+bana
+bile
+Missippi
+bicycle
+```
+
 **Problem 12**
 
 *Write a function that removes all occurrences of a string from another string.*
@@ -101,12 +117,6 @@ def remove(substr,theStr):
     finalStr = theStr[:location] + theStr[location+len(substr):]
     return finalStr
 
-
-print(remove('an', 'banana'))
-print(remove('cyc', 'bicycle'))
-print(remove('iss', 'Mississippi'))
-print(remove('egg', 'bicycle'))
-
 def remove_all(substr,theStr):
     a = theStr
     while a:
@@ -120,6 +130,14 @@ print(remove_all('cyc', 'bicycle'))
 print(remove_all('iss', 'Mississippi'))
 print(remove_all('egg', 'bicycle'))
 
+```
+
+*Output*
+```
+ba
+bile
+Mippi
+bicycle
 ```
 
 ## Lists
@@ -180,6 +198,15 @@ print(sumNegative(num_list))
 
 ```
 
+*Output*
+(Although it's random each time)
+
+```
+489
+7116
+-241912
+```
+
 **Problem 14**
 
 *Write a function replace(s, old, new) that replaces all occurences of old with new in a string s*
@@ -204,6 +231,13 @@ print(replace(s, 'om', 'am'))
 
 print(replace(s, 'o', 'a'))
 
+```
+
+*Output*
+```
+MIssIssIppI
+I love spam!  Spam is my favorite food.  Spam, spam, spam, yum!
+I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum!
 ```
 
 

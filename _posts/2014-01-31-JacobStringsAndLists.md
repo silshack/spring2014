@@ -4,9 +4,9 @@ author: jacobthill
 title: Strings & Lists Exercises
 ---
 
-###Python String Exercises 
+#Python String Exercises 
 
-#String Exercise 6
+###String Exercise 6
 
 ```
 
@@ -18,7 +18,7 @@ print(reverse("chicken"), )
 
 ```
 
-#String Exercise 7
+###String Exercise 7
 
 ```
 
@@ -35,7 +35,7 @@ print(mirror("good"), )
 ```
 
 
-#String Exercise 11
+###String Exercise 11
 
 ```
 
@@ -50,7 +50,7 @@ print(remove('an', 'banana'), )
 	
 ```
 
-#String Exercise 12
+###String Exercise 12
 
 ```
 
@@ -61,9 +61,9 @@ print(' '.join([i for i in word_list if i not in remove_list]))
 	
 ```
 
-###Python List Exercises
+#Python List Exercises
 
-#List Exercise 7
+###List Exercise 7
 
 ```
 
@@ -81,7 +81,7 @@ print(odd_count([1,3,4,3,5,6,6,7,3,4]))
 	
 ```
 
-#List Exercise 8
+###List Exercise 8
 
 ```
 
@@ -98,7 +98,7 @@ print(even_sum([2,4,3,5,6,5,4,7]))
 	
 ```
 
-#List Exercise 9
+###List Exercise 9
 
 ```
 
@@ -115,7 +115,7 @@ print(neg_sum([2,3,1,4,5,6,4,8,9]))
 	
 ```
 
-#List Exercise 14
+###List Exercise 14
 
 ```
 

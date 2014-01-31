@@ -7,7 +7,7 @@ date: 2014-01-31
 
 Okay, well I'm done. Here are all of my posts. 
 
-###Strings
+#Strings
 
 ##Number 6
 
@@ -67,7 +67,7 @@ awesomeemosewa
 
 **Code**
 
-``
+```
 def remove(sub_string,the_string):
     index = the_string.index(sub_string)
     if index < 0: #if sub string isn't in the string it won't run
@@ -81,7 +81,7 @@ print(remove('an', 'banana'))
 print(remove('cyc', 'bicycle'))
 print(remove('iss', 'Mississippi'))
 print(remove('him', 'him I like him'))
-``
+```
 
 **Output**
 
@@ -117,7 +117,7 @@ my  chips
  salad
 ```
 
-###Lists
+#Lists
 
 ##Number 7 
 

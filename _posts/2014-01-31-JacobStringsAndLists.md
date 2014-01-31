@@ -8,44 +8,41 @@ title: Strings & Lists Exercises
 
 ##String Exercise 6
 
-```
-{% include python %}
-
-def reverse(astring):  # Extended splicing 
-	bstring = astring[::-1]
-	return bstring
-	
-print(reverse("chicken"), )
-
-{% include endpython %}
-```
-
-##String Exercise 7
-
-```
 {% include python %}
 
 def reverse(astring):
-    bstring = astring[::-1]
-    return bstring
+	bstring = astring[::-1]
+	return bstring
+
+print(reverse("chicken"), )
+
+{% include endpython %}
+
+##String Exercise 7
+
+{% include python %}
+
+def reverse(astring):
+	bstring = astring[::-1]
+	return bstring
 
 def mirror(astring):
-    bstring = astring[::-1]
-    return astring + bstring
-    
+	bstring = astring[::-1]
+	return astring + bstring
+	
 print(mirror("good"), )
 	
 {% include endpython %}
-```
+
 
 ##String Exercise 11
 
 {% include python %}
 
 def remove(sub_str, the_str):
-  find = the_str.find(sub_str)
-	if find < 0: # the string isn't found
-		return the_str
+	find = the_str.find(sub_str)
+		if find < 0: # the string isn't found
+			return the_str
 	return_str = the_str[:find] + the_str[find + len(sub_str):]
 	return return_str
 	

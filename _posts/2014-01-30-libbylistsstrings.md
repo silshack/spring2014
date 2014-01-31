@@ -4,7 +4,7 @@ author: libbby
 title: Lists and Strings exercises
 ---
 
-#Strings
+#Strings Exercises
 
 ###6.) Write a function that reverses its string argument.
 
@@ -30,20 +30,11 @@ testEqual(reverse(""),"")
 
 {% include endpython %}
 
-Output:
-
-```
-Here is your string, in reverse: nohtyP
-Tests:
-Pass
-Pass
-Pass
-```
-
 ###7.) Write a function that mirrors its argument.
 
 
-```
+{% include python %}
+
 from test import testEqual
 
 def mirror(input):
@@ -59,22 +50,13 @@ testEqual(mirror('good'),'gooddoog')
 testEqual(mirror('Python'),'PythonnohtyP')
 testEqual(mirror(''), '')
 testEqual(mirror('a'),'aa')
-```
 
-Output:
-
-```
-Here is your string, with its mirror: PythonnohtyP
-Tests:
-Pass
-Pass
-Pass
-Pass
-```
+{% include endpython %}
 
 ###11.) Write a function that removes the first occurrence of a string from another string.
 
-```
+{% include python %}
+
 from test import testEqual
 
 def remove(substr,the_str):
@@ -95,21 +77,13 @@ testEqual(remove('egg', 'bicycle'), 'bicycle')
 testEqual(remove('an', 'banana'),'bana')
 testEqual(remove('cyc', 'bicycle'), 'bile')
 testEqual(remove('iss', 'Mississippi'), 'Missippi')
-```
 
-Output:
-
-```
-bana
-Pass
-Pass
-Pass
-Pass
-```
+{% include endpython %}
 
 ###12.) Write a function that removes all occurrences of a string from another string.
 
-```
+{% include python %}
+
 from test import testEqual
 
 def remove_all(substr, the_str):
@@ -126,23 +100,16 @@ testEqual(remove_all('an', 'banana'), 'ba')
 testEqual(remove_all('cyc', 'bicycle'), 'bile')
 testEqual(remove_all('iss', 'Mississippi'), 'Mippi')
 testEqual(remove_all('eggs', 'bicycle'), 'bicycle')
-```
 
-Output:
+{% include endpython %}
 
-```
-ba
-Pass
-Pass
-Pass
-Pass
-```
 
-#Lists
+#Lists Exercises
 
 ###7.) Write a function to count how many odd numbers are in a list.
 
-```
+{% include python %}
+
 from test import testEqual
 
 def count_odd(list):
@@ -158,19 +125,13 @@ def count_odd(list):
 testEqual(count_odd([5, 1, 8]), 2)
 testEqual(count_odd([5, 1, 3]), 3)
 testEqual(count_odd([0, 8]), 0)
-```
 
-Output:
-
-```
-Pass
-Pass
-Pass
-```
+{% include endpython %}
 
 ###8.) Sum up all the even numbers in a list.
 
-```
+{% include python %}
+
 from test import testEqual
 
 def sum_all_evens(lst):
@@ -190,20 +151,13 @@ print(sum_all_evens(test_list))
 
 testEqual(sum_all_evens([4, -2, 3]), 2)
 testEqual(sum_all_evens([4, 2, 3]), 6)
-```
 
-Output:
-
-```
-10
-Pass
-Pass
-```
+{% include endpython %}
 
 ###9.) Sum up all the negative numbers in a list.
 
+{% include python %}
 
-```
 from test import testEqual
 
 def sum_all_negs(lst):
@@ -222,20 +176,13 @@ print(sum_all_negs(test_list))
 
 testEqual(sum_all_negs([0, -3, 4, 5]), -3)
 testEqual(sum_all_negs([-2, -4, 0, -1]), -7)
-```
 
-Output:
-
-```
--9
-Pass
-Pass
-
-```
+{% include endpython %}
 
 ###14.) Write a function replace(s, old, new) that replaces all occurences of old with new in a string s:
 
-```
+{% include python %}
+
 from test import testEqual
 
 def replace(s, old, new):
@@ -253,13 +200,6 @@ testEqual(replace(s, 'om', 'am'),
 
 testEqual(replace(s, 'o', 'a'),
        'I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum!')
-```
 
-Output:
+{% include endpython %}
 
-```
-MIssIssIppI
-Pass
-Pass
-Pass
-```

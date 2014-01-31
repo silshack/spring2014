@@ -4,11 +4,11 @@ author: jacobthill
 title: Strings & Lists Exercises
 ---
 
-#Python String Exercises 
+###Python String Exercises 
 
-##String Exercise 6
+#String Exercise 6
 
-{% include python %}
+```
 
 def reverse(astring):
 	bstring = astring[::-1]
@@ -16,11 +16,11 @@ def reverse(astring):
 
 print(reverse("chicken"), )
 
-{% include endpython %}
+```
 
-##String Exercise 7
+#String Exercise 7
 
-{% include python %}
+```
 
 def reverse(astring):
 	bstring = astring[::-1]
@@ -32,12 +32,12 @@ def mirror(astring):
 	
 print(mirror("good"), )
 	
-{% include endpython %}
+```
 
 
-##String Exercise 11
+#String Exercise 11
 
-{% include python %}
+```
 
 def remove(sub_str, the_str):
 	find = the_str.find(sub_str)
@@ -48,24 +48,24 @@ def remove(sub_str, the_str):
 	
 print(remove('an', 'banana'), )
 	
-{% include endpython %}
+```
 
-##String Exercise 12
+#String Exercise 12
 
-{% include python %}
+```
 
 sentence = "This is a practice sentence."
 remove_list = ['practice']
 word_list = sentence.split()
 print(' '.join([i for i in word_list if i not in remove_list]))
 	
-{% include endpython %}
+```
 
-#Python List Exercises
+###Python List Exercises
 
-##List Exercise 7
+#List Exercise 7
 
-{% include python %}
+```
 
 def odd_count(number):
 	# make a counting variable
@@ -79,11 +79,11 @@ def odd_count(number):
 
 print(odd_count([1,3,4,3,5,6,6,7,3,4]))
 	
-{% include endpython %}
+```
 
-##List Exercise 8
+#List Exercise 8
 
-{% include python %}
+```
 
 def even_sum(number):
 	# make a counting variable
@@ -96,11 +96,11 @@ def even_sum(number):
 	
 print(even_sum([2,4,3,5,6,5,4,7]))
 	
-{% include endpython %}
+```
 
-##List Exercise 9
+#List Exercise 9
 
-{% include python %}
+```
 
 def neg_sum(number):
 	# make a counting variable
@@ -113,11 +113,11 @@ def neg_sum(number):
 	
 print(neg_sum([2,3,1,4,5,6,4,8,9]))
 	
-{% include endpython %}
+```
 
-##List Exercise 14
+#List Exercise 14
 
-{% include python %}
+```
 
 def replace_word(a_text, old, new):
 	a_text = a_text.replace(old, new)
@@ -125,7 +125,7 @@ def replace_word(a_text, old, new):
 	
 print(replace_word("this is a test script.", "test", "working"))
 	
-{% include endpython %}
+```
 
 	
 

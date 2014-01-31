@@ -43,7 +43,7 @@ So i just wrote a very similar fuction except I had it return the original strin
 with the reverse string attached rather than just the reverse string.
 
 
-{% include python %}
+```
 
 def mirror(mystr):
     reverse = mystr[::-1]
@@ -54,7 +54,7 @@ print(mirror('Python'))
 print(mirror('.,.'))
 print(mirror('a'))
 
-{% include endpython %}
+```
 
 **Probelm 11**
 
@@ -66,7 +66,7 @@ the substring, it actually makes a new string that is the original string printe
 to the location of where the substring starts, and the original string printed from
 where the substring ended to the end of the string.
 
-{% include python %}
+```
 
 def remove(substr,theStr):
     location = theStr.find(substr)
@@ -82,7 +82,7 @@ print(remove('iss', 'Mississippi'))
 print(remove('egg', 'bicycle'))
 
 
-{% include endpython %}
+```
 
 **Problem 12**
 
@@ -92,7 +92,7 @@ After problem 11 this one was fairly easy. I just use the fuction from problem 1
 and have it run on a loop until it returns the same thing it did last time. Then I
 know it's removed the substring as much as it can and it will stop.
 
-{% include python %}
+```
 
 def remove(substr,theStr):
     location = theStr.find(substr)
@@ -120,7 +120,7 @@ print(remove_all('cyc', 'bicycle'))
 print(remove_all('iss', 'Mississippi'))
 print(remove_all('egg', 'bicycle'))
 
-{% include endpython %}
+```
 
 ## Lists
 
@@ -149,7 +149,7 @@ This was similar to my original sum even function, but instead of checking if th
 number was divisible by 2, it checked to see if the number was less than 0. If it 
 was then the function added it to the sum of negatives.
 
-{% include python %}
+```
 
 import random
 
@@ -178,7 +178,7 @@ print(count_odd_sum_even(num_list)[0])
 print(count_odd_sum_even(num_list)[1])
 print(sumNegative(num_list))
 
-{% include endpython %}
+```
 
 **Problem 14**
 
@@ -189,7 +189,7 @@ but then I realized that it was just way easier to us splits and joins to do thi
 problem. Which it was. It was super duper simple. It splits at every *old* indicator
 and then joins it with a *new*. So simple. 
 
-{% include python %}
+```
 
 def replace(thStr,old,new):
     strList=[]
@@ -204,7 +204,7 @@ print(replace(s, 'om', 'am'))
 
 print(replace(s, 'o', 'a'))
 
+```
 
-{% include endpython %}
 
 That's my stuff!

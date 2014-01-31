@@ -1,6 +1,7 @@
 ---
 layout: post
 author: julie
+title: Lists and Strings 
 ---
 
 For the Lists exercises

@@ -8,6 +8,7 @@ title: Strings & Lists Exercises
 
 ##String Exercise 6
 
+```
 {% include python %}
 
 def reverse(astring):  # Extended splicing 
@@ -17,9 +18,11 @@ def reverse(astring):  # Extended splicing
 print(reverse("chicken"), )
 
 {% include endpython %}
+```
 
 ##String Exercise 7
 
+```
 {% include python %}
 
 def reverse(astring):
@@ -33,6 +36,7 @@ def mirror(astring):
 print(mirror("good"), )
 	
 {% include endpython %}
+```
 
 ##String Exercise 11
 

@@ -8,7 +8,8 @@ title: Lists and Strings exercises
 
 ###6.) Write a function that reverses its string argument.
 
-``` 
+{% include python %}
+
 from test import testEqual
 
 def reverse(input):
@@ -26,7 +27,8 @@ print("Tests:")
 testEqual(reverse("happy"), "yppah")
 testEqual(reverse("Python"), "nohtyP")
 testEqual(reverse(""),"")
-```
+
+{% include endpython %}
 
 Output:
 

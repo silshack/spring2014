@@ -5,9 +5,9 @@ title: Lei Wang's String & List
 date: 2014-01-30
 ---
 
-by Lei Wang
 
-*String Exercise 6.WWrite a function that reverses its string argument..*
+
+**String Exercise 6.WWrite a function that reverses its string argument..**
 
 Inputs:
 
@@ -35,7 +35,8 @@ Pass
 Pass
 ```
 
-*String Exercise 7. Write a function that mirrors its argument.*
+
+**String Exercise 7. Write a function that mirrors its argument.**
 
 Inputs:
 
@@ -67,7 +68,8 @@ Pass
 Pass
 ```
 
-*String Exercise 11.Write a function that removes the first occurrence of a string from another string.*
+
+**String Exercise 11.Write a function that removes the first occurrence of a string from another string.**
 
 Inputs:
 
@@ -97,7 +99,9 @@ Pass
 Pass
 ```
 
-*String Exercise 12. Write a function that removes all occurrences of a string from another string.*
+
+
+**String Exercise 12. Write a function that removes all occurrences of a string from another string.**
 
 Inputs:
 
@@ -121,7 +125,9 @@ Pass
 Pass
 ```
 
-*String Exercise 7.Write a function to count how many odd numbers are in a list.*
+
+
+**String Exercise 7.Write a function to count how many odd numbers are in a list.**
 
 Inputs:
 
@@ -144,7 +150,9 @@ Outputs:
 number of odd numbber in list [1,3,5] is 3
 ```
 
-*String Exercise 8. Sum up all the even numbers in a list.*
+
+
+**String Exercise 8. Sum up all the even numbers in a list.**
 
 Inputs:
 
@@ -166,7 +174,9 @@ Outputs:
 sum of all the even numbers in list [2,4,5] is 6
 ```
 
-*String Exercise 9.Sum up all the negative numbers in a list.*
+
+
+**String Exercise 9.Sum up all the negative numbers in a list.**
 
 Inputs:
 
@@ -189,13 +199,13 @@ Outputs:
 sum of all the negative number in list [-2,-4,5] is -6
 ```
 
-*String Exercise 14.Write a function replace(s, old, new) that replaces all occurences of old with new in a string s:*
+
+
+**String Exercise 14.Write a function replace(s, old, new) that replaces all occurences of old with new in a string s:**
 
 Inputs:
 
 ```
-
-
 
 from test import testEqual
 def replace(s, old, new):
@@ -221,3 +231,4 @@ Pass
 Pass
 Pass
 ```
+

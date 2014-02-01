@@ -1,6 +1,6 @@
 ---
 layout: post
-author: jeremy
+author: jtbeeker
 title: jeremy's list and string exercise
 ---
 

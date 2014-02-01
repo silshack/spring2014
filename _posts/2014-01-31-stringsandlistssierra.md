@@ -1,13 +1,14 @@
 ---
 layout: post
 author: srmoore5
-title: String and List Sierra
+title: Sierra's String and List Exercises
 date: 2014-01-31
 ---
 
 Here are the string and list exercises.
 
 **Strings**
+
 
 6. Write a function that reverses its string argument.
 
@@ -25,7 +26,8 @@ testEqual(reverse("Lilly"), "ylliL")
 testEqual(reverse(""),"")
 ```
 
-7.Write a function that mirrors its argument.
+7. Write a function that mirrors its argument.
+
 ```
 from test import testEqual
 
@@ -47,6 +49,7 @@ testEqual(mirror('a'),'aa')
 
 
 11. Write a function that removes the first occurrence of a string from another string.
+
 ```
 from test import testEqual
 
@@ -64,6 +67,7 @@ testEqual(remove('egg', 'bicycle'), 'bicycle')
 ```
 
 12. Write a function that removes all occurrences of a string from another string.
+
 ```
 from test import testEqual
 
@@ -83,7 +87,9 @@ testEqual(remove('egg', 'bicycle'), 'bicycle')
 
 **Lists**
 
+
 7.Write a function to count how many odd numbers are in a list
+
 ```
 def odd_count(lemo):
     number = 0
@@ -96,6 +102,7 @@ print ( "odd # in (0,8,5,10,2)'s number is :", odd_count([0,8,5,10,2]))
 ```
 8. Sum up all of the even numbers in a list
 
+```
 def even_sum(list):
     sum = 0
     for i in list:
@@ -111,6 +118,7 @@ print ("even sum in 8 1 7 5 8:", even_sum([8,1,7,5,8]))
 
 
 9. Sum up all of the negative numbers in a list:
+
 ```
 
 def negative_sum(list):

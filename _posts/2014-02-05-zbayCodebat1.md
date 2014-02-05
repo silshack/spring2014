@@ -38,6 +38,7 @@ The conditions for 10:00 wakeup time are somewhat complex; it either needs to be
      
 3. Logic-1 > near_ten. My first test failed because I only checked whether num % 10 was less than or equal to 2. I quickly realized that greater than or equal to 8 was also valid for being within 2.
 ```
+
   def near_ten(num):
   x = num % 10
   if x <= 2 or x >= 8:

@@ -11,17 +11,17 @@ layout: post
 ![Warmup-1](http://www.unc.edu/~bmhayes/inls560/warmup.png)
 
 
-##Lists-1
+###Lists-1
 
 ![Lists-1](http://www.unc.edu/~bmhayes/inls560/lists.png)
 
 
-##Strings-1
+###Strings-1
 
 ![Strings-1](http://www.unc.edu/~bmhayes/inls560/strings.png)
 
 
-##Logic-1
+###Logic-1
 
 ![Logic-1](http://www.unc.edu/~bmhayes/inls560/logic.png)
 
@@ -50,6 +50,7 @@ def front_back(str):
         return str
     else:
         final_string = chars[len(str)-1]+temp_string+chars[0]
+        return final_string
 
 print front_back("code")
 print front_back("a")

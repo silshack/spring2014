@@ -45,6 +45,7 @@ Pass
 Pass
 Pass
 ```
+
 *Write a function that mirrors its argument.*
 
 ```
@@ -71,6 +72,7 @@ Pass
 Pass
 Pass
 ```
+
 *Write a function that removes the first occurrence of a string from another string.*
 
 ```
@@ -97,6 +99,7 @@ Pass
 Pass
 Pass
 ```
+
 *Write a function that removes all occurrences of a string from another string.*
 
 ```

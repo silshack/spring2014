@@ -1,0 +1,78 @@
+---
+layout: post
+author: chunxi
+title: Chunxi's COdingBat
+date: 2014-02-05
+---
+
+Post by Chunxi Zhang
+
+## Chunxi's CodingBat
+
+*Choose three exercise.*
+
+*1.List1-make pi*
+ *I feel this one is very interesting is because the code is quiet simple. I thought the problem would be harder. 
+ So I tried to define pi as the first step. In fact, you do not need to do that. Finally, I simply type*
+ ```
+ return [3,1,4]
+ ```
+ 
+ *2.Logic-1 > date_fashion*
+ *I made a mistake at first. The logic here is interesting. 
+ The original version is*
+ 
+  ```
+ def date_fashion(you, date):
+  if you>=8 or date>=8:
+   return 2
+  if you<=2 or date<=2:
+   return 0
+  else:
+   return 1
+  ```
+   
+   But is had problems. If you is greater than 8, your date is less than 2. It will return 2. What I expect is 0. Therefore, I changed the order.
+  
+  ```
+  def date_fashion(you, date):
+  if you<=2 or date<=2:
+   return 0
+  if you>=8 or date>=8:
+   return 2
+  
+  else:
+   return 1
+  ```
+  *3.Logic-1 > caught_speeding *
+  At the very beginning, I tried to devide into two parts. If it is my birthday or not. But I found out there were a lot to input. Most of them were same.
+  Therefore, I tried to simpify the code.
+ 
+ ```
+  def caught_speeding(speed, is_birthday):
+ gift = 0
+ if is_birthday==True:
+  gift = 5
+ if speed <= 60+gift:
+  return 0
+ elif speed >= 81+gift:
+  return 2
+ else:
+  return 1
+ ```
+ *warmup1*
+ ![Image](http://l.yimg.com/g/images/spaceout.gif)
+ 
+ *string1*
+ ![Image](http://l.yimg.com/g/images/spaceout.gif)
+ 
+ *list1*
+ ![Image](http://l.yimg.com/g/images/spaceout.gif)
+ 
+ *logic1*
+ ![Image](http://l.yimg.com/g/images/spaceout.gif)
+ 
+ 
+  
+  
+  

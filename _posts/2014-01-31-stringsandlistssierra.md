@@ -26,6 +26,13 @@ testEqual(reverse("Lilly"), "ylliL")
 testEqual(reverse(""),"")
 ```
 
+result:
+```
+Pass
+Pass
+Pass
+```
+
 7 Write a function that mirrors its argument.
 
 ```
@@ -46,7 +53,13 @@ testEqual(mirror(''), '')
 testEqual(mirror('a'),'aa')
 
 ```
-
+result:
+```
+Pass
+Pass
+Pass
+Pass
+```
 
 11 Write a function that removes the first occurrence of a string from another string.
 
@@ -65,7 +78,13 @@ testEqual(remove('cyc', 'bicycle'), 'bile')
 testEqual(remove('iss', 'Mississippi'), 'Missippi')
 testEqual(remove('egg', 'bicycle'), 'bicycle')
 ```
-
+result:
+```
+Pass
+Pass
+Pass
+Pass
+```
 12 Write a function that removes all occurrences of a string from another string.
 
 ```
@@ -84,6 +103,13 @@ testEqual(remove('iss', 'Mississippi'), 'Missippi')
 testEqual(remove('egg', 'bicycle'), 'bicycle')
 
 ```
+result:
+```
+Pass
+Pass
+Pass
+Pass
+```
 
 **Lists**
 
@@ -100,6 +126,10 @@ def odd_count(lemo):
 print ( "odd # in (0,8,5,10,2)'s number is :", odd_count([0,8,5,10,2]))
 
 ```
+result:
+```
+("odd # in (0,8,5,10,2)'s number is :", 0)
+```
 8 Sum up all of the even numbers in a list
 
 ```
@@ -113,7 +143,10 @@ def even_sum(list):
 print ("even sum in 8 1 7 5 8:", even_sum([8,1,7,5,8]))
 
 ```
-
+result:
+```
+('even sum in 8 1 7 5 8:', 16)
+```
 
 
 
@@ -131,7 +164,10 @@ def negative_sum(list):
 print ("negative sum in -10 -7 3 23 60:", negative_sum([-10,-7,3,23,60]))
 
 ```
-
+result:
+```
+('negative sum in -10 -7 3 23 60:', -17)
+```
 
 
 
@@ -152,5 +188,15 @@ testEqual(replace(s, 'om', 'am'),
        'I love spam!  Spam is my favorite food.  Spam, spam, spam, yum!')
 
 testEqual(replace(s, 'o', 'a'),
-       'I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum!')
+
+       'I love spam!  Spam is my favarite faad.  Spam, spam, spam, yum!')
+       
+```
+result:
+```
+
+Pass
+Pass
+Pass
+       
 ```

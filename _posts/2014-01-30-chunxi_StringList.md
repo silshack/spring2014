@@ -22,7 +22,9 @@ testEqual(reverse("happy"), "yppah")
 testEqual(reverse("Python"), "nohtyP")
 testEqual(reverse(""),"")
 ```
+
 another input
+
 ```
 from test import testEqual
 

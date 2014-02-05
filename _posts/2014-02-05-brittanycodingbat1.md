@@ -37,18 +37,18 @@ def front_back(str):
     chars = list(str)
     index = 0
     temp_string = ''
-    while index < len(str):
-        if (index > 0) and (index < len(str)-1):
-            temp_string = temp_string + chars[index]
-            #print temp_string
-            index = index + 1
-            #print index
-        else:
-            index = index + 1
-            #print index
-    if len(str)-1 == 0:
+    if len(str) <= 1:
         return str
     else:
+        while index < len(str):
+            if (index > 0) and (index < len(str)-1):
+                temp_string = temp_string + chars[index]
+                #print temp_string
+                index = index + 1
+                #print index
+            else:
+                index = index + 1
+                #print index
         final_string = chars[len(str)-1]+temp_string+chars[0]
         return final_string
 
@@ -56,7 +56,10 @@ print front_back("code")
 print front_back("a")
 print front_back("ab")
 print front_back("abc")
+print front_back("")
 print front_back("Chocolate")
+print front_back("aavJ")
+print front_back("hello")
 
 {% include endpython %}
 

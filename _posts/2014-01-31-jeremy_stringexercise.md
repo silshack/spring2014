@@ -177,7 +177,9 @@ even sum in 2 3 6 9 2
 ## list ex 9
 
 Input:
+
 ```
+
 def negative_sum(list):
     sum = 0
     for i in list:

@@ -5,7 +5,7 @@ title: Zach's Codebat 1 Exercises
 date: 2014-02-05
 ---
 
-Finished the first bat of Codebat problems. <a src = http://imgur.com/a/3vNEv#0>Here are my screenshots as proof</a>. Note that they are in ALBUM form on imgur.
+Finished the first bat of Codebat problems. [Here are my screenshots as proof.](http://imgur.com/a/3vNEv#0) Note that they are in ALBUM form on imgur.
 
 
 It was smooth sailing for the most part. Here are a few that made me think for a minute.

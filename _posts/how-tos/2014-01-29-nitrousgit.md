@@ -28,6 +28,8 @@ Now we need to set up git so we can talk to Github
 
 ### Don't type the `$` symbol. That just means we're typing it into the Linux Terminal
 
+If you haven't done this already, do the following:
+
 ```bash  
 $ git config --global user.email "your@email.com"
 $ git config --global user.name "Your Name"

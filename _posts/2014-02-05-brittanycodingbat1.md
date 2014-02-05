@@ -4,7 +4,7 @@ title: Brittany's Codingbat Exercises - Level 1
 layout: post
 ---
 
-#Screenshots
+##Screenshots
 
 ###Warmup-1
 
@@ -26,9 +26,9 @@ layout: post
 ![Logic-1](http://www.unc.edu/~bmhayes/inls560/logic.png)
 
 
-#Three Interesting/Challenging Exercises
+##Three Interesting/Challenging Exercises
 
-##Warmup-1: front_back(str)
+###Warmup-1: front_back(str)
 I tend to overcomplicate things when I code, which was certainly the case here. However, this exercise remains baffling for me because, while my initial code doesn't run the way I expect it to on codingbat, it does seem to run in the console on the class website. I still can't figure out wherein lies the problem -- whether it's my code or the way codingbat interprets it...
 
 {% include python %} 
@@ -73,7 +73,7 @@ def front_back(str):
         return new_string
 ```
 
-##String-1: make_out_word(out, word)
+###String-1: make_out_word(out, word)
 
 I found this problem a bit challenging. I tried to write it so that the function could be as general as possible. I decided to create an array containing all the out argument characters, then loop through them. When I got to the halfway point, I added the word argument to that string (as well as appending the next out array character); after this, the loop would continue until all out array characters had been used. When I first ran it, I noticed that the final character was getting left off (so, it would print <<hi> instead of <<hi>>). I realized this was because at the midpoint, I initially wasn't adding that 3rd character in the array along with the word argument. After fixing this, it ran as expected. Using the console on the class site was useful in testing this (as well as all of the other exercises I struggled with) because it was easier for me to run the code and add additional print statements to see what it was actually doing in order to figure out where my logic was failing.
 
@@ -97,7 +97,7 @@ def make_out_word(out, word):
     return new_word
 ```
 
-##Logic-1: date_fashion(you, date)
+###Logic-1: date_fashion(you, date)
 This was a quick and easy exercise, but my first time running it resulted in some unexpected error instances. My first version is as follows:
 
 ```

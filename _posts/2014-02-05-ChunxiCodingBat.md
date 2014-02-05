@@ -1,7 +1,7 @@
 ---
 layout: post
 author: chunxi
-title: Chunxi's COdingBat
+title: Chunxi's CodingBat
 date: 2014-02-05
 ---
 

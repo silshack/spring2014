@@ -40,6 +40,7 @@ testEqual(reverse("Python"), "nohtyP")
 testEqual(reverse(""),"")
 ```
 same output
+
 ```
 Pass
 Pass
@@ -66,6 +67,7 @@ testEqual(mirror(''), '')
 testEqual(mirror('a'),'aa')
 ```
 output
+
 ```
 Pass
 Pass

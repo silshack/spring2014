@@ -50,20 +50,19 @@ Post by Chunxi Zhang
   
   *3.Logic-1 > caught_speeding *
  
-  At the very beginning, I tried to devide into two parts. If it is my birthday or not. But I found out there were a lot to input. Most of them were same.
-  Therefore, I tried to simpify the code.
+  At the very beginning, I tried to devide into two parts. If it is my birthday or not. Then consider the speed. But I found out there were a lot to input. Most of them were same.Therefore, I tried to simpify the code. To make the code shorter. I define "boon", if it is not the birthday, it will be 0.
  
  ```
-  def caught_speeding(speed, is_birthday):
- gift = 0
- if is_birthday==True:
-  gift = 5
- if speed <= 60+gift:
-  return 0
- elif speed >= 81+gift:
-  return 2
+def caught_speeding(speed, is_birthday):
+ boon = 0
+ if is_birthday == True:
+   boon = 5
+ if speed <= 60+boon:
+   return 0
+ elif speed >= 81+boon:
+   return 2
  else:
-  return 1
+   return 1
  ```
  
  *Pictures*

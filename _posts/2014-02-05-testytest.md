@@ -1,5 +1,5 @@
 ---
-author: leiw
+author: lei
 title: A very cool title for a test post
 layout: post
 ---

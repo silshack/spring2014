@@ -29,15 +29,14 @@ layout: post
 ##Three Interesting/Challenging Exercises
 
 ###Warmup-1: front_back(str)
-I tend to overcomplicate things when I code, which was certainly the case here. However, this exercise remains baffling for me because, while my initial code doesn't run the way I expect it to on codingbat, it does seem to run in the console on the class website. I still can't figure out wherein lies the problem -- whether it's my code or the way codingbat interprets it...
+I tend to overcomplicate things when I code, which was certainly the case here. However, this exercise left me baffled for a while because, while my initial code didn't run the way I expected it to on codingbat, it did seem to run in the console on the class website. [As I wrote/published this post, I realized that my problem was that one of the boundary cases that I didn't test on the class console was causing an 'index out of range' error--the empty string case. After modifying the 5th line, the code works on codingbat, yay!]
 
 {% include python %} 
-
 def front_back(str):
     chars = list(str)
     index = 0
     temp_string = ''
-    if len(str) <= 1:
+    if len(str) <= 1:  ##initially had if len(str) == 1, which causes error for blank str
         return str
     else:
         while index < len(str):
@@ -63,7 +62,7 @@ print front_back("hello")
 
 {% include endpython %}
 
-When this didn't work, I decided to just move on; however, I noticed that the next question (front3()) was very similar--and I approached it similarly, which, again, didn't work on codingbat. This time I decided to just go ahead and look at that sample solution for inspiration, which made me realize how unneccessarily hard I was making the problem. It could still be more succinct, but below is the final function I wrote for front_back(str):
+When this didn't work, I decided to just move on; however, I noticed that the next question (front3()) was very similar--and I approached it similarly, which, again, didn't work when I tried to run it on codingbat. This time I decided to just go ahead and look at that sample solution for inspiration, which made me realize how unneccessarily hard I was making the problem. It could still be more succinct, but below is the final function I wrote for front_back(str):
 
 ```
 def front_back(str):

@@ -6,9 +6,9 @@ title: Mandy's Coding Bat Adventure
 
 ##My Three Exercises
 
-Python List-1 : Common_end
+I am slowly building more confidence with lists and strings and I really found these exercises to be helpful. I guess you could say I had quite a few 'aha' moments. 
 
-I am slowly building more confidence with lists and strings and I really found this exercise to be helpful for me. I guess you could say I had an 'aha' moment. 
+Python List-1 : Common_end
 
 The problem: *Given 2 arrays of ints, a and b, return True if they have the same first element or they have the same last element. Both arrays will be length 1 or more.* 
 

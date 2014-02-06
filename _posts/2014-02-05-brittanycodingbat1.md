@@ -29,7 +29,7 @@ layout: post
 ##Three Interesting/Challenging Exercises
 
 ###Warmup-1: front_back(str)
-I tend to overcomplicate things when I code, which was certainly the case here. However, this exercise left me baffled for a while because, while my initial code didn't run the way I expected it to on codingbat, it did seem to run in the console on the class website. [As I wrote/published this post, I realized that my problem was that one of the boundary cases that I didn't test on the class console was causing an 'index out of range' error--the empty string case. After modifying the 5th line, the code works on codingbat, yay!]
+I tend to overcomplicate things when I code, which was certainly the case here. However, this exercise left me baffled for a while because, while my initial code didn't run the way I expected it to on codingbat, it did seem to run in the console on the class website. [As I wrote/published this post, I realized that my problem was that one of the boundary cases that I didn't test on the class console was causing an 'index out of range' error when the codingbat tests were run--the empty string case. After modifying the 5th line, the code works on codingbat, yay!]
 
 {% include python %} 
 def front_back(str):

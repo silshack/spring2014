@@ -39,9 +39,9 @@ def date_fashion(you, date):
 
 **3. Logic: alarm_clock**
 
-*Given a day of the week encoded as 0=Sun, 1=Mon, 2=Tue, ...6=Sat, and a boolean indicating if we are on vacation, return a string of the form "7:00" indicating when the alarm clock should ring. Weekdays, the alarm should be "7:00" and on the weekend it should be "10:00". Unless we are on vacation -- then on weekdays it should be "10:00" and weekends it should be "off". *
+*Given a day of the week encoded as 0=Sun, 1=Mon, 2=Tue, ...6=Sat, and a boolean indicating if we are on vacation, return a string of the form "7:00" indicating when the alarm clock should ring. Weekdays, the alarm should be "7:00" and on the weekend it should be "10:00". Unless we are on vacation -- then on weekdays it should be "10:00" and weekends it should be "off".*
 
-This exercise took me by far the longest and I probably should have taken Elliot's advice and walked away from it for a little while. I kept getting one incorrect test for (6, False) and didn't understand what was wrong. I finaly realized I had the following mistake: ```elif vacation == True and day == 0 or day == 6:```. I thought this meant if you are on vacation and it is either Sunday or Saturday return "off." However, Python was seeing ```or day == 6``` as a standalone statement so anytime it saw ```day == 6``` it returned "off." Once I changed it to ```elif vacation == True and (day == 0 or day == 6):``` it worked. This showed me how careful you need to be about and/or statements and order of operations.
+This exercise took me by far the longest and I probably should have taken Elliot's advice and walked away from it for a little while. I kept getting one incorrect test for (6, False) and didn't understand what was wrong. I finaly realized I had the following mistake:```elif vacation == True and day == 0 or day == 6:```. I thought this meant if you are on vacation and it is either Sunday or Saturday return "off." However, Python was seeing ```or day == 6``` as a standalone statement so anytime it saw ```day == 6``` it returned "off." Once I changed it to ```elif vacation == True and (day == 0 or day == 6):``` it worked. This showed me how careful you need to be about and/or statements and order of operations.
 
 ```
 def alarm_clock(day, vacation):
@@ -54,6 +54,7 @@ def alarm_clock(day, vacation):
   else:
     return "10:00"
 ```
+
 
 ##Screenshots of Checkmarks
 

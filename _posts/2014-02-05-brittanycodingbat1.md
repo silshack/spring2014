@@ -101,6 +101,7 @@ def make_out_word(out, word):
 
 
 [ahem, and again if I didn't overcomplicate things, I could've done something like the following]:
+
 ```
 def make_out_word(out, word):
     out_front = out[0: len(out)/2]

@@ -99,6 +99,16 @@ def make_out_word(out, word):
     return new_word
 ```
 
+
+[ahem, and again if I didn't overcomplicate things, I could've done something like the following]:
+```
+def make_out_word(out, word):
+    out_front = out[0: len(out)/2]
+    out_back = out[(len(out)/2):(len(out))]
+    new_word = out_front + word + out_back
+    return new_word
+```
+
 ###Logic-1: date_fashion(you, date)
 This was a quick and easy exercise, but my first time running it resulted in some unexpected error instances. My first version is as follows:
 

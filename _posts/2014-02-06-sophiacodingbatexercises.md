@@ -1,7 +1,7 @@
 ---
 layout: post
 author: slaffer
-title: Sophia's CodingBat Marathon
+title: Sophia's CodingBat Marathon Part 1
 ---
 
 ##Three Interesting/Frustrating Exercises

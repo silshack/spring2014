@@ -1,4 +1,3 @@
-
 ---
 
 layout: post
@@ -10,35 +9,35 @@ date: 2014-02-06
 
 ## Screenshot-warm-up 1
 
-```
+
 
 ![warmup picture]( http://www.unc.edu/~sunhwa/560/warmup-1.PNG)
 
-```
+
 
 ## Screenshot-string 1
 
-```
+
 
 ![string picture]( http://www.unc.edu/~sunhwa/560/string-1.PNG)
 
-```
+
 
 ## Screenshot-list 1
 
-```
+
 
 ![list picture]( http://www.unc.edu/~sunhwa/560/list-1.PNG)
 
-```
+
 
 ## Screenshot-logic 1
 
-```
+
 
 ![logic picture]( http://www.unc.edu/~sunhwa/560/logic-1.PNG)
 
-```
+
 
 ## 1st exercise that I liked-
 

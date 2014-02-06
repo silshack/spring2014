@@ -65,6 +65,8 @@ def near_ten(num):
     
 ```
 
+Overall, I found these exercises to be useful if only for the repetition, which helped me to build my vocabulary and understanding of Python. Some of these problems definitely took much longer than others and it does help to step back and take a break. I also find that it helps me to read the problem out loud and to write down the main requirements of each problem. I'm definitely feeling more confident in my Python abilities now. 
+
 ##Screenshots
 
 Warm Up 1

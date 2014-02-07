@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Blucka12
+author: blucka12
 title: Codingbat Exercise Was Helpful!
 ---
 

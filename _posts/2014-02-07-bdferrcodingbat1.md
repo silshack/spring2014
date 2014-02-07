@@ -7,7 +7,6 @@ title : First CodingBat Post by Bdferr
 Here are the screenshots of my successes on CodingBat. I realize I was only required to do the sections 
 with "1" in their names, but I figured since I had time, I might was well do as much as I could.
 
-```
 ![Warmup-1 image] (http://i.imgur.com/rljboyc.png)
 
 ![List-1 image] (http://i.imgur.com/zajSo89.png)
@@ -21,19 +20,14 @@ with "1" in their names, but I figured since I had time, I might was well do as 
 ![Logic-2 image](http://i.imgur.com/fxqcvPP.png)
 
 ![String-2 image](http://i.imgur.com/p5Dhx4y.png)
-```
 
 In the List-2 section, I could not quite finish the sum67 problem, so after quite a bit of time working on it,
 I am leaving it for now. As you can see, I did get it to partially work, and I did get the other problems
 in that section done.
 
-```
-
 ![List-2 image] (http://i.imgur.com/PyRVMk5.png)
 
 ![Sum67 image] (http://i.imgur.com/2KLaTod.png)
-
-```
 
 The sum67 problem was particularly maddening, of course. The goal was to remove every item 
 in a string from a 6 to the next 7, and sum the results (the sum was easy enough). 

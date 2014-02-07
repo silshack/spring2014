@@ -5,7 +5,7 @@ title : First CodingBat Post by Bdferr
 ---
 
 Here are the screenshots of my successes on CodingBat. I realize I was only required to do the sections 
-with "1" in their names, but I figured since I had time, I might was well do as much as I could.
+with "1" in their names, but I figured since I had time, I might as well do as much as I could.
 
 ![Warmup-1 image] (http://i.imgur.com/rljboyc.png)
 

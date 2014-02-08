@@ -68,7 +68,7 @@ def alarm_clock(day, vacation):
 
 # The Screenshots
 Here are my screenshots:
-![Warmup-1 screenshot] (http://www.unc.edu/~meliving/inls560/warmup_screen.png)
-![Lists-1 screenshot] (http://www.unc.edu/~meliving/inls560/list_screen.png)
-![Logic-1 screenshot] (http://www.unc.edu/~meliving/inls560/logic_screen.png)
-![Strings-1 screenshot] (http://www.unc.edu/~meliving/inls560/string_screen.png)
+![Warmup-1 screenshot] (http://i972.photobucket.com/albums/ae206/fluffbrain/INLS560/warmup_screen.png)
+![Lists-1 screenshot] (http://i972.photobucket.com/albums/ae206/fluffbrain/INLS560/list_screen.png)
+![Logic-1 screenshot] (http://i972.photobucket.com/albums/ae206/fluffbrain/INLS560/logic_screen.png)
+![Strings-1 screenshot] (http://i972.photobucket.com/albums/ae206/fluffbrain/INLS560/string_screen.png)

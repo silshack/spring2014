@@ -1,6 +1,6 @@
 ```  
 </textarea>
-<br /><button>Run</button>
-<p>Output: (<a href="#" id="clearoutput">clear</a>)</p>
-<pre id="edoutput">Press Run to see the output of the code above</pre>
-<canvas id="mycanvas" height="400" width="400" style="border-style: solid; display: none"></canvas>
+<br /><button id='btn{{include.id}}'>Run</button>
+<p>Output: (<a href="#" id="clearoutput{{include.id}}">clear</a>)</p>
+<pre id="edoutput{{include.id}}">Press Run to see the output of the code above</pre>
+<canvas id="mycanvas{{include.id}}" height="400" width="400" style="border-style: solid; display: none"></canvas>

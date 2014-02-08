@@ -1,10 +1,6 @@
 <script type="text/javascript">
-loadCSS("{{ site.baseurl}}/css/codemirror.css");
-loadCSS("{{ site.baseurl}}/css/monokai.css");
-loadJS("{{ site.baseurl}}/js/codemirrorepl.js");
-loadJS("{{ site.baseurl}}/js/python.js");
-loadJS("{{ site.baseurl}}/js/editor.js");
+idmods.push('{{include.id}}')
 </script>
-<textarea id='code' rows="12" cols="80">
+<textarea id='code{{include.id}}' rows="12" cols="80">
 
 ```

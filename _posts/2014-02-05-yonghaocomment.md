@@ -30,7 +30,7 @@ It works!! Yeaaaaah!
 
 
 
-**Warmup 1 pos_neg*
+**Warmup 1 pos_neg**
 
 Just a simple idea: I use multiply to judge if a and b are negative. Since if a*b<0, then one is negative and one is not.
 

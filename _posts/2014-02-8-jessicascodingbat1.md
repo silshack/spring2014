@@ -71,6 +71,7 @@ Don't speed, even if it is your birthday!
 Truthfully, I just enjoyed this one because the thought of squirrels smoking cigars at a party was so silly it made me laugh. Writing the python for it was pretty simple, as it only required a simple if/else statement (There is very likely a more concise way, but I'm not sure). 
 
 My code was:
+
 ```
 def cigar_party(cigars, is_weekend):
     if is_weekend:

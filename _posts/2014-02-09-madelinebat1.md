@@ -6,11 +6,11 @@ title: My First Codingbat Exercise
 ## Screenshots
 ![](http://i.imgur.com/eyrrucP.png)
 
-! {http://i.imgur.com/lWiA2Uu.png}
+![](http://i.imgur.com/lWiA2Uu.png)
 
-! {http://i.imgur.com/pLqlWjx.png}
+![](http://i.imgur.com/pLqlWjx.png)
 
-! {http://i.imgur.com/g6xLxUp.png}
+![](http://i.imgur.com/g6xLxUp.png)
 
 ## Code I Found Interesting
 

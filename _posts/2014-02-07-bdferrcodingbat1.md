@@ -7,9 +7,9 @@ title : First CodingBat Post by Bdferr
 Here are the screenshots of my successes on CodingBat. I realize I was only required to do the sections 
 with "1" in their names, but I figured since I had time, I might as well do as much as I could.
 
-![Warmup-1 image] (http://i.imgur.com/rljboyc.png)
+![Warmup-1 image](http://i.imgur.com/rljboyc.png)
 
-![List-1 image] (http://i.imgur.com/zajSo89.png)
+![List-1 image](http://i.imgur.com/zajSo89.png)
 
 ![Logic-1 image](http://i.imgur.com/WDzcLZZ.png)
 
@@ -25,58 +25,91 @@ In the List-2 section, I could not quite finish the sum67 problem, so after quit
 I am leaving it for now. As you can see, I did get it to partially work, and I did get the other problems
 in that section done.
 
-![List-2 image] (http://i.imgur.com/PyRVMk5.png)
+![List-2 image](http://i.imgur.com/PyRVMk5.png)
 
-![Sum67 image] (http://i.imgur.com/2KLaTod.png)
+![Sum67 image](http://i.imgur.com/2KLaTod.png)
 
-The sum67 problem was particularly maddening, of course. The goal was to remove every item 
-in a string from a 6 to the next 7, and sum the results (the sum was easy enough). 
-I had two different versions of it, each of which passed 8 tests but failed the rest. 
-Both produce lists of the index positions of the 6s and 7s, and use them for iterative string concatenation. 
-My latest efforts to improve either of them resulted in either no change or error messages. 
-I suspect there is something fundamental which I am missing here.
+The near_ten problem was one that I did not get entirely right on the first try.  Unfortunately “if num % 10 <= 2: return true” can only identify a distance of 2 or less from 10 in one direction. This is because 12 % 10 is 2 but 18 % 10 is 8; the modulus function can only identify the difference between the dividend and a smaller number, not (at least not directly) between the dividend and next largest multiple of the divisor. For my code I added “elif num % 10 == 9 or num % 10 == 8: return True”, which works in this case because the tests applied by CodingBat will only use integers. If floats were involved, I would have written “elif num % 10 >= 8: return True”, which in fact would work for the current situation just as well. My current code looks like this, then:
 
-My first version manages to identify the 6s and 7s, but does not seem to recognize
-the space between them; i.e. in a list like [6, 7, 8, 6, 7] it would return zero, where it should
-return 8. It also does not recognize when the 7s are superfluous, i.e. in [9,6,7,7] it would give me
-9 rather than 16.
+```
+def near_ten(num):
+  if num < 0:
+    return "Error!"
+  elif num % 10 <= 2:
+    return True
+  elif num % 10 == 9 or num % 10 == 8:
+    return True
+  else:
+    return False
+```
 
-I made a second version in response to these problems, but it does not entirely solve them.
-The details might be too complicated to fully explain in this post. Basically, though,
-I want to (and apparently don't) have a function which can run two simultaneous for loops on two separate lists.
-For example, if I have a list called lista [a, b, c, d] and a list called listb [w, x, y, z], I want my code 
-to generate the slices [a:w], [b:x], [c:y], and [d:z]. I know the slicing is a separate function,
-but I need to be able to conection a with w, then b with x, and so on.
-Nesting one for loop inside another is what I attempted in my first version, but it does not 
-seem to quite do the same thing. Instead I believe it generates [a:w], [a:x], [a:y], 
-a:z], and then [b:w], [b:x], and so on. This explains why what is removed includes what I did not
-want to remove, when it is between two strings which I actually did want to remove. 
-I attempted several approximations but still can't seem to quite get this double loop function.
+If I were to expand this function so that the numbers 10 and 2 could be replaced by any number the user chose, the code would look like this:
 
-This problem showed me that there are things I do not understand in programming,
-even while I seem to understand all the relevant elements for that problem.
+```
 
-I am sure everyone else will be saying the same thing,
-but I honestly do agree with the founder of CodingBat that the MakeBricks problem
-is particularly interesting. I initially attempted it using loops,
-and got errors attempting a nested for loop. More importantly, though,
-I noticed I was advised to do it without any iteration at all, which I found baffling.
+def near_num(dividend, divisor, distance):
+  if num < 0:
+    return “Error!”
+  elif dividend % divisor <= distance:
+    return True
+  elif dividend % divisor >= (divisor - distance):
+    return True
+  else:
+    return False
 
-I restrained myself from watching the full video explaining it, and simply proceeded
-based on the hint that I should use the modulus operator. After numerous attempts,
-I realized that simply applying the modulus to the number 5 was not always appropriate.
-If the goal divided by 5 was larger than the number of large bricks available, the result
-would be misleading; if the number of small bricks was sufficient to cover the remainder,
-it would give the false impression that the goal could be met. I found the use of the modulus
-to completely replace iteration very interesting.
+```
 
-I also enjoyed a similar problem, in which there was a goal number of kilos
-of chocolate. One problem was that the instructions were not exactly clear, though. The line
-"Return the number of small bars to use, assuming we always use big bars before small bars"
-was particularly misleading. What they actually wanted, based on the test results,
-was not that the big bars should all be used before beginning with the small bars,
-and one test result showed that what they wanted was even farther removed than that:
-“make_chocolate(4, 1, 4)” expects an answer of 4, when this clearly requires using no big bars at all.
-Possibly they forgot to say that big bars can be omitted when the goal is less than 5.
-Regardless, I was able to solve this with similar curious applications of the modulus operator
-to what I did in the Make Bricks problem.
+The "caught_speeding" problem was interesting to me because I found that I could specify two sets of conditions (in this case based on whether it is allegedly the user’s birthday) using a simple variable which would be added whether or not “is_birthday” was true. If “is_birthday” is not true, the variable is simply zero. I had not thought of this before this problem as an alternative to a more complex set of “and” and “not” operators. 
+
+```
+
+def caught_speeding(speed, is_birthday):
+ if is_birthday:
+   bonus = 5
+ else:
+   bonus = 0
+ if speed <= (60 + bonus):
+   ticket = 0
+ elif speed >= (61 + bonus) and speed <= (80 + bonus):
+   ticket = 1
+ elif speed >= (81 + bonus):
+   ticket = 2
+ else:
+   return "Error!"
+ return ticket
+
+```
+
+Considering what I just wrote about the "caught_speeding" problem, I realize I could have done the "squirrel_play" problem along similar lines. What I actually did was this:
+
+```
+
+def squirrel_play(temp, is_summer):
+  if is_summer:
+    if temp >= 60 and temp <= 100:
+      return True
+    else:
+      return False
+  elif temp >= 60 and temp <= 90:
+    return True
+  else:
+    return False
+
+```
+
+If, instead, I wanted to make a variable out of whether it was summer, I could have done this:
+
+```
+
+def squirrel_play(temp, is_summer):
+  if is_summer:
+    extramax_temp = 10
+  else:
+    extramax_temp = 0
+  if temp >= 60 and temp <= 90 + extramax_temp:
+    return True
+  else:
+    return False
+
+```
+

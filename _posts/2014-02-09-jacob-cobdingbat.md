@@ -4,12 +4,12 @@ author: jacobthill
 title: Coding Bat Exercises 1
 ---
 
-```
+
 There weren't any specific exercises that I really liked above the others. I enjoyed all of them, but 
 I liked the Strings and Logic sections most. I think the Lists section was the hardest for me 
 and also the most useful. I was clear that I needed to review this material more than some of the other
 material we've covered. 
-```
+
 
 
 # Codingbat Screenshots

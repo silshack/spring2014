@@ -9,12 +9,12 @@ Post by Chunxi Zhang
 
 ## Chunxi's CodingBat
 
-*Choose three exercise.*
+**Choose three exercise.**
 
 *1.List1-make pi*
 
- *I feel this one is very interesting is because the code is quiet simple. I thought the problem would be harder. 
- So I tried to define pi as the first step. In fact, you do not need to do that. Finally, I simply type*
+ I feel this one is very interesting is because the code is quiet simple. I thought the problem would be harder. 
+ So I tried to define pi as the first step. In fact, you do not need to do that. Finally, I simply type
  
  ```
  return [3,1,4]
@@ -22,8 +22,8 @@ Post by Chunxi Zhang
  
  *2.Logic-1 > date_fashion*
  
- *I made a mistake at first. The logic here is interesting. 
- The original version is*
+ I made a mistake at first. The logic here is interesting. 
+ The original version is:
  
   ```
  def date_fashion(you, date):
@@ -65,7 +65,7 @@ def caught_speeding(speed, is_birthday):
    return 1
  ```
  
- *Pictures*
+ **Pictures**
  
  *warmup1*
  

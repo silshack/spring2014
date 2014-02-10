@@ -13,7 +13,7 @@ Warm-up, strings, logic
 
 
 Lists
-![list](http://farm8.staticflickr.com7332/12423677925_ecfcc93d96_b.jpg)
+![list](http://www.flickr.com/photos/114755180@N03/12423677925/)
 
 
 

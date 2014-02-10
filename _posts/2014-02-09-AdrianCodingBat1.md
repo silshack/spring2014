@@ -60,7 +60,7 @@ def rotate_left3(nums):
 
 I learned a lot from this one about how to condense my code. You can see my code first followed by CodingBat's solution, which is a lot more "Pythonic" and showed me that you don't have to explicitly return True or False.
 
-**Code*
+**Code**
 
 ```
 def pos_neg(a, b, negative):

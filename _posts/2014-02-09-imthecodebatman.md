@@ -44,10 +44,10 @@ def front_back(str):
 
 here are the screenshots of the completed exercises. 
 
-![Imgur](http://i.imgur.com/tsKMc0q)
-![Imgur](http://i.imgur.com/kv2J8k2)
-![Imgur](http://i.imgur.com/34RlZmC)
-![Imgur](http://i.imgur.com/imiaUdT)
+![Imgur](http://i.imgur.com/imiaUdT.png)
+![Imgur](http://i.imgur.com/tsKMc0q.png)
+![Imgur](http://i.imgur.com/kv2J8k2.png)
+![Imgur](http://i.imgur.com/34RlZmC.png)
 
 ##Reflection
 

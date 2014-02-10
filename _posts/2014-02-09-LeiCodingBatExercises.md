@@ -26,6 +26,6 @@ date: 2014-02-09
 # The Screenshots
 Here are my screenshots:
 ![Warmup-1 screenshot] (http://www.unc.edu/~leiw/images/python/warmup1.jpg)
-![Lists-1 screenshot] ()
-![Logic-1 screenshot] ()
-![Strings-1 screenshot] ()
+![Lists-1 screenshot] (http://www.unc.edu/~leiw/images/python/list1.jpg)
+![Logic-1 screenshot] (http://www.unc.edu/~leiw/images/python/logic1.jpg)
+![Strings-1 screenshot] (http://www.unc.edu/~leiw/images/python/string1.jpg)

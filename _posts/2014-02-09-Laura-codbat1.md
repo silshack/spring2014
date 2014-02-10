@@ -5,7 +5,7 @@ title: CodeBat1
 ---
 
 #Screen Shots
-![Screenshot](https://docs.google.com/file/d/0B2bpk2fOZ4DiMU9tRElOV2hVM2M/edit "codBat.png")
+![Screenshot](http://i889.photobucket.com/albums/ac92/Lasher09/codBat1_zps7e90ed5d.png "codBat.png")
 
 ##Interesting
 List-1 > has23

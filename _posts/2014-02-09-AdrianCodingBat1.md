@@ -4,17 +4,26 @@ title: "Adrian's CodingBat Exercises Part 1"
 layout: post
 date: 2014-02-09
 ---
+
 ##Screenshots
+
 **Warmup 1**
+
 ![warmup1](http://i.imgur.com/v0raUP8.png)
+
 **List 1**
+
 ![list1](http://i.imgur.com/b6uyT3t.png)
+
 **String 1**
+
 ![string1](http://i.imgur.com/WWyYtw9.png)
+
 **Logic 1**
+
 ![logic1](http://i.imgur.com/aSWCeZp.png)
----
----
+
+
 ##Exercises
 **1. String 1: extra_end**
 

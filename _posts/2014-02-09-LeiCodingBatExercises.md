@@ -7,7 +7,7 @@ date: 2014-02-09
 
 # The Exercises
 
-** 1. The first one I liked is the Warm up exercise called front3. I found it can be simply coded as following. Even if the string is less than 3, the function also runs as normal. If using other programming languages, it might show error.  **
+** 1. The first one I liked is the Warm up exercise called front3. I found it can be simply coded as following. Even if the string is less than 3, the function also runs as normal. If using other programming languages, it might show error.**
 
 ```
 def front3(str):
@@ -22,7 +22,11 @@ def has23(nums):
     return True
   return False
 ```
+
+
 ** However, in Python, we can use 'in' which make the script much more brief and neat.** 
+
+
 ```
 def has23(nums):
  if 2 in nums or 3 in nums:
@@ -48,7 +52,9 @@ def caught_speeding(speed, is_birthday):
       return 1
     return 2
 ```
+
 **However, the following method is a lot more convenient and neater.**
+
 
 ```
 def caught_speeding(speed, is_birthday):

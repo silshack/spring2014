@@ -193,6 +193,7 @@ testEqual(replace(s, 'o', 'a'),
        
 ```
 result:
+
 ```
 
 Pass

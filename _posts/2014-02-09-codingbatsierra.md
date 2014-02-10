@@ -16,18 +16,18 @@ Lists
 ![list](http://farm8.staticflickr.com/7332/12423677925_ecfcc93d96.jpg)
 
 
-
-
-
 Favorite exercises:
 
 String-1 Withoutend
+
 ```
 def without_end(str):
   return str[1:-1]
   
 ```
+
 List-1 Has23
+
 ```
 def has23(nums):
   
@@ -42,6 +42,7 @@ def has23(nums):
 ```
 
 Logic-1 Sorta sum
+
 ```
 
 def sorta_sum(a, b):
@@ -50,4 +51,5 @@ def sorta_sum(a, b):
    return 20
  else:
    return total
+
 ```   

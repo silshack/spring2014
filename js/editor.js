@@ -87,5 +87,30 @@ $(document).ready(function () {
   };
   for(var i=0,len=idmods.length; i<len; i++){
       main(idmods[i])
-    }
+    };
+  $('[class*=language]').each(function() {
+    
+    var $this = $(this),
+        $code = $this.html(),
+        $unescaped = $('<div/>').html($code).text();
+    var lang = $this.attr('data-lang');
+    if(lang==="text"){
+      lang = "python"
+    };
+    console.log($unescaped.substr(0,$unescaped.length-1));
+    $this.empty();
+
+    CodeMirror(this, {
+        value: $unescaped.substr(0,$unescaped.length-1),
+        mode: lang,
+        lineNumbers: !$this.is('.inline'),
+        readOnly: true,
+        theme: "xq-light",
+        textWrapping: false,
+        indentUnit: 4,
+        height: "160px",
+        fontSize: "9pt"
+    });
+    
+  });
 });

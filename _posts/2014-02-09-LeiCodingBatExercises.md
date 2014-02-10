@@ -7,14 +7,14 @@ date: 2014-02-09
 
 # The Exercises
 
-** 1. The first one I liked is the Warm up exercise called front3. I found it can be simply coded as following. Even if the string is less than 3, the function also runs as normal. If using other programming languages, it might show error.**
+**1. The first one I liked is the Warm up exercise called front3. I found it can be simply coded as following. Even if the string is less than 3, the function also runs as normal. If using other programming languages, it might show error.**
 
 ```
 def front3(str):
   return str[:3]*3
 ```
 
-** 2. The second one I liked is the list exercise called has23. By this exercise, I found python is an excellent programming language again! In other languages, it might be complicatedly coded as fowolling. **
+**2. The second one I liked is the list exercise called has23. By this exercise, I found python is an excellent programming language again! In other languages, it might be complicatedly coded as fowolling.**
 
 ```
 def has23(nums):
@@ -24,7 +24,7 @@ def has23(nums):
 ```
 
 
-** However, in Python, we can use 'in' which make the script much more brief and neat.** 
+**However, in Python, we can use 'in' which make the script much more brief and neat.** 
 
 
 ```
@@ -35,7 +35,7 @@ def has23(nums):
 
 ```
 
-**3. The third on I liked is the logic exercise called caught_speeding. By this exercise, I found that sometimes we can think out of the box so that ideas from different aspects can help a lot to find the optimum solution. **
+**3. The third on I liked is the logic exercise called caught_speeding. By this exercise, I found that sometimes we can think out of the box so that ideas from different aspects can help a lot to find the optimum solution.**
 
 ```
 def caught_speeding(speed, is_birthday):

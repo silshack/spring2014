@@ -8,12 +8,12 @@ date: 02/09/14
 Screenshots:
 
 Warm-up, strings, logic
-![codingbat](http://farm3.staticflickr.com2821/12423854643_987626bcd8_b.jpg)
+![codingbat](http://farm3.staticflickr.com/2821/12423854643_987626bcd8.jpg)
 
 
 
 Lists
-![list](http://www.flickr.com/photos/114755180@N03/12423677925/)
+![list](http://farm8.staticflickr.com/7332/12423677925_ecfcc93d96.jpg)
 
 
 

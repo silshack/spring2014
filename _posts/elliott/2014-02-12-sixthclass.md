@@ -2,6 +2,7 @@
 layout: post
 author: elliott
 title: Sixth class notes
+published: false
 ---
 
 ## Announcements

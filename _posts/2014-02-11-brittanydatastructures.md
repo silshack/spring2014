@@ -36,7 +36,7 @@ def stringManipulation(file):
 ###Exercise 2
 *Modify your program from the previous exercise to read the book you downloaded, skip over the header information at the beginning of the file, and process the rest of the words as before.*
 
-This was a bit harder, because I wasn't sure how much of the header to remove (or even where the header ended and the book began). I decided to just go with all the text occurring after the * * * START OF THIS PROJECT GUTENBERG EBOOK.... * * * This still includes some text that probably isn't desirable, but I wasn't sure what other pattern I could use to let the program know that the text was beginning. Rest of the code was almost identical to prior exercise.
+This was a bit harder, because I wasn't sure how much of the header to remove (or even where the header ended and the book began). I decided to just go with all the text occurring after the * * * START OF THIS PROJECT GUTENBERG EBOOK.... * * * [text surrounded by three asterisks -- the asterisk character isn't escaping so this is showing up as bold...]. This still includes some text that probably isn't desirable, but I wasn't sure what other pattern I could use to let the program know that the text was beginning. Rest of the code was almost identical to prior exercise.
 Since the next step was to come up with word counts, I decided to use this function like a map function in a map-reduce problem. I added a 1 to each string, so that in the next step the totals could be easily calculated. Along the same lines, I also had to figure out how to sort the text, which was probably the most difficult part of this problem for me.
 
 
@@ -170,7 +170,6 @@ def stringManipulation(file):
     for line in file.readlines():
         cleanedLine = line.strip()
         words = cleanedLine.split()
-        #modifiedWords = []
         for word in words:
             word = word.translate(string.maketrans("",""), string.punctuation).lower()
             modifiedWords = modifiedWords + [word]

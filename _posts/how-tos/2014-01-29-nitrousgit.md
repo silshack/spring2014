@@ -26,27 +26,25 @@ In front of you is a full-fledge linux/unix terminal with all the power therein.
 
 Now we need to set up git so we can talk to Github
 
-### Don't type the `$` symbol. That just means we're typing it into the Linux Terminal
-
 If you haven't done this already, do the following:
 
 ```bash  
-$ git config --global user.email "your@email.com"
-$ git config --global user.name "Your Name"
-$ git config --global core.editor nano
-$ git config --global color.ui true
+git config --global user.email "your@email.com"
+git config --global user.name "Your Name"
+git config --global core.editor nano
+git config --global color.ui true
 ```
 
 Now we can get our fork of the SilsHack Site:
 
 ```bash  
-$ git clone https://github.com/[githubusername]/spring2014.git 
+git clone https://github.com/[githubusername]/spring2014.git 
 ```  
 
 If we want to render it though, we need to install Jekyll
 
 ```bash  
-$ gem install github-pages
+gem install github-pages
 ```
 
 And wait for it to finish.
@@ -54,8 +52,8 @@ And wait for it to finish.
 Now if you Change Directory (cd) to the spring 2014 directory we can test to see that the site works properly
 
 ```bash
-$ cd spring2014
-$ jekyll serve
+cd spring2014
+jekyll serve
 ```
 
 Now, go to **Preview** -> **Port 4000** and add **/spring2014/** to the end of the URL.
@@ -66,8 +64,8 @@ Now, suppose you've made some changes to the site and want to push them up to yo
 
 We need to check and see what's up in our local git repository, and what files we need to add by running
 
-```
-$ git status
+```bash
+ git status
 ```
 
 Next, we need to make a commit. Do the following in the spring2014 directory
@@ -75,9 +73,9 @@ Next, we need to make a commit. Do the following in the spring2014 directory
 
 
 ```bash
-$ git add _posts/date-newpost.md #This makes sure Git knows the post exists
-$ git commit -m "A Commit Message, be descriptive"
-$ git push origin gh-pages
+ git add _posts/date-newpost.md #This makes sure Git knows the post exists
+ git commit -m "A Commit Message, be descriptive"
+ git push origin gh-pages
 ```
 
 And now, if you check your **Github** and you should see the changes you made.

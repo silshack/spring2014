@@ -4,13 +4,13 @@ title: Brittany's Data Structures Exercises
 layout: post
 ---
 
-Below is my code for each of the four data structures exercises
+##Below is my code for each of the four data structures exercises
 
 
-#Exercise 1
+###Exercise 1
 
 *Write a program that reads a file, breaks each line into words, strips whitespace and punctuation from the words, and converts them to lowercase.*
-This one wasn't too hard. The main thing I had a bit of difficulty figuring out was how to strip punctuation from the string. After a bit of googling, I came across a [stackoverflow question](http://stackoverflow.com/questions/265960/best-way-to-strip-punctuation-from-a-string-in-python) that addressed this issue
+This one wasn't too bad. The main thing I had a bit of difficulty figuring out was how to strip punctuation from the string. After a bit of googling, I came across a [stackoverflow question](http://stackoverflow.com/questions/265960/best-way-to-strip-punctuation-from-a-string-in-python) that addressed this issue
 
 ```
 #!/usr/bin/python
@@ -32,9 +32,9 @@ def stringManipulation(file):
 ```
 
 
-#Exercise 2
+###Exercise 2
 *Modify your program from the previous exercise to read the book you downloaded, skip over the header information at the beginning of the file, and process the rest of the words as before.*
-This was a bit harder, because I wasn't sure how much of the header to remove (or even where the header ended and the book began). I decided to just go with all the text occurring after the ***START OF THIS PROJECT GUTENBERG EBOOK...***. This still includes some text that probably isn't desirable, but I wasn't sure what other pattern I could use to let the program know that the text was beginning. Rest of the code was almost identical to prior exercise.
+This was a bit harder, because I wasn't sure how much of the header to remove (or even where the header ended and the book began). I decided to just go with all the text occurring after the \*\*\*START OF THIS PROJECT GUTENBERG EBOOK...\*\*\*. This still includes some text that probably isn't desirable, but I wasn't sure what other pattern I could use to let the program know that the text was beginning. Rest of the code was almost identical to prior exercise.
 Since the next step was to come up with word counts, I decided to use this function like a map function in a map-reduce problem. I added a 1 to each string, so that in the next step the totals could be easily calculated. Along the same lines, I also had to figure out how to sort the text, which was probably the most difficult part of this problem for me.
 
 
@@ -68,7 +68,7 @@ def stringManipulationPG(file):
     return 'output.txt' 
 ```
 
-#Exercise 3
+###Exercise 3
 *Modify the program from the previous exercise to print the 20 most frequently-used words in the book.*
 I took an Intro to Big Data class last semester, so we did some basic programming for things like this. I first modified some code for a reducer, which I used to reduced a file output through the previous exercise's function. After that, I wrote a second function that sorted the results, getting the top 20 frequency counts. Then it found the first 20 words that had those frequency counts. The most troublesome part of this exercise for me was again the sorting, as well as getting my loops right so that the output wouldn't include multiple instances of the same value.
 
@@ -116,7 +116,7 @@ def printTopWords(file):
                     print element               
 ```
 
-#Exercise 4
+###Exercise 4
 
 *Modify the previous program to read a word list (see Section 9.1) and then print all the words in the book that are not in the word list. How many of them are typos? How many of them are common words that should be in the word list, and how many of them are really obscure?*
 My main issue here was figuring out the logic of the loops that I included at the end of the code. The nested for-loops, figuring out if I needed to break out of them, etc was tricky. I tried breaking at different spots, triggering the boolean at different points, etc and running to see what my output was. I tested in this way until the output was what I expected. I also found the need for two files (the 'dictionary' and whatever input used) to be a bit difficult. I assumed that the [words.txt file](http://thinkpython.com/code/words.txt) was something already on the user's machine, but perhaps I should have just included it as an argument of the function. Figuring out how to use file inputs was one of the big things I didn't know how to do before all of these exercises that I had to do a bit of searching to figure out. I was used to using sys.stdin() and issuing command line statements like 'cat file.txt | python program.py > output.txt'.
@@ -149,7 +149,7 @@ def checkForWords(file):
 ```
 
 
-#FULL PROGRAM WITH EXAMPLE COMMANDS
+##FULL PROGRAM WITH EXAMPLE COMMANDS
 (I'll put a console in my post, but I don't think it will run. I had to work on this from the terminal, because I didn't know how to pass in files from my machine or the web as inputs, and I think it didn't like the import statements for some reason.)
 
 {% include python %}

@@ -18,9 +18,13 @@ This one wasn't too bad. The main thing I had a bit of difficulty figuring out w
 import sys
 import string
 
-#Tokenizes a set of text into each word, removing punctuation and making lowercase
-#returns an array with all instances of words
 def stringManipulation(file):
+
+'''
+Tokenizes a set of text into each word, removing punctuation and making lowercase
+Returns an array with all instances of words
+'''
+
     file = open(file)
     modifiedWords = []    #variable used to store all of the stripped tokens
     for line in file.readlines():
@@ -79,7 +83,13 @@ I took an Intro to Big Data class last semester, so we did some basic programmin
 ```
 
 def reducer(file):
-'''Reduces the file produced by stringManipulationPG.py, returning a single total for each token. Returns output in plain text file, 'output.txt'. Code recycled from INLS690: Intro to Big Data & NoSQL, Erik Scott (modified delimeter from "\t" to ",")'''
+
+'''
+Reduces the file produced by stringManipulationPG.py, returning a single total for each token. 
+Returns output in plain text file, 'output.txt'. 
+Code recycled from INLS690: Intro to Big Data & NoSQL, Erik Scott (modified delimeter from "\t" to ",")
+'''
+
     output = ''
     (last_key, sum_val) = (None, 0)
     file = open(file)
@@ -98,7 +108,11 @@ def reducer(file):
     return 'output.txt'
     
 def printTopWords(file):
-'''Finds top 20 most frequently occurring terms in a file. Input file expected to come from reducer.py output. Returns output in plain text file, 'output.txt' '''
+
+'''
+Finds top 20 most frequently occurring terms in a file. 
+Input file expected to come from reducer.py output. Returns output in plain text file, 'output.txt' 
+'''
     fullArray = []
     numArray = []
     file = open(file)
@@ -125,7 +139,12 @@ My main issue here was figuring out the logic of the loops that I included at th
 ```
 
 def checkForWords(file):
-'''Compares words in an input document file to a master word list, 'words.txt'. Prints words that are not present'''
+
+'''
+Compares words in an input document file to a master word list, 'words.txt'. 
+Prints words that are not present
+'''
+
     file = open(file)
     allWords = open('words.txt')
     dictionary = [line.rstrip('\r\n') for line in allWords] #modified code found here: http://stackoverflow.com/questions/14535619/remove-line-break-from-each-element-in-python
@@ -161,7 +180,12 @@ import string
 
 
 def stringManipulation(file):
-'''Tokenizes a set of text into each word, removing punctuation and making lowercase. Returns an array with all instances of words'''
+
+'''
+Tokenizes a set of text into each word, removing punctuation and making lowercase. 
+Returns an array with all instances of words
+'''
+
     file = open(file)
     modifiedWords = []
     for line in file.readlines():
@@ -174,7 +198,13 @@ def stringManipulation(file):
 
 
 def stringManipulationPG(file):
-'''Goes to the beginning of a Project Gutenberg book and tokenizes text into words, removing punctuation and making lowercase. Returns a list of 'word,value' pairs for each instance of a token output to the file 'output.txt'. Sorts list in preparation for reducing step'''
+
+'''
+Goes to the beginning of a Project Gutenberg book and tokenizes text into words, removing punctuation and making lowercase. 
+Returns a list of 'word,value' pairs for each instance of a token output to the file 'output.txt'. 
+Sorts list in preparation for reducing step
+'''
+
     startBook = False
     totalWords = 0
     fullArray = []
@@ -203,7 +233,13 @@ def stringManipulationPG(file):
 
 
 def reducer(file):
-'''Reduces the file produced by stringManipulationPG.py, returning a single total for each token. Returns output in plain text file, 'output.txt'. Code recycled from INLS690: Intro to Big Data & NoSQL (modified delimeter from "\t" to ",")'''
+
+'''
+Reduces the file produced by stringManipulationPG.py, returning a single total for each token. 
+Returns output in plain text file, 'output.txt'. 
+Code recycled from INLS690: Intro to Big Data & NoSQL (modified delimeter from "\t" to ",")
+'''
+
     output = ''
     (last_key, sum_val) = (None, 0)
     file = open(file)
@@ -222,7 +258,12 @@ def reducer(file):
     return 'output.txt'
 
 def printTopWords(file): 
-'''Finds top 20 most frequently occurring terms in a file. Input file expected to come from reducer.py output. Returns output in plain text file, 'output.txt'. '''
+
+'''
+Finds top 20 most frequently occurring terms in a file. 
+Input file expected to come from reducer.py output. Returns output in plain text file, 'output.txt'. 
+'''
+
     fullArray = []
     numArray = []
     lowest = 0
@@ -243,7 +284,12 @@ def printTopWords(file):
                     print element
 
 def checkForWords(file):
-'''Compares words in an input document file to a master word list, 'words.txt'. Prints words that are not present'''
+
+'''
+Compares words in an input document file to a master word list, 'words.txt'. 
+Prints words that are not present
+'''
+
     file = open(file)
     allWords = open('words.txt')
     dictionary = [line.rstrip('\r\n') for line in allWords] #modified code found here: http://stackoverflow.com/questions/14535619/remove-line-break-from-each-element-in-python
@@ -267,7 +313,11 @@ def checkForWords(file):
                     break
 
 def readFile(file):
-'''used to print output files'''
+
+'''
+used to print output files
+'''
+
     file = open(file)
     for line in file.readlines():
         line = line.strip()

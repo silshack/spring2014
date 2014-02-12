@@ -7,14 +7,14 @@ date: 2014-02-12
 
 ---
 
-## Screenshot-warm-up 1
+## Screenshot-warm-up 2
 
 
 
 ![warmup picture]( http://www.unc.edu/~sunhwa/560/warmup-2.PNG)
 
 
-## Screenshot-string 1
+## Screenshot-string 2
 
 
 
@@ -22,7 +22,7 @@ date: 2014-02-12
 
 
 
-## Screenshot-list 1
+## Screenshot-list 2
 
 
 
@@ -30,7 +30,7 @@ date: 2014-02-12
 
 
 
-## Screenshot-logic 1
+## Screenshot-logic 2
 
 
 

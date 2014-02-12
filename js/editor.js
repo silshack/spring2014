@@ -115,7 +115,8 @@ $(document).ready(function () {
             textWrapping: false,
             indentUnit: 4,
             height: "160px",
-            fontSize: "9pt"
+            fontSize: "9pt",
+            nocursor: true
         });
 
     });

@@ -1,7 +1,7 @@
 ---
 layout: post
 author: bdferr
-title: strings_and_lists
+title: Bdferr Strings and Lists
 ---
 
 I am including a few exercises I did in the strings chapter beyond the ones we were required to do,

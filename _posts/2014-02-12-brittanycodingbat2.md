@@ -37,19 +37,19 @@ There were a couple of exercises in the List-2 section that were a bit tricky fo
 def centered_average(nums):
     sum = 0
     total = len(nums)-2
-    largest = nums.index(max(nums))
-    smallest = nums.index(min(nums))
-    if largest == smallest:
-        for i in range(len(nums)):
+    largest = nums.index(max(nums))     #index of largest value
+    smallest = nums.index(min(nums))    #index of smallest value
+    if largest == smallest:             #cases where min and max value are same
+        for i in range(len(nums)):      #find the largest index position
             if nums[i] == nums[smallest]:
-                largest = i
+                largest = i             
     for i in range(len(nums)):
-        if i != largest and i != smallest:
+        if i != largest and i != smallest:      #add up values that aren't min or max
             sum = sum + nums[i] 
     if total > 0:
-        return sum / total
+        return sum / total          #calculate avg
     else:
-        return sum
+        return sum      
     
 ```
 
@@ -60,27 +60,27 @@ This problem, along with make_chocolate(), were probably the most challenging ex
 
 ```
 def make_bricks(small, big, goal):
-    total = small + (5*big)
-    if total < goal:
+    total = small + (5*big)         
+    if total < goal:                #total length is shorter than goal, so False
         return False
-    if big != 0 and small != 0:
-        remainding = goal % 5
-        if remainding - small <= 0:
-            return True
+    if big != 0 and small != 0:         #cases where there are both types of bricks
+        remainding = goal % 5           #remainder of goal divided by 5
+        if remainding - small <= 0:     #if remainder is less than or equal to small length
+            return True                 #length is possible
         else:
             return False     
-    elif big == 0 and small != 0:
-        if goal - small > 0:
+    elif big == 0 and small != 0:       #cases where there are only small bricks
+        if goal - small > 0:            #if goal is bigger than small length, task is impossible
             return False
         else:
             return True
-    elif big !=0 and small == 0:
+    elif big !=0 and small == 0:        #cases where there are only big bricks
         remainding = goal % 5
-        if remainding == 0:
+        if remainding == 0:             #no remainder, task is possible
             return True
         else:
             return False
-    elif big == 0 and small == 0:
+    elif big == 0 and small == 0:       #cases where there are no bricks
         return False
 ```
 

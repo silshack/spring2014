@@ -1,6 +1,5 @@
-<script type="text/javascript">
+<p><script type="text/javascript">
 idmods.push('{{include.id}}')
 </script>
-<textarea id='code{{include.id}}' rows="12" cols="80">
 
-```
+<pre><textarea id='code{{include.id}}' rows="12" cols="80">

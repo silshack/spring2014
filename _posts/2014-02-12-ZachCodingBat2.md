@@ -15,6 +15,7 @@ Here's my proof of completion for Codingbat:
 Here's some code:
 
 List-2 > centered_average
+
 This one was my lengthiest solution, so I figured I’d include it. After using loops with max() and min() to identify the biggest and smallest values in the list, I iterated through and added to the sum all the values that weren’t the max or min. The only tricky part was accommodating duplicates of the outliers. I used a Boolean to make sure that duplicates would be added to the sum.
 
 ```
@@ -42,6 +43,7 @@ def centered_average(nums):
   ```
   
 Logic-2 > make_chocolate
+
 This one took some puzzling but I figured out an elegant solution. If you have the right number of big pieces to reach the goal without using small ones, the function will return 0. If you don’t have the right combination of pieces to reach the goal, you return negative 1. Otherwise, you return the number of small pieces to cover the deficit left by the lack of big pieces.
 ```
 def make_chocolate(small, big, goal):
@@ -56,6 +58,7 @@ def make_chocolate(small, big, goal):
 ```
 
 Logic-2 > round_sum
+
 It took me a bit to wrap my head around this one for whatever reason. It’s simple, though. If the number rounds up, add 10 and subtract the remainder. If it rounds down, just subtract the remainder.
 ```
 def round_sum(a, b, c):

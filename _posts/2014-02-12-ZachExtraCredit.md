@@ -31,6 +31,8 @@ punctuation = '"`~!@#$%^&*()+={[]}"\:;|//<,>./?"'
 processThis = False
 dictionary = {}
 for line in searchFile:
+	if line.startswith("*** END OF THIS PROJECT GUTENBERG EBOOK"):
+		processThis = False
 	if processThis:
 		words = s.split(" ")
 		for word in words:
@@ -82,7 +84,7 @@ for key in dictionary:
 			if top20[ki] < dictionary[key]:
 				top20[key] = dictionary[key]
 				deleteKey = ki 
-	if deleteString != "":
+	if deleteKey != "":
 		del top20[deleteKey]
 		deleteKey = ""
 for key in top20:

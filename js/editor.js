@@ -7,7 +7,7 @@ $(document).ready(function () {
             //console.log('stripping');
         }
         var strippedtext = strip($('#code' + idmod).text());
-        $('#code' + idmod).text(strippedtext.substr(1));
+        $('#code' + idmod).text(strippedtext);
         var editor = CodeMirror.fromTextArea(document.getElementById('code' + idmod), {
             parserfile: ["parsepython.js"],
             autofocus: true,
@@ -103,7 +103,7 @@ $(document).ready(function () {
         if (lang === "text") {
             lang = "python"
         };
-        console.log($unescaped.substr(0, $unescaped.length - 1));
+        //console.log($unescaped.substr(0, $unescaped.length - 1));
         $this.empty();
 
         CodeMirror(this, {

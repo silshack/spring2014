@@ -45,6 +45,7 @@ def centered_average(nums):
 Logic-2 > make_chocolate
 
 This one took some puzzling but I figured out an elegant solution. If you have the right number of big pieces to reach the goal without using small ones, the function will return 0. If you don’t have the right combination of pieces to reach the goal, you return negative 1. Otherwise, you return the number of small pieces to cover the deficit left by the lack of big pieces.
+
 ```
 def make_chocolate(small, big, goal):
   noSmall = goal / 5
@@ -60,6 +61,7 @@ def make_chocolate(small, big, goal):
 Logic-2 > round_sum
 
 It took me a bit to wrap my head around this one for whatever reason. It’s simple, though. If the number rounds up, add 10 and subtract the remainder. If it rounds down, just subtract the remainder.
+
 ```
 def round_sum(a, b, c):
    return round10(a) + round10(b) + round10(c)

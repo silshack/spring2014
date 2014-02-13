@@ -43,7 +43,7 @@ As we did last time, we're going to `cd` into our class blog's directory and mak
 
 First of all let's avoid [vi](http://en.wikipedia.org/wiki/Vi) hell:
 
-```
+```bash
 git config --global core.editor nano
 ```
 
@@ -51,7 +51,7 @@ This sets [nano](http://www.nano-editor.org/) as our default editor for git stuf
 
 To get the commits that your classmates have made to the class blog, we need to `git pull` the silshack repo.  Git will then thread those changes together with ours.
 
-```
+```bash
 # Add the silshack repository as a 'remote' called "upstream".
 # "Upstream" is the conventional name for the shared repo in a project.
 git remote add upstream https://github.com/silshack/spring2014.git
@@ -63,7 +63,7 @@ git remote -v
 
 Now we've told Git how to find our central repo, so we can pull in the commits we don't have.  Git stores commits as little nuggets of changes, so we can add everyone else's work without overwriting ours.
 
-```
+```bash
 # Pull commands have this form:
 # git pull <remote name> <branch name>
 # in this case we want to do:
@@ -75,7 +75,7 @@ git pull upstream gh-pages
 
 When you pull in these changes, your jekyll console should rebuild the site.  You'll see something like this:
 
-```
+```bash
 Regenerating: 21 files at 2014-02-12 10:01:28 ...done.
 ```
 
@@ -85,7 +85,7 @@ Make sure to wait for the `...done.` and then go to your Preview URL.  As a remi
 
 Type
 
-```
+```bash
 git status
 ```
 
@@ -93,7 +93,7 @@ If it doesn't tell you your working branch is clean, go above and add and commit
 
 You're now ready to push these commits to Github!  You can do so with:
 
-```
+```bash
 git push origin gh-pages
 ```
 From there, open a pull request just like you would normally, from your repo into silshack!

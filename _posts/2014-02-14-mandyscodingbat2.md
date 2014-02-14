@@ -4,7 +4,7 @@ author: agooch
 title: Mandy's Coding Bat Adventure Round 2
 ---
 
-#Three Exercises#
+##Three Exercises##
 
 This adventure in Coding Bat was a little bit longer and harder than the previous one. I've selected three exercises that I feel were challenging, but also rewarding after completion.
 
@@ -65,7 +65,7 @@ Lucky Sum...this one took me a second to read and understand. Then it sort of cl
 
 I will say that I did not have an easy time with ranges in these exercises and I feel like I need some more practice with them. Overall, I was able to get a bunch of these on my own, but the rest of them required looking for help via StackOverflow and talking things out with my co-worker, Sophia. I'm definitely still not 100% okay with strings, either, but I think I am getting a little bit better each time through. 
 
-#Coding Bat Screenshots#
+##Coding Bat Screenshots##
 
 ![Strings 2](http://i.imgur.com/6cvDRub.png)
 

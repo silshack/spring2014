@@ -1,7 +1,7 @@
 ---
 layout: post
 author: slaffer
-title: Sophia's Sophia's CodingBat Marathon Part 2
+title: Sophia's CodingBat Marathon Part 2
 ---
 
 ##Three Exercises
@@ -49,7 +49,7 @@ def sum13(nums):
 
 *We want make a package of goal kilos of chocolate. We have small bars (1 kilo each) and big bars (5 kilos each). Return the number of small bars to use, assuming we always use big bars before small bars. Return -1 if it can't be done.*
 
-A couple of the logic exercises also stumped me and I used this [blog](http://gregorulm.com/coding-bat-python-logic-2/) to help me work through the answers. After trying exercises for awhile and being stuck it was really a big help. On the making chocolate exercise I had not made the connection to add a variable ```maxBig`` that could be used to determine if there was enough big bars to meet the goal. After figuring this logical step out, I was able to modify the code in a way that made more sense to me. 
+A couple of the logic exercises also stumped me and I used this [blog](http://gregorulm.com/coding-bat-python-logic-2/) to help me work through the answers. After trying exercises for awhile and being stuck it was really a big help. On the making chocolate exercise I had not made the connection to add a variable ```maxBig``` that could be used to determine if there was enough big bars to meet the goal. After figuring this logical step out, I was able to modify the code in a way that made more sense to me. 
 
 ```
 def make_chocolate(small, big, goal):

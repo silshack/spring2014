@@ -1,15 +1,15 @@
 ---
 author: tlchristian
-tite: Thu-Mai's Codingbat.com Exercises Part 2
+title: Thu-Mai's Codingbat.com Exercises Part 2
 layout: post
 date: 2014-02-14
 ---
 
 Well, well.  Just when I thought I was getting the hang of this Python thing, Codingbat has begged to differ.  After many (many, many) hours, I finally finished part 2 of the exercises.  
 
-Before I discuss the individual exercises, I must take a moment to discuss the idea of fluency I mentioned in my previous post.  I've decided that writing "pythonic" code requires not only the ability to construct readable code, but also having a clear, well-articulated problem to solve.  As useful the Codingbat exercises were, I have to say that the problems presented were not always clear.  For some exercises, I didn't fully understand the scope of problem until lots of trial and error.  I appreciate even more the need to be able to communicate with programmers your desired outcome; I hereby apologize to programmers everywhere for every single moment I said things like, "Could you please write me a program that makes a vaguely-described thingie do a vaguely described thingie?"  My bad.
+Before I discuss the individual exercises, I must take a moment to discuss the idea of fluency I mentioned in my [previous post](http://tlchristian.github.io/spring2014/2014/02/06/ThuMaiCodingbat1.html).  I've decided that writing "pythonic" code requires not only the ability to construct readable code, but also having a clear, well-articulated problem to solve.  As useful the Codingbat exercises were, I have to say that the problems presented were not always clear.  For some exercises, I didn't fully understand the scope of problem until lots of trial and error.  I appreciate even more the need to be able to communicate with programmers your desired outcome; I hereby apologize to programmers everywhere for every single moment I said things like, "Could you please write me a program that makes a vaguely-described thingie do a vaguely described thingie?"  My bad.
 
-Back to the Codingbat Exercises.  Below are the three programs that had me really thinking.
+Back to the Codingbat Exercises.  Below are the three that had me really thinking.
 
 ***
 ***
@@ -17,7 +17,9 @@ Back to the Codingbat Exercises.  Below are the three programs that had me reall
 ##Exercises
 
 **1. Logic-2 > make_bricks**
+
 _We want to make a row of bricks that is goal inches long. We have a number of small bricks (1 inch each) and big bricks (5 inches each). Return True if it is possible to make the goal by choosing from the given bricks. **This is a little harder than it looks** and can be done without any loops._  (My emphasis.)
+
 
 _A little harder than it looks_?  Why?  Oh, I see.  You meant to say, "...Return True if it is possible to make the exact goal by choosing any combination of the given number of bricks.  It's OK if you have bricks remaining.  This is especially hard if I don't provide precise instructions."  After I watched the video, It didn't take me long to come up with this:
 
@@ -32,9 +34,11 @@ def make_bricks(small, big, goal):
 ***
 
 **2. String-2 > xyz_there**
+
 _Return True if the given string contains an appearance of "xyz" where the xyz is not directly preceeded by a period (.). So "xxyz" counts but "x.xyz" does not._
 
-Like many of the Codingbat part 2 exercises, this required a lot of creativity to come up with a solution that works.  At first I thought that I would be using indices to identify locations of "." when it precedes "xyz".  But then I figured an easier approach would be to just remove any occurrences of ".xyz" before executing the boolean.  Score.
+
+Like many of the Codingbat part 2 exercises, this required a lot of creativity to come up with a solution that works.  At first I thought that I would be using indices to identify locations of "." when it precedes "xyz".  But then I figured an easier approach would be to just remove any occurrences of ".xyz" before executing the boolean.  Score:
 
 ```
 def xyz_there(str):
@@ -51,9 +55,11 @@ def xyz_there(str):
 ***
 
 **3. String-2 > count_code**
+
 _Return the number of times that the string "code" appears anywhere in the given string, except we'll accept any letter for the 'd', so "cope" and "cooe" count._
 
-When I looked at my Codingbat.com Done page, this was the problem that I spent most of my time by far.  I think I got really hung up on keeping the indices within range.  There was no reason for this, but after working on the same problem for hours, I got tunnel vision.  I would have save a lot of time had I stepped away from ~~all electronics~~ the problem and returned after some rest.  This is what I came up with.
+
+When I looked at my Codingbat.com Done page, this was the problem that I spent most of my time by far.  I think I got really hung up on keeping the indices within range.  There was no reason for this, but after working on the same problem for hours, I got tunnel vision.  I would have save a lot of time had I stepped away from ~~all electronics~~ the problem and returned after some rest.  This is what I came up with:
 
 ```
 def count_code(str):
@@ -71,3 +77,13 @@ def count_code(str):
 
 ##Codingbat.com Screenshots
 
+![warmup-2](https://lh5.googleusercontent.com/-Q1Izod2Rvmg/Uv5VIlx0pcI/AAAAAAAAA_k/nCAjDxfsAXE/w908-h204-no/warmup-2.png)
+
+![string-2](https://lh3.googleusercontent.com/-s1Bl8NEu0_k/Uv5VIEYIRxI/AAAAAAAAA_c/svN39vcPV7g/w908-h200-no/string-2.png)
+
+![list-2](https://lh4.googleusercontent.com/-CG4fzzHZzVo/Uv5VJy3q8zI/AAAAAAAAA_0/Jx_JbejXFb4/w908-h185-no/list-2.png)
+
+![logic-2](https://lh3.googleusercontent.com/-cu_DG-jANkg/Uv5VJfG5xNI/AAAAAAAAA_s/pPqhdcHQctw/w908-h202-no/logic-2.png)
+
+***
+***

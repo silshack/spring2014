@@ -8,7 +8,7 @@ title: Mandy's Coding Bat Adventure Round 2
 
 This adventure in Coding Bat was a little bit longer and harder than the previous one. I've selected three exercises that I feel were challenging, but also rewarding after completion.
 
-#Strings - cat_dog#
+##Strings - cat_dog##
 
 *Return True if the string "cat" and "dog" appear the same number of times in the given string.*
 
@@ -26,7 +26,7 @@ def cat_dog(str):
 
 This is where I was able to use the str.count method to find the results for this question. I found this method [here](http://docs.python.org/3/library/stdtypes.html?highlight=str.count#str.count). It is pretty simple to use and just clicked for me after my first attempt. I was pretty proud that I was able to figure out how to implement this method and answer this question so quickly. 
 
-#Lists - big_diff#
+##Lists - big_diff##
 
 *Given an array length 1 or more of ints, return the difference between the largest and smallest values in the array. Note: the built-in min(v1, v2) and max(v1, v2) functions return the smaller or larger of two values.*
 
@@ -43,7 +43,7 @@ def big_diff(nums):
 
 This problem also used a new function: the min() and max(). I guess I really enjoy learning new shortcuts, as I call them, to answer questions quickly. I got the right answer after one try and was so excited. It definitely helped to boost my confidence while answering the rest of this sections questions, which had some difficult questions in it. 
 
-#Logic - lucky_sum#
+##Logic - lucky_sum##
 
 *Given 3 int values, a b c, return their sum. However, if one of the values is 13 then it does not count towards the sum and values to its right do not count. So for example, if b is 13, then both b and c do not count.*
 
@@ -67,10 +67,10 @@ I will say that I did not have an easy time with ranges in these exercises and I
 
 #Coding Bat Screenshots#
 
-[!Strings 2](http://i.imgur.com/6cvDRub.png)
+![Strings 2](http://i.imgur.com/6cvDRub.png)
 
-[!Warmup 2](http://i.imgur.com/eVkUaQk.png)
+![Warmup 2](http://i.imgur.com/eVkUaQk.png)
 
-[!Lists 2](http://i.imgur.com/gg94SVd.png)
+![Lists 2](http://i.imgur.com/gg94SVd.png)
 
-[Logic 2](http://i.imgur.com/g1aroMU.png)
+![Logic 2](http://i.imgur.com/g1aroMU.png)

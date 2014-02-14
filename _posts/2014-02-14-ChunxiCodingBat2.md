@@ -11,11 +11,14 @@ Post by Chunxi Zhang
 
 **Choose three exercise.**
 
+
 **1.String2-xyz_there**
+
 
  This question did take me some time. I thought several different ways to express my idea. But I do not know a method which can
  Then I change my thoughts. It could be 2 circumstances. If the 'xyz' is str[0:3], no matter where the '.' is, it will return
  True. And if there are '.xyz', it will return false. I can use != to except the '.'.
+ 
  
  ```
  def xyz_there(str):
@@ -29,7 +32,8 @@ Post by Chunxi Zhang
  
  **Logic-2 > make_bricks **
  
-I am impressed with this question is because it took me some time to understand the request. After watching the vedio to understand
+ 
+ I am impressed with this question is because it took me some time to understand the request. After watching the vedio to understand
 what brick means, I begin to code. The code isself is not hard. But it is problematic to know what exactly I want. 
  
   ```
@@ -42,6 +46,7 @@ what brick means, I begin to code. The code isself is not hard. But it is proble
    
   
   **3.Logic-2 > lone_sum **
+ 
  This question is strightforward. But I spent more time on debugging. The original code of mine is
  
  ```

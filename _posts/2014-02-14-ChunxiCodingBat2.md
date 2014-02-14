@@ -45,7 +45,7 @@ what brick means, I begin to code. The code isself is not hard. But it is proble
   ```
    
   
-**3.Logic-2 > lone_sum **
+**3.Logic2-long_sum**
  
  This question is strightforward. But I spent more time on debugging. The original code of mine is
  

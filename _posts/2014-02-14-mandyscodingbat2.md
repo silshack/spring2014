@@ -24,7 +24,7 @@ def cat_dog(str):
 
 ```
 
-This is where I was able to use the str.count method to find the results for this question. I found this method [here](http://docs.python.org/3/library/stdtypes.html?highlight=str.count#str.count). It is pretty simple to use and just clicked for me after my first attempt. I was pretty proud that I was able to figure out how to implement this method and answer this question so quickly. 
+This is where I was able to use the str.count method to find the results for this question. I found this method [here](http://docs.python.org/3/library/stdtypes.html?highlight=str.count#str.count). It is pretty simple to use and just clicked for me after my first attempt. I was pretty proud that I was able to figure out how to implement this method and answer this question so quickly. Essentially, you just use str.count("word/phrase/character") to pull out the part of the string you want. I then made an if else statement to say that if the count for dog is the same as the count for cat then return true else return false. 
 
 ##Lists - big_diff##
 
@@ -41,7 +41,7 @@ def big_diff(nums):
 
 ```
 
-This problem also used a new function: the min() and max(). I guess I really enjoy learning new shortcuts, as I call them, to answer questions quickly. I got the right answer after one try and was so excited. It definitely helped to boost my confidence while answering the rest of this sections questions, which had some difficult questions in it. 
+This problem also used a new function: the min() and max(). I guess I really enjoy learning new shortcuts, as I call them, to answer questions quickly. I set two new variables for minimum value and maximum value using the min() and max(), then created a for loop so the function would run through all the nums in the list and would then subtract the minimum value from the maximum value and return the new value. I got the right answer after one try and was so excited. It definitely helped to boost my confidence while answering the rest of this sections questions, which had some difficult questions in it. 
 
 ##Logic - lucky_sum##
 

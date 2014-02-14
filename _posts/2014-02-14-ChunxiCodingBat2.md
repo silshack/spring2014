@@ -30,7 +30,7 @@ Post by Chunxi Zhang
   return False
  ```
  
-**2.Logic-2 > make_bricks **
+**2.Logic2-make_bricks**
  
  
  I am impressed with this question is because it took me some time to understand the request. After watching the vedio to understand

@@ -59,7 +59,7 @@ def xyz_there(str):
 _Return the number of times that the string "code" appears anywhere in the given string, except we'll accept any letter for the 'd', so "cope" and "cooe" count._
 
 
-When I looked at my Codingbat.com Done page, this was the problem that I spent most of my time by far.  I think I got really hung up on keeping the indices within range.  There was no reason for this, but after working on the same problem for hours, I got tunnel vision.  I would have save a lot of time had I stepped away from ~~all electronics~~ the problem and returned after some rest.  This is what I came up with:
+When I looked at my Codingbat.com Done page, this was the problem that I spent most of my time by far.  I think I got really hung up on keeping the indices within range.  There was no reason for this, but after working on the same problem for hours, I got tunnel vision.  I would have save a lot of time had I stepped away from the problem (and perhaps all electronics) and returned after some rest.  This is what I came up with:
 
 ```
 def count_code(str):

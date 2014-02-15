@@ -110,19 +110,18 @@ def make_bricks(small, big, goal):
  return goal%5 - small <= 0 and small + 5*big >= goal
     
 ```
-
+It has two steps to judge:
+First: judge weather bricks are enough:
 ```
 small+5*big>=goal
-
 ```
-means bricks are engouth.
+Secondly: Judge weather small bricks is enough.
 
 ```
 goal%5 - small <= 0
-
 ```
 
-means small bricks is enough. Then the problem is solved. It's a gret idea to use mod, and I think mod will help me in the future!
+Then the problem is solved. It's a gret idea to use mod, and I think mod will help me in the future!
 
 
 **Logic 2: make_chocolate**

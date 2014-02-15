@@ -174,9 +174,7 @@ ul.posts span {
 }
 
 
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
+pre {
   padding: 0 .4em;
 }
 
@@ -192,7 +190,7 @@ ul.posts span {
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
-  padding: 0 .2em;
+  padding: 0;
 }
 
 .post pre code {
@@ -210,7 +208,7 @@ ul.posts span {
   background-color: #333;
 }
 
-#edoutput {
+.output {
     background: #ccc;
     color: #black;
     height: 100px;
@@ -227,4 +225,17 @@ line-height: 1.2em;
 
 code, pre {
   color: #444;
+}
+
+.codeblock{
+  padding: 0 .4em;
+  margin-left: 14px;
+}
+.codeblock pre.output{
+  margin-left: 0;
+  padding: 0;
+}
+
+.codeblock p{
+  margin-bottom: 0;
 }

@@ -110,8 +110,8 @@ def make_bricks(small, big, goal):
  return goal%5 - small <= 0 and small + 5*big >= goal
     
 ```
-It has two steps to judge:
-First: judge weather bricks are enough:
+It has two steps to judge.
+Firstly: judge weather bricks are enough:
 
 ```
 small+5*big>=goal

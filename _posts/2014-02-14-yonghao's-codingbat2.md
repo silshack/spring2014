@@ -112,9 +112,11 @@ def make_bricks(small, big, goal):
 ```
 It has two steps to judge:
 First: judge weather bricks are enough:
+
 ```
 small+5*big>=goal
 ```
+
 Secondly: Judge weather small bricks is enough.
 
 ```

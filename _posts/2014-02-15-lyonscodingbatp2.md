@@ -11,7 +11,7 @@ the screenshots
 
 ## Warmups 2
 
-![Warmup Checklist](http://i.imgur.com/bqkWC5B.png)
+![Warmup Checklist](http://i.imgur.com/rE4d9cN.png)
 
 I completed the Warmups.
 

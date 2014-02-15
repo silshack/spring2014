@@ -8,7 +8,7 @@ layout: post
 Some of these were real doozies. I would have been entirely lost on some, were it not for the long winded people on stackoverflow who like to correct each other & provide detailed explanations.
 
 ### 1. String-2: double_char
-This was one of the easier ones for me - I got all green on the first go. If only the lists problems went so painlessly...
+This was one of the easier ones for me - I got all green on the first go. If only the logic problems went so painlessly...
 
 _Given a string, return a string where for every char in the original, there are two chars._
 

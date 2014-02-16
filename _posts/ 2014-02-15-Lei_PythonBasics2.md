@@ -7,7 +7,7 @@ date: 2014-02-15
 
 # The Exercises
 
-**1. The first one I found hard was the Logic exercise called make_bricks. In some cases, it needs to use lots of little bricks instead of a big brick. Finally, I found it can be simply coded as following. **
+**1. The first one I found hard was the Logic-2 exercise called make_bricks. In some cases, it needs to use lots of little bricks instead of a big brick. Finally, I found it can be simply coded as following. **
 
 ```
 def make_bricks(small, big, goal):
@@ -15,62 +15,70 @@ def make_bricks(small, big, goal):
  return goal-small <= 0
 ```
 
-**2. The second one I liked is the list exercise called has23. By this exercise, I found python is an excellent programming language again! In other languages, it might be complicatedly coded as fowolling.**
+**2. The second one I liked is the Logic-2 exercise called lone_sum. At first, I thought I should list all situation it might happen as following.**
 
 ```
-def has23(nums):
-  if nums[0]==2 or nums[1]==2 or nums[0]==3 or nums[1]==3:
-    return True
-  return False
+def lone_sum(a, b, c):
+ if a == b == c:
+   return 0
+ elif a == b:
+   return c
+ elif a == c:
+   return b
+ elif b == c:
+   return a
+ else:
+   return a + b + c
 ```
 
 
-**However, in Python, we can use 'in' which make the script much more brief and neat.** 
-
-
-```
-def has23(nums):
- if 2 in nums or 3 in nums:
-   return True
- return False
-
-```
-
-**3. The third on I liked is the logic exercise called caught_speeding. By this exercise, I found that sometimes we can think out of the box so that ideas from different aspects can help a lot to find the optimum solution.**
-
-```
-def caught_speeding(speed, is_birthday):
-  if is_birthday:
-    if speed <= 65:
-      return 0
-    if 65 < speed <= 85:
-      return 1
-    return 2 
-  else:
-    if speed <= 60:
-      return 0
-    if 60 < speed <= 80:
-      return 1
-    return 2
-```
-
-**However, the following method is a lot more convenient and neater.**
+**However, we can use 'not in' which make the script much more brief and neat.** 
 
 
 ```
-def caught_speeding(speed, is_birthday):
-  if is_birthday:
-    speed -= 5   
-  if speed <= 60:
-      return 0
-  if 60 < speed <= 80:
-    return 1
-  return 2
+sum = 0
+  sum += a if a not in [b,c] else 0
+  sum += b if b not in [a,c] else 0
+  sum += c if c not in [a,b] else 0
+  return sum
+
+```
+
+**3. I found the most hardest is list-2 exercise called sum67. A lot of cases should be taken into consideration. At first, I came up with a script as following.**
+
+```
+def sum67(nums):
+  for i in nums:
+    if 6 in nums:
+      six = nums.index(6)
+      seven = nums.index(7)
+      for i in range(six,seven+1):
+        nums.pop(six)
+  return sum(nums)
+```
+
+**However, it cannot pass if the first 7 comes before the first 6. Then, after several tries, I got the following solution which works fine!!**
+
+
+```
+def sum67(nums):
+  sum = 0
+  flag = True
+  for i in nums: 
+    if i == 6:
+      flag = False
+      continue
+    if i == 7 and not flag:
+      flag = True
+      continue
+    if flag:  
+      sum += i        
+  return sum
 ```
 
 # The Screenshots
 Here are my screenshots:
-![Warmup-1 screenshot] (http://www.unc.edu/~leiw/images/python/warmup1.jpg)
-![Lists-1 screenshot] (http://www.unc.edu/~leiw/images/python/list1.jpg)
-![Logic-1 screenshot] (http://www.unc.edu/~leiw/images/python/logic1.jpg)
-![Strings-1 screenshot] (http://www.unc.edu/~leiw/images/python/string1.jpg)
+![Warmup-1 screenshot] (http://www.unc.edu/~leiw/images/python/warmup2.jpg)
+![Lists-1 screenshot] (http://www.unc.edu/~leiw/images/python/list2.jpg)
+![Logic-1 screenshot] (http://www.unc.edu/~leiw/images/python/logic2.jpg)
+![Strings-1 screenshot] (http://www.unc.edu/~leiw/images/python/string2.jpg)

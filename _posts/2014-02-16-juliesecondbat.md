@@ -9,7 +9,7 @@ First, here's my checkmarks:
 ![Turtle Image](http://imgur.com/JuPqneq)
 ![Turtle Image](http://imgur.com/Baj9FiR)
 ![Turtle Image](http://imgur.com/mQaRugX)
-![Turtle Image](http://imgur.com/QogGbkv)
+![Turtle Image](http://i.imgur.com/QogGbkv.png)
 
 The first one I thought was interesting was the string exercise **end_other.** With this exercise and others, it took me a while to realize that I needed to use the string methods, but once I did, everything was a lot easier. I realized that for this one I first had to turn all the strings into all lower case so that it could comepare them.  Here is the code:
 

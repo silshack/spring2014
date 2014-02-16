@@ -7,7 +7,7 @@ date: 2014-02-15
 
 # The Exercises
 
-**1. The first one I found hard was the Logic-2 exercise called make_bricks. In some cases, it needs to use lots of little bricks instead of a big brick. Finally, I found it can be simply coded as following. **
+**1. The first one I found hard was the Logic-2 exercise called make_bricks. In some cases, it needs to use lots of little bricks instead of a big brick. Finally, I found it can be simply coded as following.**
 
 ```
 def make_bricks(small, big, goal):

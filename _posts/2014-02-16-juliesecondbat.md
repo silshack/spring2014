@@ -6,9 +6,9 @@ title: Julie's Second Coding Bat Exercise
 
 First, here's my checkmarks:
 
-![Turtle Image](http://i.imgur.com/JuPqneq)
-![Turtle Image](http://i.imgur.com/Baj9FiR)
-![Turtle Image](http://i.imgur.com/mQaRugX)
+![Turtle Image](http://i.imgur.com/JuPqneq.png)
+![Turtle Image](http://i.imgur.com/Baj9FiR.png)
+![Turtle Image](http://i.imgur.com/mQaRugX.png)
 ![Turtle Image](http://i.imgur.com/QogGbkv.png)
 
 As you can see, I couldn't figure out the sum 67 one. 

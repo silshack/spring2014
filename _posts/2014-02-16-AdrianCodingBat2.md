@@ -74,6 +74,7 @@ def sum67(nums):
 There were a few logic exercises that took me more time to figure out, but one thing I want to learn more of is how to write more condensed, elegant code. I'm sure there is a better way to do this than the way I did.
 
 **Code**
+
 ```
 def lone_sum(a, b, c):
   if a==b and a==c:

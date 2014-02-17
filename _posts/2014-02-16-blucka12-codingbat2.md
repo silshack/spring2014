@@ -4,12 +4,13 @@ author: blucka12
 title: Codingbat Exercise
 ---
 
+
 def lone_sum(a, b, c):
   
   #first sign of green, brought to you by:  
   #  lone_sum = int(a + b + c)
   #  return (a + b + c)
-#then I worked on eliminating the variables that must be excluded, adding the "else" statement at the end:
+  #then I worked on eliminating the variables that must be excluded, adding the "else" statement at the end:
 
 lone_sum = int(a + b + c)
     
@@ -40,4 +41,4 @@ lone_sum = int(a + b + c)
     
     else:
         return (a + b + c)
-        #Yay!!!
+   #Yay!!!

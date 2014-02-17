@@ -2,7 +2,7 @@
 layout: post
 author: srmoore5
 title: Coding Bat 2
-date: 02/16/2014
+date: 
 ---
 
 

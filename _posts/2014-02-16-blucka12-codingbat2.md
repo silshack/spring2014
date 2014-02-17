@@ -26,11 +26,11 @@ lone_sum = int(a + b + c)
         return (a + b + c)
 ```
 
-        #that got me most of the way, with one red box left
+  #that got me most of the way, with one red box left
         
-        <a href="http://imgur.com/dmLlyTu"><img src="http://i.imgur.com/dmLlyTu.png?1" title="Hosted by imgur.com" /></a>
+<a href="http://imgur.com/dmLlyTu"><img src="http://i.imgur.com/dmLlyTu.png?1" title="Hosted by imgur.com" /></a>
         
-        #I got an error for (3,3,3) ->0, and had to go back to the beginning and insert:
+  #I got an error for (3,3,3) ->0, and had to go back to the beginning and insert:
 
 ```        
         lone_sum = int(a + b + c)

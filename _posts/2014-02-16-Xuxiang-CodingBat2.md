@@ -71,7 +71,7 @@ def sum67(nums):
    return sum
 ```
 
-This problem took me much time. At first I don't know how to get rid of all the integer between 6 and 7. Finally, I found a way. I setted uo a "dontadd" to indicate which number should be got rid from the list. 
+This problem took me much time. At first I don't know how to get rid of all the integer between 6 and 7. Finally, I found a way. I setted up a "dontadd" to indicate which number should be got rid from the list. 
 
 
 # Logic-2 > make_bricks:
@@ -93,4 +93,4 @@ def make_bricks(small, big, goal):
       return True
 ```
 
-This code looks very easy, but actually it is not. I need to figure out in what situation the small brick and big brick can consist into the goal. At last I concluded two posible situations which like the code showed.
+This code looks very easy, but actually it is not. I need to figure out in what situation the small brick and big brick can consist into the goal. At last I concluded two posible situations which like the code shows.

@@ -69,7 +69,7 @@ def sum67(nums):
 
 **3. Logic 2: lone_sum**
 
-**Given 3 int values, a b c, return their sum. However, if one of the values is the same as another of the values, it does not count towards the sum. **
+**Given 3 int values, a b c, return their sum. However, if one of the values is the same as another of the values, it does not count towards the sum.**
 
 There were a few logic exercises that took me more time to figure out, but one thing I want to learn more of is how to write more condensed, elegant code. I'm sure there is a better way to do this than the way I did.
 

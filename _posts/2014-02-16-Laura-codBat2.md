@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Lasher09
+author: laura
 title: CodingBat2
 date: 2014-02-16
 ---

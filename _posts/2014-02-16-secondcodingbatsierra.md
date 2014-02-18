@@ -15,6 +15,7 @@ Screenshot
 
 Logic 2 lucky_sum
 - simple, logical and fun
+
 ```
 
 def lucky_sum(a, b, c):

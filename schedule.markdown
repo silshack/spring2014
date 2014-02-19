@@ -119,6 +119,8 @@ Readings:
 
 * In class/Homework: Codingbat.com
 
+Nitrous.io exercise
+
 ### <date d="20140212">February 12th, Week 6:  Complex data; flow of control</date>
 
 Readings:
@@ -132,9 +134,19 @@ Readings:
 
 * Check-in: Meetups
 
+Nitrous Exercise
+
 **Extra Credit Exercise:** ThinkPython: [Using data structures](http://www.greenteapress.com/thinkpython/html/thinkpython014.html) An extra point on your final grade for a Github post with exercises 1-4 completed.  This is especially relevant to those of you with an interest in data mining. Due Friday.
 
 ### <date d="20140219">February 19th, Week 7: Input/Output (i/o) & (The other kind of) Libraries</date>
+
+Working with real developer tools
+
+* In class: Command line git posts
+
+All posts from here on out should be via Nitrous!
+
+### <date d="20140226">February 26th, Week 8: Command line Git & Python</date>
 
 Self-contained, reusable bits of code.
 
@@ -144,18 +156,13 @@ Self-contained, reusable bits of code.
 
 * Software Carpentry: [Libraries](http://software-carpentry.org/v4/python/lib.html)
 
-* In-Class: Input/Output SWC exercise
-
 * In-Class: Command line: pip.  Review some common python libraries.  Focus on documentation, initial testing, beginning use
 
-
-### <date d="20140226">February 26th, Week 8: Command line Git & Python</date>
-
-Working with real developer tools
-
-* In class: Command line git
+Nitrous Flask introduction
 
 ### <date d="20140305">March 5th, Week 9: Problem Solving with Libraries and Frameworks</date>
+
+Catch-up
 
 * Check-in: Meetups
 

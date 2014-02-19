@@ -1,8 +1,11 @@
+
 ---
+
 layout: post
 author: srmoore5
 title: Coding Bat 2
-date: 
+date: 2014-02-16
+
 ---
 
 
@@ -15,6 +18,7 @@ Screenshot
 
 Logic 2 lucky_sum
 - simple, logical and fun
+
 
 ```
 

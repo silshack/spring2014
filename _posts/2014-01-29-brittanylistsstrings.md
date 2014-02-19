@@ -7,11 +7,13 @@ title: Brittany's List and String Python Exercises
 #Strings
 ###Exercise 6
 
+This exercise was basically the same as question str-19 in the textbook; I just modified that code.
+
 ```
 def reverse(initial_string):
     reversed_string = ""
     for character in initial_string:
-        reversed_string = character + reversed_string
+        reversed_string = character + reversed_string   #concatenate successive letters to beginning of string
     return reversed_string
 
 print reverse("blue")
@@ -27,7 +29,7 @@ aniloraC
 
 ###Exercise 7
 
-I should have recycled the code from exercise 6 to do this problem (i.e., just call reverse(initial_string) within mirror(initial_string)) since there is a lot of repeated code here, but this was my initial solution.
+I should have recycled the code from exercise 6 to do this problem (i.e., just call reverse(initial_string) within mirror(initial_string)) since there is a lot of repeated code here, but this was my initial approach.
 
 ```
 def mirror(initial_string):
@@ -84,7 +86,7 @@ llo
 ```
 
 ###Exercise 12
-I didn't expect this one to be particularly difficult after completing the previous exercise. However, I had one little error that caused me a lot of problems. In the last if statement in the function, I failed to *return* the function (instead, I just wrote remove_all(substr, new_string)), which caused the function to continually return 'None' any time a substring was repeated more than once. I thought maybe my indentation was off, but after a bit of googling (and an hour or so of fruitless manipulation!), I realized this error!
+I didn't expect this one to be particularly difficult after completing the previous exercise. However, I had one little error that caused me a lot of problems. In the last if-statement in the function, I failed to *return* the function (instead, I just wrote remove_all(substr, new_string)), which caused the function to continually return 'None' any time a substring was repeated more than once. I thought maybe my indentation was off, but after a bit of googling (and an hour or so of fruitless manipulation!), I realized this error!
 
 ```
 def remove_all(substr,initial_string): 
@@ -155,7 +157,7 @@ def sum_evens(list):
     for num in list:
         if num%2 == 0:   #num is even
             sum = sum + num
-        else:            #num is odd, don't add
+        else:            #num is odd, don't add anything
             sum = sum
     return sum                  
             
@@ -181,7 +183,7 @@ def sum_negatives(list):
     for num in list:
         if num < 0:         #num is negative
             sum = sum + num
-        else:               #num is positive (or zero), don't add
+        else:               #num is positive (or zero), don't add anything
             sum = sum
     return sum
 
@@ -201,17 +203,17 @@ print sum_negatives([0,-1,-2,-3,1,2,3])
 ###Exercise 14
 
 ```
-def replace(s, old, new):
-    words = s.split(old)            #split string into 'words' where divider is the old string to be replaced
+def replace(initial_string, old, new):
+    words = initial_string.split(old)            #split string into 'words' where divider is the old string to be replaced
     new_sentence = new.join(words)  #join words together, placing the new/replacement string between split 'words' 
     return new_sentence
 
-s = "Mississippi"
-print replace(s, 'i', 'I')
-s = "I love spom!  Spom is my favorite food.  Spom, spom, spom, yum!"
-print replace(s, 'om', 'am')
-s = "I love spom!  Spom is my favorite food.  Spom, spom, spom, yum!"
-print replace(s, 'o', 'a')
+initial_string = "Mississippi"
+print replace(initial_string, 'i', 'I')
+initial_string = "I love spom!  Spom is my favorite food.  Spom, spom, spom, yum!"
+print replace(initial_string, 'om', 'am')
+initial_string = "I love spom!  Spom is my favorite food.  Spom, spom, spom, yum!"
+print replace(initial_string, 'o', 'a')
 ```
 
 ####Output

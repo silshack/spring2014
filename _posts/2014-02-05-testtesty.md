@@ -1,7 +1,8 @@
 ---
 author: sunhwap
-title: a very cool title for a test post
+title: sunhwa's a very cool title for a test post
 layout: post
+date:2014-02-19
 ---
 
 ## Hi !

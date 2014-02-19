@@ -48,4 +48,5 @@ lone_sum = int(a + b + c)
         return (a + b + c)
 ```
 
+<a href="http://imgur.com/52HOsHi"><img src="http://i.imgur.com/52HOsHi.png" title="Hosted by imgur.com" /></a>
    #Yay!!!

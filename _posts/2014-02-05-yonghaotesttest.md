@@ -1,7 +1,8 @@
 ---
 author: yonghao
-title: A very cool title for test
+title: Yoooonghao A very cool title for test
 layout: post
+date: 2014-02-19
 ---
 
 ## It's just a test

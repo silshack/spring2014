@@ -42,7 +42,7 @@ def lucky_sum(a, b, c):
 Finally, I liked the **big_dif** exercise because I was proud of myself for coming up with such a short, easy solution:
 ```
 def big_diff(nums):
-    return max(nums) - min(nums) 
+  return max(nums) - min(nums) 
 ```
 
 

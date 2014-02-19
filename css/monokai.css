@@ -27,7 +27,7 @@
 .cm-s-monokai span.cm-link {color: #ae81ff;}
 .cm-s-monokai span.cm-error {background-color: #f92672; color: #f8f8f0;}
 
-.cm-s-monokai .CodeMirror-activeline-background {background: #373831 !important;}
+.cm-s-monokai .CodeMirror-activeline-background {background-color: #373831 !important;}
 .cm-s-monokai .CodeMirror-matchingbracket {
   text-decoration: underline;
   color: white !important;

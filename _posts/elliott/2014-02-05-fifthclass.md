@@ -17,6 +17,7 @@ Just a trial run here:
 * In the console:
   * Type `pwd` to see where you are.  Should be `/home/action`
   * Type `cd spring2014` to **c**hange **d**irectories into the project
+  * Type `gem install github-pages` to install the tools that Github uses to make our github.io pages (Most notably, Jekyll)
   * Type `jekyll serve --watch` to start up jekyll and tell it to watch what you do.  Note the `--watch` has two hyphens.
   * From the Preview menu, select 4000.  This new page/tab will 404.  That's ok.
   * Add `/spring2014` onto the end of the URL (mine is http://trinket-68987.use1.nitrousbox.com:4000/spring2014/).  You should see a copy of our class site!

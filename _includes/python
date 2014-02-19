@@ -1,5 +1,5 @@
 <p><script type="text/javascript">
-idmods.push(String({{include.id}}'))
+idmods.push(String({{include.id}}))
 </script>
 
 <pre><textarea id='code{{include.id}}' rows="12" cols="80">

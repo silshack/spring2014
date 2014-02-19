@@ -3,12 +3,11 @@ author: elliott
 layout: post
 title: Python Basics
 categories: exercise
-published: false
 ---
 
 ## First things First: Updating your repo in Github
 
-In the new [how tos]({{ site.baseurl }}/how-tos.html }}) section on Updating your Repo using Github.com you'll find instructions for updating your code with recent changes (including your classmates' posts and the how tos themselves).  When you're done you should have:
+In the new [how tos]({{ site.baseurl }}/how-tos.html) section on Updating your Repo using Github.com you'll find instructions for updating your code with recent changes (including your classmates' posts and the how tos themselves).  When you're done you should have:
 
 * A Github issue in the Silshack repo saying something like "Your name has updated his/her repo" with a link to the closed pull request in *your* repo.
 
@@ -39,6 +38,6 @@ Here are the components of what you'll turn in:
 * A program that will compute MPG for a car. Prompt the user to enter the number of miles driven and the number of gallons used. Print a nice message with the answer.  For stye points, cue the message printed off of how efficient (or not) the car is.
 * A program that will convert a user-input number of degrees celsius to degrees fahrenheit.
 * A program that will convert a user-input number of degrees degrees fahrenheit to degrees celsius.
-* A program that will convert degrees or celsius as above, depending on the users' choice.
+* A program that will convert fahrenheit or celsius as above, depending on the users' choice.
 * A pull request to our class blog with the code above and sample output from your programs.
 

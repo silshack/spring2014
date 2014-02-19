@@ -1,7 +1,8 @@
 ---
 author: julie
-title: New post from the Nitrous box
+title: Julie's post from the Nitrous box
 layout: post
+date: 2014-02-19
 ---
 
 Here is my post. doo dodoo

@@ -10,7 +10,8 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
+html, body { height: 100%; 
+}
 
 body {
   background-color: #FFF;
@@ -19,11 +20,14 @@ body {
   text-align: center;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+p { 
+  margin: 1em 0; 
+}
 
 a         { color: #00a; }
 a:hover   { color: #000; }
@@ -76,6 +80,7 @@ ul.posts span {
   border-bottom: 4px solid #eee;
   margin-bottom: 1em;
   text-align: center;
+  z-index:-5;
 }
 
 .site .header a {
@@ -99,12 +104,17 @@ ul.posts span {
 .site .header a.extra {
   color: #aaa;
   margin-left: 1em;
+  z-index:-1;
 }
 
 .site .header a.extra:hover {
   color: #000;
+  z-index:-1;
 }
 
+a.extra{
+  z-index:-1;
+}
 .site .meta {
   color: #aaa;
 }
@@ -174,9 +184,7 @@ ul.posts span {
 }
 
 
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
+pre {
   padding: 0 .4em;
 }
 
@@ -192,7 +200,7 @@ ul.posts span {
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
-  padding: 0 .2em;
+  padding: 0;
 }
 
 .post pre code {
@@ -210,7 +218,7 @@ ul.posts span {
   background-color: #333;
 }
 
-#edoutput {
+.output {
     background: #ccc;
     color: #black;
     height: 100px;
@@ -227,4 +235,17 @@ line-height: 1.2em;
 
 code, pre {
   color: #444;
+}
+
+.codeblock{
+  padding: 0 .4em;
+  margin-left: 14px;
+}
+.codeblock pre.output{
+  margin-left: 0;
+  padding: 0;
+}
+
+.codeblock p{
+  margin-bottom: 0;
 }

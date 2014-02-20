@@ -29,10 +29,6 @@ a problem with pulling down images from the heroku instance of the app into nitr
 
 I played around a bit in the CSS, changing some of the text formatting. I didn't like the red hover text, so I switched it to blue in layout.css.
 
-```
-
-
-```
 
 I also wanted some special formatting on the blog title text, so I added a new class for it on the h1 element in the layout template, and 
 got rid of the line break element (<br/>) to bring the tagline up a bit...
@@ -72,15 +68,19 @@ uses Bootstrap (a 12-column responsive framework, http://getbootstrap.com/) I co
 the classes of the div elements for the sidebar and main content.
 
 For the sidebar:
+
 ```
+
  <div class="span4">
 
 ```
 
 For the main content:
+
 ```
 
 <div class="span8">
+
 
 ```
 

@@ -4,7 +4,7 @@ author: agooch
 title: Mandy's Simple Blog Post Adventure
 ---
 
-Here is my blog: !(http://silshack-agooch.herokuapp.com/). It isn't much, but it's functional. 
+Here is my blog: http://silshack-agooch.herokuapp.com/. It isn't much, but it's functional. 
 
 As for my process, I can honestly say I was doing very well until getting to the ./setupenv1.sh portion of the exercise. Since it was busted, I was unable to finish my assignment in class. This meant I had to pick up from where I left off, but I ran into more issues when Nitrous kept giving me errors. 
 
@@ -18,7 +18,7 @@ As for the bonus section, well, I didn't really want to mess up the app's layout
 
 Note: I did have an issue at one point when editing. I changed some colors to the CSS layout page and pushed it through. When I went back to my blog the image of my dog was no longer visible. I'm not sure why this happened and couldn't find anything in my code, so I just deleted the post and created another one. 
 
-I got my color codes here: !(http://www.huecode.com/)
+I got my color codes here: http://www.huecode.com/
 
 Here is the 404 image:
 

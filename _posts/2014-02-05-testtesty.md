@@ -7,7 +7,7 @@ date: 2014-02-19
 
 ## Hi !
 
-{ % include python %}
+{% include python %}
 
 print("I am Python code")
 

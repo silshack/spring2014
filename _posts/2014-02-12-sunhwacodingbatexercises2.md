@@ -1,11 +1,8 @@
-
 ---
-
 layout: post
 author: sunhwap
 title: the seond codingbat exercises
 date: 2014-02-12
-
 ---
 
 ## Screenshot-warm-up 2

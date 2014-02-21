@@ -1,7 +1,7 @@
 ---
 layout: post
-author: katielmeyer
-title: Simple Flask blog
+author: sunhwap
+title: sunhwa's heroku first post
 date: 2014-02-21
 ---
 

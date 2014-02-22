@@ -4,6 +4,7 @@ author: Chunxi
 title: Chunxi's First Simple Hack 
 date: 2014-02-22
 ---
+##Chunxi's First Simple Hack##
 
 I made my very first simple hack successfully. Here is the link : http://silshack-lanblue.herokuapp.com/
 In general, it is not very hard. But it did take some time. The first problem is after I typing all the codes on the nitrous,
@@ -16,4 +17,4 @@ When I successfully opened my blog, it took me some time to think about how to e
 I found some description and pictures from Wikipedia. Then I thought it may be too simple. So I found guide on the web which taught me
 how to embed google map on the page. 
 
-It seems like there are a lot of cool things which can be achieved on the simplehack. But it will take me some time to learn more.
+It seems like there are a lot of cool things which can be achieved on the simplehack. But it will take me some time to learn more, read more.

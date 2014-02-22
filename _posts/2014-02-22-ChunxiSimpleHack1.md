@@ -4,6 +4,8 @@ author: Chunxi
 title: Chunxi's First Simple Hack 
 date: 2014-02-22
 ---
+Post by Chunxi Zhang
+
 ##Chunxi's First Simple Hack##
 
 Here is the link : http://silshack-lanblue.herokuapp.com/

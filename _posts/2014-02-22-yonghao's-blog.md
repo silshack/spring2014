@@ -66,6 +66,8 @@ Thirdly: in the fun navigation, I upload a very good flash game, its cool, enjoy
 
 http://silshack-yonghaoy.herokuapp.com/ninjafrog
 
+I download the game from http://www.flashgames247.com/pages/freegames.html
+
 The most important part: after we upload the html page, we should change something in simple.py file, and add some functions:
 
 ```

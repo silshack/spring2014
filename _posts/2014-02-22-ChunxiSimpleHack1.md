@@ -1,11 +1,12 @@
 ---
 layout: post
-author: Chunxi
-title: Chunxi's First Simple Hack 
+author: chunxi
+title: Chunxi's First Simplehack
 date: 2014-02-22
 ---
 
 Post by Chunxi Zhang
+
 
 ##Chunxi's First Simple Hack##
 

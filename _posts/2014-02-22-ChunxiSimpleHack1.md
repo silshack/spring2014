@@ -14,7 +14,6 @@ Another problem I faced in building my blog is when I was configuring my blog, I
 know whether this sentence is neccessary or not.  It teaches me a leason. I should think more before I entered.
 
 When I successfully opened my blog, it took me some time to think about how to edit it. Finally, I decided to describe my hometown.
-I found some description and pictures from Wikipedia. Then I thought it may be too simple. So I found guide on the web which taught me
-how to embed google map on the page. 
+I found some description and pictures from Wikipedia. Then I thought it may be too simple. So I decided to embed the google map as the video taught. But it seems like my google map is a different version.I cannot achieve it as the video did. Therefore, I found another guide on the web which taught me how to embed google map on the page.  https://support.google.com/maps/answer/72644?hl=en
 
 It seems like there are a lot of cool things which can be achieved on the simplehack. But it will take me some time to learn more, read more.

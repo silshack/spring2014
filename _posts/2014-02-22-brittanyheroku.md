@@ -10,12 +10,12 @@ Getting the blog up and running wasn't too bad. My main struggles came because o
 
 I couldn't really think of anything cool to do to the blog, but I changed the background color and some of the font colors. For instance, to change the background, I added the following code to layout.html:
 
-'''
+```
 <style>
             body {
                 padding-top: 20px;      
                 background-color: #0097C6; /*added*/
             }
-'''
+```
 
 I kept forgetting to commit and push these changes after I made them, so at first I thought it just wasn't working. However after making the pushes, changes began to appear. This was definitely a good exercise in getting use to using github from the command line and familiarizing myself with the processes of making commits and pushing changes. It feels a lot more intuitive after doing this exercise.

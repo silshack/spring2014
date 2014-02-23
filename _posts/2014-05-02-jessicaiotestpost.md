@@ -1,5 +1,5 @@
 ---
-author: Jessica F
+author: jskaa
 title: Ballin Out of Control
 layout: post
 date: 2014-02-19

@@ -52,7 +52,6 @@ def string_match(a, b):
     if a[i:i+2] == b[i:i+2]:
       count=count+ 1
   return count
-
 ```
 ## 2nd one
 
@@ -69,7 +68,6 @@ def count_code(str):
        count=count+1
   
   return count
-
 ```
 
 ## third one
@@ -90,7 +88,6 @@ def make_chocolate(small, big, goal):
         return goal - big*5
       
    return -1
-   
 ```
 
 

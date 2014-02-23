@@ -31,3 +31,13 @@ def requires_authentication(func):
     return _auth_decorator
 ```
 
+Also here is all I think I cut out:
+
+```
+
+401, 
+                            {"WWW-Authenticate": 'Basic realm="Login Required"'}
+
+```
+
+When I added that back in, under the return Response, I got an application error. 

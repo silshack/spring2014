@@ -6,7 +6,7 @@ layout: post
 
 My Heroku app is up and running at the following link: http://silshack-britth.herokuapp.com/
 
-Getting the blog up and running wasn't too bad. My main struggles came because of my flawed understanding of github pushes and pulls. I ended up cloning the simplehack directory into my spring2014 folder, which I later found out I wasn't supposed to have done. As such, I thought when I made chang es and pushed them, they would go to my github page. When they didn't, I thought I must have made some mistake with my pushes and commits. However, the changes I was making to simplehack seemed to all take shape and my blog ran fine, so in general, the process became clearer. 
+Getting the blog up and running wasn't too bad. My main struggles came because of my original flawed understanding of github pushes and pulls. I ended up cloning the simplehack directory into my spring2014 folder, which I later found out I wasn't supposed to have done. As such, I thought when I made chang es and pushed them, they would go to my github page. When they didn't, I thought I must have made some mistake with my pushes and commits. However, the changes I was making to simplehack seemed to all take shape and my blog ran fine, so in general, the process became clearer. 
 
 I couldn't really think of anything cool to do to the blog, but I changed the background color and some of the font colors. For instance, to change the background, I added the following code to layout.html:
 

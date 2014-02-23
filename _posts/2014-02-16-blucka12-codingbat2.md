@@ -49,4 +49,6 @@ lone_sum = int(a + b + c)
 ```
 
 <a href="http://imgur.com/52HOsHi"><img src="http://i.imgur.com/52HOsHi.png" title="Hosted by imgur.com" /></a>
-   #Yay!!!
+   #Yay
+   
+Check out the io page here: http://blucka12.github.io/spring2014/

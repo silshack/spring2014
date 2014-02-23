@@ -1,6 +1,6 @@
 ---
 layout: post
-author: yonghaoy
+author: yonghao
 title: yonghao's flask blog
 date: 2014-02-22
 ---

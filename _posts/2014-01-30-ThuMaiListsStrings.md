@@ -260,7 +260,7 @@ main()
 
 **Output:**
 
-![Arrowhead image](https://lh5.googleusercontent.com/-T9wi6fD_tKI/Uuqf5SyrwTI/AAAAAAAAA7o/FnJjuTEbnoE/w415-h414-no/arrowhead.png)
+![Arrowhead image](https://lh3.googleusercontent.com/-xundALvps9Y/UvOWIwbc3KI/AAAAAAAAA9g/6QBpM7oohYY/w415-h414-no/arrowhead.png)
 
 ***
 
@@ -330,7 +330,7 @@ main()
 
 **Output:**
 
-![PeanoGosper image](https://lh4.googleusercontent.com/-rWtGuM3yRgc/Uuqf6Fz4HmI/AAAAAAAAA7w/U2QmjkJn2Zk/w414-h412-no/peano-gosper.png)
+![PeanoGosper image](https://lh5.googleusercontent.com/-bM4ADJ8KhsI/Uwq086HU0fI/AAAAAAAABBA/x12IaLsWYmQ/s410-no/peano-gosper.png)
 
 ***
 ***
@@ -553,7 +553,7 @@ main()
 
 **Output:**
 
-![Herb image](https://lh5.googleusercontent.com/-iEzm_iCtmqI/UuqfrKepcDI/AAAAAAAAA7U/JxqjAKiI2HQ/w413-h411-no/herb.png)
+![Herb image](https://lh4.googleusercontent.com/-yCSU0NQMIC8/UvOWPAzTNEI/AAAAAAAAA94/SOhVwsd86K8/w413-h411-no/herb.png)
 
 ***
 
@@ -629,6 +629,6 @@ main()
 
 **Output:**
 
-![Branch image](https://lh3.googleusercontent.com/-XLmV9qqxgbg/Uuqfrb6jqCI/AAAAAAAAA7Q/aWaLicqWZPM/w413-h410-no/branch.png)
+![Branch image](https://lh6.googleusercontent.com/-X_0ltn04nqc/UvOWMswAagI/AAAAAAAAA9s/EdsVXiXVqqU/w413-h410-no/branch.png)
 
 ***

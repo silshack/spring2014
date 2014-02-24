@@ -1,6 +1,6 @@
 ---
 layout: post
-author: babykav
+author: ethan
 title: Ethan's Simple Post
 date: 2014-02-23
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post 
 author: ethan
-title: Ethan's Python Basic Exercise
-date: 2014-01-22
+title: My Name Is Ethan and I like Turtles 
+date: 2014-01-17
 ---
 
 Okay, well I'm done. Here are all of my posts. 

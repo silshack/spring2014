@@ -20,6 +20,7 @@ Favorite exercises:
 
 String-1 Withoutend
 
+
 ```
 def without_end(str):
   return str[1:-1]
@@ -27,6 +28,7 @@ def without_end(str):
 ```
 
 List-1 Has23
+
 
 ```
 def has23(nums):
@@ -42,6 +44,7 @@ def has23(nums):
 ```
 
 Logic-1 Sorta sum
+
 
 ```
 

@@ -1,8 +1,10 @@
 ---
-author: lei
-title: A very cool title for a test post
 layout: post
+author: lei
+title: Lei Wang's Simple Blog
 ---
+
+by Lei Wang
 
 Here is the link : http://silshack-leiw414.herokuapp.com/
 

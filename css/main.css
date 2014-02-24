@@ -10,7 +10,8 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
+html, body { height: 100%; 
+}
 
 body {
   background-color: #FFF;
@@ -19,11 +20,14 @@ body {
   text-align: center;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+p { 
+  margin: 1em 0; 
+}
 
 a         { color: #00a; }
 a:hover   { color: #000; }
@@ -76,6 +80,7 @@ ul.posts span {
   border-bottom: 4px solid #eee;
   margin-bottom: 1em;
   text-align: center;
+  z-index:-5;
 }
 
 .site .header a {
@@ -99,12 +104,17 @@ ul.posts span {
 .site .header a.extra {
   color: #aaa;
   margin-left: 1em;
+  z-index:-1;
 }
 
 .site .header a.extra:hover {
   color: #000;
+  z-index:-1;
 }
 
+a.extra{
+  z-index:-1;
+}
 .site .meta {
   color: #aaa;
 }

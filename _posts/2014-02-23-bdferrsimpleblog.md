@@ -35,7 +35,9 @@ and providing a still image as the “video.” I hope this is not a copyright v
 
 I also decided to use basic markdown, including italics, lists, and links, in the post.
 I was sad to see that the markdown for unordered lists seems to simply indent each item,
-rather than producing a bulleted list. The same was true of the html tag <ul>, so I switched to an ordered list.
+rather than producing a bulleted list. I found that this did not give the impression of a list,
+but gave the impression that I simply did not know how to use indentation properly. 
+The same was true of the html &lt;ul&gt; tag, so I switched to an ordered list.
 
 Finally, inspired by Chunxi's pictures of China, I decided to add entertaining images to my blog post.
 You can see the final product [here](https://silshack-bdferr.herokuapp.com/do-i-put-a-title-here-or-what).

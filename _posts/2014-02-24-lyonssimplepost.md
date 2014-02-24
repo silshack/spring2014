@@ -7,7 +7,8 @@ date: 2014-02-24
 
 ##Allen's Simple Blog
 
-Here's my Simple blog post. It was messing up for a while. But after I started over a couple times, and then started
+Here's my Simple blog post: [http://lions-blog.herokuapp.com/first-post](http://lions-blog.herokuapp.com/first-post)
+It was messing up for a while. But after I started over a couple times, and then started
 over from scratch by deleting my nitrous.io box and making a new one, linking it with the class site again, and then
 linking it with my heroku app. Then everything worked. So that was a pain but otherwise it was all smooth sailing. I
 watched the demo, embedded a google maps frame in my post and changed the background in the ```layout.css``` file. The background

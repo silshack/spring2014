@@ -1,7 +1,7 @@
 ---
 layout: post
 author: laura
-title: Laura’s Turtle Exercise: a silly drawing
+title: Laura’s Turtle Exercise, a silly drawing
 ---
 
 ```

@@ -34,11 +34,9 @@ Then,  I changed font style to Georgia and font size.
                 font-weight: 400; }
 ---
 
-Lastly, I inserted Sunhwa's Blog in the title.  However, when I did git push for it to be shown on Heroku, 
-the Heroku site was showing an application error even though the background color and font style and size
-changes were shown without any problem.
+Lastly, I inserted Sunhwa's Blog in the title.  
 
 ---
-BLOG_TITLE = 'Sunhwa's Blog'/* added*/
+BLOG_TITLE = "Sunhwa's Blog"/* added*/
 ---
 

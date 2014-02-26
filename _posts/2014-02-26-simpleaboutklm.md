@@ -5,6 +5,7 @@ title: Simple blog About page
 date: 2014-02-26
 ---
 
+
 I've added an About page with a link in the left sidebar: http://silshack-katielmeyer.herokuapp.com/about
 
 That just required creating a new decorator pointing to /about & a new about() function in simple.py:

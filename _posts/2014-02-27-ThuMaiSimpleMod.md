@@ -5,7 +5,7 @@ title: Thu-Mai's Simple Blog Mod
 date: 2014-02-27
 ---
 
-This week was quite an adventure in code deciphering.  It was very helpful to walk through the `simple.py' file to understand how everything works together to render the website.  Even more helpful was using branches to experiment with hacks.  This is good for me since I like to break stuff.
+This week was quite an adventure in code deciphering.  It was very helpful to walk through the `simple.py` file to understand how everything works together to render the website.  Even more helpful was using branches to experiment with hacks.  This is good for me since I like to break stuff.
 
 To add an About page to my Simple blog, I made modifications to `simple.py` and `layout.html`, and created an `about.html` template.  Borrowing from other lines of code and doing a bit of trial-and-error, the About page finally worked!  When it came to pushing up these changes to heroku master, I ran into some problems.  Apparently, I somehow generated several database URIs, which wasn't good and caused some conflicts.  After I determined which of the several databases was the active one, I deleted the others.  Finally, the pull worked and so did the push.  Mission accomplished!
 

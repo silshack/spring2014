@@ -24,19 +24,13 @@ This is the code I added to the layout.html page:
 
 ```
 
-This is the code I added to a new about.html page that I created:
+This is the code I added to a new about.html page that I created: (I used the same exact code from the 404.html page)
 
 ```
 
-[% extends "layout.html" %]
-
-[% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %]
-
-[% block content %]
 	<h1>About</h1>
 	<p>This is my About Me page. I am a second year MLS student at UNC.</p>
 	<p><a href="{{ url_for('index') }}">Return to the index</a></p>
-[% endblock %]
 
 ```
 

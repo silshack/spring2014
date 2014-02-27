@@ -17,6 +17,8 @@ def about():
 Also, I added this to the layout.html to add a link in the sidebar to the about page:
 
 
+<li> <p> <a href="http://julieapp.herokuapp.com/about">About</a> </p> </li>
+
 
  
 I also made some changes to the about.html page but I can't put them here because when I tried they broke jekyll! But, basically, I copied the markup from the 404 page and modified it a little bit. 

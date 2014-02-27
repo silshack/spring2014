@@ -40,8 +40,18 @@ Added html code for an About menu link.
 Created a new template for the About page.
 
 ```
+{ % extends "layout.html" % }
 
+{ % block title % }<title>{{ config.BLOG_TITLE }}</title>{ % endblock % }
+
+{ % block content % }
+	<h1>About</h1>
+	<p>Eventually, I will tell you all about this blog.</p>
+  <br/>
+  <a class="btn btn-inverse" href="{{ url_for('index', page=pid) }}">Back to Blog</a>
+  <br/>
+{ % endblock % }
 ```
-
-
+ 
+ 
 ***

@@ -1,7 +1,7 @@
 ---
-layout: post
 author: tlchristian
 title: Thu-Mai's Simple Blog Mod
+layout: post
 date: 2014-02-27
 ---
 
@@ -17,6 +17,7 @@ Here are the hacks that made it all happen:
 **simple.py**
 
 Added an `@app.route` for the About page, which includes authentication requirement.
+
 ```
 @app.route("/about")
 @requires_authentication
@@ -24,16 +25,20 @@ def view_about():
       return render_template("about.html", now=datetime.datetime.now(), is_admin=is_admin(), preview=False)		
 ```
 
+
 **layout.html**
 
 Added html code for an About menu link.
+
 ```
  <li><p><a href="{{ url_for('view_about') }}">About</a></p></li>
 ```
 
+
 **about.html**
 
 Created a new template for the About page.
+
 ```
 {% extends "layout.html" %}
 
@@ -48,4 +53,5 @@ Created a new template for the About page.
 {% endblock %}
 ```
 
----
+
+***

@@ -4,7 +4,7 @@ author: julie
 title: Making an About Page
 ---
 
-I made an About page on my Simple blog. Here's the code I added to simple.py:
+I made an "About Me" page on my Simple blog. Here's the code I added to simple.py:
 
 ```
 

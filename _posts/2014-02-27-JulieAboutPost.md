@@ -17,27 +17,10 @@ def about():
 Also, I added this to the layout.html to add a link in the sidebar to the about page:
 
 
-```
 
  <li><p><a href="http://julieapp.herokuapp.com/about">About</a></p></li>
  
-```
 
-And here is what I put in the About page:
-
-```
-
-{% extends "layout.html" %}
-
-{% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
-
-{% block content %}
-
-<h1>About me</h1>
-<p>I am a student at UNC.</p>
-{% endblock %}
-
-```
 
 
 I actually figured out the changes to simple.py pretty quickly. I went to the study group at Caribou on Thursday, and that was extremely helpful, especially when it came to getting started with the assignment. It seemed very initimidating at first - that we had to made an entirely new page. But we all looked through the simple.py file and talked about what we remembered from class and eventually realized that we just had to tell it to render the about.html page. 

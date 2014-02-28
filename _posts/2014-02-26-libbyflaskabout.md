@@ -22,7 +22,10 @@ I feel like I know just enough about Nitrous to be dangerous, but not enough abo
 Being let loose on the code without instruction was probably helpful in the end, but it was definitely nerve-wracking!
 
 
-*I can't post my about.html code. I recieve the following message each time I include it: The page build failed with the following error:
+
+Note:
+
+I can't post my about.html code. I recieve the following message each time I include it: The page build failed with the following error:
 
 The tag `extends` in `_posts/2014-02-26-libbyflaskabout.md` is not a recognized Liquid tag.
 
@@ -30,4 +33,4 @@ For information on troubleshooting Jekyll see:
 
   https://help.github.com/articles/using-jekyll-with-pages#troubleshooting
 
-If you have any questions please contact us at https://github.com/contact.*
+If you have any questions please contact us at https://github.com/contact.

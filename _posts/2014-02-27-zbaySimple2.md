@@ -7,11 +7,11 @@ date: 2014-02-27
 
 I added my About page to my Simple site. [Here's the link](http://silshack-zbay.herokuapp.com/) to my blog.
 
-Here's about.html, where I defined the template used for the page and wrote its content.
+Here's about.html, where I defined the template used for the page and wrote its content. I moved the first line out of the code block in this post,
+since it gave me a liquid tag error and made it impossible to generate the page. The code is as follows:
 
+% extends "layout.html" %
 ```
-{% extends "layout.html" %}
-
 {% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
 
 {% block content %}

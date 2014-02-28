@@ -18,31 +18,31 @@ def about():
     return render_template("about.html", 
                            now=datetime.datetime.now(),
                            is_admin=is_admin())
-                           
+                          
 ```
 
 Then creating a new template called about.html:
 
 ```
 
-{% extends "layout.html" %}
+{{ "{% extends "layout.html"  " }}%}
 
-{% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
+{{ "{% block title " }}%}<title>{{ "{{config.BLOG_TITLE " }}}}</title>{{ "{% endblock " }}%}
 
-{% block content %}
+{{ "{% block content " }}%}
 <h2>About me</h2>
 <p>Reprehenderit yr wayfarers bicycle rights sunt, leggings asymmetrical Truffaut et bespoke do. 
   Disrupt Austin wolf put a bird on it deserunt salvia. Keytar selvage direct trade semiotics gastropub, 
   bespoke Shoreditch forage synth. Chillwave do biodiesel gentrify eiusmod, YOLO typewriter Pitchfork. 
   Et quinoa Schlitz, adipisicing enim single-origin coffee hoodie next level iPhone. +1 kale chips 
-  gastropub farm-to-table 90's, drinking vinegar deserunt pickled readymade banh mi mlkshk vero. 
+  gastropub farm-to-table 90s, drinking vinegar deserunt pickled readymade banh mi mlkshk vero. 
   Bespoke semiotics consequat Helvetica asymmetrical bicycle rights.</p>
-<p>PBR you probably haven't heard of them vero cornhole selvage XOXO. Organic swag esse tattooed officia. 
-  Stumptown qui aliqua, put a bird on it incididunt McSweeney's chillwave nisi nihil pour-over trust fund fixie. 
-  Cliche Thundercats authentic keytar chambray kale chips. Hoodie XOXO incididunt McSweeney's. 
+<p>PBR you probably havent heard of them vero cornhole selvage XOXO. Organic swag esse tattooed officia. 
+  Stumptown qui aliqua, put a bird on it incididunt McSweeney chillwave nisi nihil pour-over trust fund fixie. 
+  Cliche Thundercats authentic keytar chambray kale chips. Hoodie XOXO incididunt. 
   Gentrify flexitarian pop-up, banjo Blue Bottle dreamcatcher sapiente Pinterest typewriter retro. 
-  McSweeney's Helvetica tousled, bicycle rights commodo gastropub umami hella locavore VHS.</p>
-{% endblock %}
+  McSweeney Helvetica tousled, bicycle rights commodo gastropub umami hella locavore VHS.</p>
+{{ "{% endblock " }}%}
 
 ```
 
@@ -52,5 +52,5 @@ And finally, adding a link to the page in the left sidebar in layout.html:
 
 <ul>
    <li><p><a href="about">About me</a></p></li>
-                          
+   
 ```

@@ -28,7 +28,6 @@ very simple. Just a title and some words.
 	<p><a href="{{ url_for('index') }}">Return to the index</a></p>
 {% endblock %}
 ```
-{% raw %}
 
 The second thing I did is create a new function in simple.py
 

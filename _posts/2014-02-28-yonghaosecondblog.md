@@ -31,21 +31,16 @@ Then users must loggin to visit the page.
 The code of "about page:"
 
 ```
-{% extends "layout_1.html" %}
-  
-  {% block content %}
     <h2>About</h2>
 	  <p>Hi! I am Yonghao. I am a first year MSIS student. This is my first blog. Have Fun!</p>
-	{% endblock %}
-
 
 ```
 
 ninjafrog page is similar, it is a html page with
 
 ```
-{% block content %}
- {% endblock %}
+ block content 
+ endblock 
  
 ```
 

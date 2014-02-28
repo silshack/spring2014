@@ -16,7 +16,21 @@ def about():
     now=datetime.datetime.now())
 ```
 
-(I have removed the about template code because of error in Nitrous. Will place back in later.)
+And created an about.html template with the following:
+
+```
+{% extends "layout.html" %}
+
+{% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
+
+{% block content %}
+
+	<h1>About</h1>
+	<p>This is my shiny about page.</p>
+  <p>I am a BSIS student at UNC, with a second major in Geography.</p>
+
+{% endblock %}
+```
 
 This took a while, but everything looks to be working now. 
 I feel like I know just enough about Nitrous to be dangerous, but not enough about "real-world" Python programs.

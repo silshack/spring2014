@@ -16,6 +16,7 @@ my index.xml was mistakenly deleted. So I reset it and have to do it again. Exce
 The first thing I did is create a new template called "about". I copied the code from 404.html. Because what I expect is
 very simple. Just a title and some words.
 
+{% raw %}
 ```
 {% extends "layout.html" %}
 
@@ -27,6 +28,7 @@ very simple. Just a title and some words.
 	<p><a href="{{ url_for('index') }}">Return to the index</a></p>
 {% endblock %}
 ```
+{% raw %}
 
 The second thing I did is create a new function in simple.py
 

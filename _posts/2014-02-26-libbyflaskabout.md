@@ -16,22 +16,18 @@ def about():
     now=datetime.datetime.now())
 ```
 
-And created an about.html template with the following:
-
-```
-{% extends "layout.html" %}
-
-{% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
-
-{% block content %}
-
-	<h1>About</h1>
-	<p>This is my shiny about page.</p>
-  <p>I am a BSIS student at UNC, with a second major in Geography.</p>
-
-{% endblock %}
-```
 
 This took a while, but everything looks to be working now. 
 I feel like I know just enough about Nitrous to be dangerous, but not enough about "real-world" Python programs.
 Being let loose on the code without instruction was probably helpful in the end, but it was definitely nerve-wracking!
+
+
+*I can't post my about.html code. I recieve the following message each time I include it: The page build failed with the following error:
+
+The tag `extends` in `_posts/2014-02-26-libbyflaskabout.md` is not a recognized Liquid tag.
+
+For information on troubleshooting Jekyll see:
+
+  https://help.github.com/articles/using-jekyll-with-pages#troubleshooting
+
+If you have any questions please contact us at https://github.com/contact.*

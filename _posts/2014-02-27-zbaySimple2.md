@@ -1,7 +1,7 @@
 ---
 layout: post
 author: zbay
-title: Zach's First Simple Post
+title: Zach's Second Simple Post - About
 date: 2014-02-27
 ---
 

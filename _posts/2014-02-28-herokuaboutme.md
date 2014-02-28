@@ -9,14 +9,23 @@ So, I've been having fun and am having a number of "Ah-ha" moments with playing 
 
 And now, to how I got here: I started off by grabbing the `@app.route("/") def index():` from line 139 of "simple.py", then tooled around with the "404.html" code which read: `{% extends "layout.html" %}
 
+{% raw %}
+```
 {% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
 
 {% block content %}
 	<h1>Page Not Found</h1>
 	<p>What you were looking for is just not there.</p>
 	<p><a href="{{ url_for('index') }}">Return to the index</a></p>
-{% endblock %}`
-and the created my own file named "about_us.html" that read: `{% extends "layout.html" %}
+{% endblock %}
+```
+
+
+and the created my own file named "about_us.html" that read: 
+
+{% raw %}
+```
+  "layout.html" "}}%}
 
 {% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
 
@@ -24,10 +33,20 @@ and the created my own file named "about_us.html" that read: `{% extends "layout
 	<h1>About Us</h1>
 	<p>Here's where you look to confirm what you already wanted to think.</p>
 	<p><a href="{{ url_for('index') }}">Return to the index</a></p>
-{% endblock %}`
-then I inserted "/about" into the @approute code, reading: `@app.route("/about")
+{% endblock %}
+```
+
+
+then I inserted "/about" into the @approute code, reading: 
+
+{% raw %}
+```
+@app.route("/about")
 def about():
-  return render_template('about_us.html', now=datetime.datetime.now(), is_admin=is_admin())`
+  return render_template('about_us.html', now=datetime.datetime.now(), is_admin=is_admin())
+```
+
+
 In the above code in class, I had the return to be "Hello World", and I just shifted a few things in the "404.html" file to suit my purposes...Yay!
 
 

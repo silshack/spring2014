@@ -33,8 +33,6 @@ the parts that I needed to. Once again, I am not familiar with the language, but
 for my about.html page looked like:
 
 ```
-{% extends "layout.html" %}
-
 {% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
 
 {% block content %}

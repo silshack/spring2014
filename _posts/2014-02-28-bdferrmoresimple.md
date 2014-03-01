@@ -4,20 +4,19 @@ author: bdferr
 title : More Simple Work
 ---
 
-First, I opened up 404.html, in the templates directory. I had been advised that I could copy the code from here to a new file, which I named about.html, in the same directory. The code for this file was adapted from the 500.html file, referring to the error 500 message, and looks like this:
+First, I opened up 404.html, in the templates directory. I had been advised that I could copy the code from here to a new file, which I named about.html, in the same directory. The code for this file was adapted from the 500.html file, referring to the error 500 message, and looks like the following. Every { sign is followed by a percent sign, and every } is preceded by one, but I had to remove those to avoid getting build error messages.
 
 ```
+{ extends "layout.html" }
 
-{&#37; extends "layout.html" &#37;}
+{ block title }<title>{{ config.BLOG_TITLE }}</title>{ endblock }
 
-{% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
-
-{% block content %}
+{ block content }
 	<h1>About</h1>
 <p>I am interested in passing this class. I also enjoy writing about drug policy <a href="//http://ssdp.org/news/blog/">here</a> 
 and <a href="http://the-libertarian.co.uk/">here</a>. My other interests include languages and food.</p>
 	<p><a href="{{ url_for('index') }}">Return to the index</a></p>
-{% endblock %}
+{ endblock }
 ```
 
 I also attempted to edit simple.py, adding an app.route as follows, which I later found was flawed:

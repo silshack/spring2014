@@ -78,4 +78,12 @@ Around this time I summoned Grant again, who confirmed that it was indeed layout
 
 Next, back in layout.css, I managed to get a larger blue underline which covered the white one, but I still could not get a gray underline. Finally, after much trial and error and yet again consulting grant, I realized that what I wanted was called a border-bottom, similar to the white border-bottoms which already existed under every link. An underline, on the other hand, seemed to be an aspect of the text which would inevitably take its color from what the text had been assigned, i.e., in this case, blue.
 
-So, finally, I managed to remove the underline and add a border-bottom with the proper color (#444) to the hover properties of all links by adding code under a:hover. I found that I needed to add the property “solid” to make it show up. Great success!
+So, finally, I managed to remove the underline and add a border-bottom with the proper color (#444) to the hover properties of all links by adding code under a:hover. I found that I needed to add the property “solid” to make it show up. Great success! The final code (or is it markup?) affecting all the links looked like this: 
+
+```
+a:hover {
+    color: #000099;
+    border-bottom: solid #444;
+    text-decoration: none;
+}
+```

@@ -1,3 +1,9 @@
+---
+layout : post
+author: bdferr
+title : More Simple Work
+---
+
 First, I opened up 404.html, in the templates directory. I had been advised that I could copy the code from here to a new file, which I named about.html, in the same directory. The code for this file was adapted from the 500.html file, referring to the error 500 message, and looks like this:
 
 ```

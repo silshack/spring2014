@@ -29,19 +29,8 @@ With that, I could preview my blog and see an about button. When I clicked on it
 as I knew that the ```about``` path didn't exist anywhere yet. On to the next bit!
 
 Well I still needed an about page, right? This part was much easier, as I just copied the syntax of the 404 page, changing
-the parts that I needed to. Once again, I am not familiar with the language, but I sort of knew what it was doing. My code
-for my about.html page looked like:
-
-```
-{% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
-
-{% block content %}
-	<h1>About page</h1>
-	<p>This is an about page! </p>
-  <p>I hope to add more content here later... it seems a bit sparse!</p>
-	<p><a href="{{ url_for('index') }}">Return to the index</a></p>
-{% endblock %}
-```
+the parts that I needed to. Once again, I am not familiar with the language, but I sort of knew what it was doing. My code for my about.html page was taken directly from the 404 page, with just the text changed to show that it was an 
+about page.
 
 With my about page created and a link in existence, I just needed to somehow connect the two. This is where all the 
 not-so-subtle pointing at simple.py came into play. 

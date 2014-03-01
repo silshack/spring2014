@@ -8,7 +8,7 @@ First, I opened up 404.html, in the templates directory. I had been advised that
 
 ```
 
-{% extends "layout.html" %}
+{&#37; extends "layout.html" &#37;}
 
 {% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
 

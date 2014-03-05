@@ -9,23 +9,23 @@ date: 2014-03-16 11:59pm
 
 Complete the exercise below before the end of Spring Break.  If you need extra help, use your resources, including [this extra material](http://software-carpentry.org/v5/novice/shell/index.html) from Software Carpentry.
 
-## What to turn in
+## What to turn in  
 
 * A pull request containing a correctly formatted post **that you have previewed on Nitrous**
 * In the post, describe your process working through this exercise
 * Include answers to the five challenges at the bottom of this page
 
-<div class="objectives" markdown="1">
 
-#### Objectives
 
-*   Redirect a command's output to a file.
-*   Process a file instead of keyboard input using redirection.
-*   Construct command pipelines with two or more stages.
-*   Explain what usually happens if a program or pipeline isn't given any input to process.
-*   Explain Unix's "small pieces, loosely joined" philosophy.
 
-</div>
+#### Objectives  
+
+* Redirect a command's output to a file.  
+* Process a file instead of keyboard input using redirection.  
+* Construct command pipelines with two or more stages.  
+* Explain what usually happens if a program or pipeline isn't given any input to process.  
+* Explain Unix's "small pieces, loosely joined" philosophy.
+
 
 Now that we know a few basic commands,
 we can finally look at the shell's most powerful feature:

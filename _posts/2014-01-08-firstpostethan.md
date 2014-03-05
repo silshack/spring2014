@@ -1,19 +1,8 @@
 ---
 layout: post 
 author: ethan
-title: Ethan's First Post
-date: 2014-01-08
+title: Ethan's test post for NITRO
+date: 2014-02-19
 ---
 
-Here is the text of my post. 
-
-## This is the way I live in the header 
-
-**I'm a bold butterfly**
-
-*this is italian italics*
-
-* this
-* is
-* a
-* list i guess 
+MY NAME IS ETHAN AND I LIKE TURTLES 

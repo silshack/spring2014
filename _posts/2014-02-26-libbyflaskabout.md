@@ -16,8 +16,21 @@ def about():
     now=datetime.datetime.now())
 ```
 
-(I have removed the about template code because of error in Nitrous. Will place back in later.)
 
 This took a while, but everything looks to be working now. 
 I feel like I know just enough about Nitrous to be dangerous, but not enough about "real-world" Python programs.
 Being let loose on the code without instruction was probably helpful in the end, but it was definitely nerve-wracking!
+
+
+
+Note:
+
+I can't post my about.html code. I recieve the following message each time I include it: The page build failed with the following error:
+
+The tag `extends` in `_posts/2014-02-26-libbyflaskabout.md` is not a recognized Liquid tag.
+
+For information on troubleshooting Jekyll see:
+
+  https://help.github.com/articles/using-jekyll-with-pages#troubleshooting
+
+If you have any questions please contact us at https://github.com/contact.

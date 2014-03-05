@@ -359,19 +359,20 @@ so this matches all the valid data files she has.
 
 <div class="keypoints" markdown="1">
 
-#### Key Points  
+### Key Points   
   
-*   `command > file` redirects a command's output to a file.
-*   `first | second` is a pipeline: the output of the first command is used as the input to the second.
-*   The best way to use the shell is to use pipes to combine simple single-purpose programs (filters).
+*   `command > file` redirects a command's output to a file.  
+*   `first | second` is a pipeline: the output of the first command is used as the input to the second.  
+*   The best way to use the shell is to use pipes to combine simple single-purpose programs (filters).  
 
 </div>
 
 <div class="challenges" markdown="1">
 
-#### Challenges  
+### Challenges  
 
-  
+text 
+
 1.  If we run `sort` on this file:
 
     ~~~

@@ -5,37 +5,11 @@ title: Pipes and filters
 date: 2014-03-05
 ---
 
-I'm not sure why, but the default behavior of the sort program in my nitrous CL is to sort the items in descending order. So when I sort the lengths
-file's contents and reveal the first line with head -1, I get:
-
-```
-
-107 total
-
-```
-
-Instead of the sample output in the instructions:
-
-```
-
-9 methane.pdb
-
-```
-
-I can only get that result by adding the reverse option (-r) or the numerical option (-n):
-
-```
-
-$ sort -r lengths | head -1
-$ 9 methane.pdb
-
-```
-
 
 ### Challenges
 
 1) **Explain why -n has this effect.**
-Adding -n to the sort command tells the program to sort the items by number value.
+Adding -n to the sort command tells the program to sort the items by number value instead of the first character.
 
 2) **What is the difference?**
 They're both ways to tell the program where to get its input. When you don't specify with a <, 

@@ -20,15 +20,15 @@ The second step, I need to connect it with a about page. But I don't have one! S
 I just copied the 404.html code into the new file and edited some new content. my code is :
 
 ```
-{%  "layout.html" %}
 
-{% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
 
-{% block content %}
+<title>{{ config.BLOG_TITLE }}</title>
+
+
 	<h1>ABOUT ME</h1>
 	<p>I am a first year MSIS student in UNC chapel hill, I enjoy technology. </p>
 	<p><a href="{{ url_for('index') }}">Return to the index</a></p>
-{% endblock %}
+
 ```
 After that, it doesn't work!! I tried to figure out why. Suddenly, I remember I did edit the simply.py file. I think it is why it doesn't work.
 So I read the simple.py and found I need to define a new function. I observed the other similar function and wrote my own one:

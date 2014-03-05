@@ -1,7 +1,7 @@
 ---
 layout: post
 author: xuxiang
-title: Xuxiang's Heroku Blog setup
+title: Xuxiang's doing more with simple
 ---
 
 In this exercise, I created an "About" button on the left side of my blog's homepage. It is not a very simple homework for me.

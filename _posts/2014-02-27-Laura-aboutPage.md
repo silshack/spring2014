@@ -19,7 +19,7 @@ def.about():
 Second, I made the page itself by right-clicking on the templates and creating a new file called "about.html".
 
 Third, I copied the contents of the "404.html" and pasted it all in the new "about.html". I then modified the contents and added in some html tags.
-
+{% raw %}
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -37,7 +37,7 @@ Third, I copied the contents of the "404.html" and pasted it all in the new "abo
 ```
 
 Fourth, I added a link into "layout.html":
-
+{% endraw %}
 ```
 <li><p><a href="{{ url_for('about') }}">About Me</a></p></li>
 

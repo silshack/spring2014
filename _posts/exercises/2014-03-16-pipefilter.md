@@ -237,7 +237,7 @@ The shell starts by telling the computer to create a new process to run the `wc`
 Since we've provided some filenames as parameters,
 `wc` reads from them instead of from standard input.
 And since we've used `>` to redirect output to a file,
-the shell connects the process's standard output to that file.
+the shell connects the process's standard output to that file.  
 
 If we run `wc -l *.pdb | sort` instead,
 the shell creates two processes
@@ -269,7 +269,7 @@ The key is that any program that reads lines of text from standard input
 and writes lines of text to standard output
 can be combined with every other program that behaves this way as well.
 You can *and should* write your programs this way
-so that you and other people can put those programs into pipes to multiply their power.
+so that you and other people can put those programs into pipes to multiply their power.  
 
 > #### Redirecting Input
 > 
@@ -282,7 +282,7 @@ so that you and other people can put those programs into pipes to multiply their
 > have told the shell to send the contents of `ammonia.pdb` to `wc`'s
 > standard input.
 
-#### Nelle's Pipeline: Checking Files
+#### Nelle's Pipeline: Checking Files  
 
 Nelle has run her samples through the assay machines
 and created 1520 files in the `north-pacific-gyre/2012-07-03` directory described earlier.
@@ -357,7 +357,7 @@ the '\*' matches any number of characters;
 the expression `[AB]` matches either an 'A' or a 'B',
 so this matches all the valid data files she has.
 
-<div class="keypoints" markdown="1">
+
 
 ### Key Points   
   
@@ -365,9 +365,7 @@ so this matches all the valid data files she has.
 *   `first | second` is a pipeline: the output of the first command is used as the input to the second.  
 *   The best way to use the shell is to use pipes to combine simple single-purpose programs (filters).  
 
-</div>
 
-<div class="challenges" markdown="1">
 
 ### Challenges  
 
@@ -484,4 +482,3 @@ text
     out what animals the file contains (without any duplicates in their
     names)?
 
-</div>

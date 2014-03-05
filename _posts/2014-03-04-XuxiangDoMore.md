@@ -20,7 +20,7 @@ The second step, I need to connect it with a about page. But I don't have one! S
 I just copied the 404.html code into the new file and edited some new content. my code is :
 
 ```
-{% extends "layout.html" %}
+{%  "layout.html" %}
 
 {% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
 

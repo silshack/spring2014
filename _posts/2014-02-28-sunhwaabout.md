@@ -10,15 +10,15 @@ In order to create the new about template, I first copied codes from 404.html an
 heading and added one sentence as shown below.
 
 ``` 
-  {% extends "layout.html" %}
+  % extends "layout.html" %
 
-{% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
+% block title %<title> config.BLOG_TITLE /title>% endblock %
 
-{% block content %}
+% block content %
 	<h1>About</h1>
 	<p>This is the about me page! I am Sunhwa!</p>
-	<p><a href="{{ url_for('index') }}">Return to the index</a></p>
-{% endblock %}
+	<p><a href=" url_for('index') ">Return to the index</a></p>
+% endblock %
 
 ```
 
@@ -35,7 +35,7 @@ Lastly, I added about.html in the layout.html in order for it to be displayed as
    
 ```
     <li><p><a href="about.html">About Me</a></p></li>
-                            {% if config.GITHUB_USERNAME %}
-                                <li><p><a href="https://github.com/{{ config.GITHUB_USERNAME }}/">Github</a></p></li>
+                            % if config.GITHUB_USERNAME %
+                                <li><p><a href="https://github.com/ config.GITHUB_USERNAME /">Github</a></p></li>
 
 ```

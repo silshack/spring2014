@@ -7,7 +7,7 @@ date: 2014-03-13
 
 ## Pipes and Filter exercises
 
-1.  The plain sort command just considers the text as a string of characters rather than a single numerical element whereas 
+1. The plain sort command just considers the text as a string of characters rather than a single numerical element whereas 
     sort -n arranges the given list of numbers numerically int he ascending order of the numerical value of each number.
 2. wc -l mydata.dat: this command reads from a file, mydata.dat instead of from standard input and shows the number of lines 
    in the file whereas wc -l mydata.dat shows the number of lines in the file, mydata.dat.  One thing that I noticed between 

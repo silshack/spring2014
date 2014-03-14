@@ -24,3 +24,13 @@ date: 2014-03-13
 5. cut -d, -f 2 animals.txt:  this command extract only the second field of the file delimited by comma.  In order to extract
    a single instance of each animals from this text file, sort and uniq commands should be added.  That is, cut -d, -f 2 animals.txt
    | sort | uniq
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   

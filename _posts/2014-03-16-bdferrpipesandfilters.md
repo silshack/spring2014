@@ -4,7 +4,9 @@ author : bdferr
 title : bdferr pipes and filters
 ---
 
-Much of this assignment was done in class, without incident. I created an extra file called r-sorted-lengths to test the sort –r command. Apparently this does something unrelated to the –r flag in the command rm –r directory &lt; name &gt; which was mentioned [here](http://software-carpentry.org/v5/novice/shell/02-create.html). 
+Much of this assignment was done in class, without incident. I later asked Grant for help with basic Nitrous details which I had forgotten. I found that the "preview" function is not reliable for some reason which Grant could not explain; it displays an old version of the file I am working on, but will not update the file after I update it in Nitrous, so I simply made several commits and pushed to GitHub several times.
+
+I created an extra file called r-sorted-lengths to test the sort –r command. Apparently this does something unrelated to the –r flag in the command rm –r &lt;directory  name&gt; which was mentioned [here](http://software-carpentry.org/v5/novice/shell/02-create.html). 
 
 
 At first I somehow accidentally did this: 
@@ -40,7 +42,7 @@ Challenges:
 2012-11-06,deer
 ```
 
-while “tail -3” takes the bottom three lines, as follows:
+while “tail -3” takes the bottom three lines of those five, as follows:
 
 ```
 2012-11-05,raccoon

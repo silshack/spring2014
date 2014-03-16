@@ -20,7 +20,7 @@ This paragraph was somewhat confusing:
 
 “As well as using > to redirect a program's output, we can use < to redirect its input, i.e., to read from a file instead of from standard input. For example, instead of writing wc ammonia.pdb, we could write wc < ammonia.pdb. In the first case, wc gets a command line parameter telling it what file to open. In the second, wc doesn't have any command line parameters, so it reads from standard input, but we have told the shell to send the contents of ammonia.pdb to wc's standard input.”
 
-I understand that both commands will produce the same output by performing the same operation (word count) on the same data (the contents of ammonia.pdb). It is obvious that something is different between the two, but I do not understand enough about what standard input is to see what the difference actually is beyond the difference in the terms being used.
+It seemed at first that both commands would perform the same operation (word count) on the same data. It was obvious that something was different between the two but I did not understand what. I asked Grant about this, and he explained that the command with the < is referring to the contents of the file while the other command is referring to the file as a whole. This still seemed very abstract to me and I still did not understand the difference in what was being done; for the purposes of a word count it would seem that the contents of a file and the file as a whole are the same thing. Apparently what I should have done was test out the commands in Nitrous on cubane.pdb; upon doing so I learned that the redirect to standard input will actually not display the name of the file, while providing the file as a command parameter will. This finally explained concretely what the difference between the commands was.
 
 I especially liked the &#42;[AB].txt expression, as I had not known that it was possible to create a wildcard expression which would accept any one of two (or perhaps even more) characters in a particular position.
 
@@ -56,7 +56,7 @@ Finally, this text, rather than being displayed on the screen, is placed in a te
 5. The “uniq” command was just mentioned as a way to eliminate all adjacent duplicates, so we could eliminate all duplicates simply by first ensuring that they are adjacent. All we would need to do after cutting the dates off is to sort alphabetically, then use the uniq command, like so:
 
 ```
-cut -d , -f 2 animals.txt | sort | uniq
+cut -d , -f 2 animals.txt | sort | uniqF
 ```
 
 The output would be:

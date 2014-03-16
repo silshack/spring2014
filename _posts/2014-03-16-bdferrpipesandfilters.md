@@ -4,13 +4,15 @@ author : bdferr
 title : bdferr pipes and filters
 ---
 
-Much of this assignment was done in class, without incident. I created an extra file called r-sorted-lengths to test the sort –r command. Apparently this does something unrelated to the –r flag in the command rm –r [directory name] which was mentioned here. http://software-carpentry.org/v5/novice/shell/02-create.html
+Much of this assignment was done in class, without incident. I created an extra file called r-sorted-lengths to test the sort –r command. Apparently this does something unrelated to the –r flag in the command rm –r directory &lt; name &gt; which was mentioned [here](http://software-carpentry.org/v5/novice/shell/02-create.html). 
 
 
 At first I somehow accidentally did this: 
+
 ```
-wc -l sort &#42;.pdb | sort | head -1
+wc -l sort *.pdb | sort | head -1
 ```
+
 I got an error like so: “wc: sort: no such file or directory.” When I removed the first unnecessary sort, I got “107 total.” “107 total” is at line 7 of “lengths” and line 1 of “sorted-lengths.” Apparently I have told the shell to print the first line at the top of a list produced by doing a line count on every .pdb document in the folder and sorting them alphabetically. This is somewhat odd because line counts are numbers, so they should probably be sorted with sort –n.
 This paragraph was somewhat confusing: 
 
@@ -29,6 +31,7 @@ Challenges:
 3. A possible reason the command “uniq” removes only adjacent duplicated lines is that in very large quantities of data, it might take too long to find remove every single duplicate. The operation necessary to search for every duplicate of every line in the entire document might involve comparing every line to every other line, which would be slow with a large quantity of data. On the other hand, removing adjacent duplicated lines only require the program to compare each line to the one above and below it.
 
 4. The first command, cat animals.txt, simply takes the full list of contents of the file and provides it to the next program, called head. “Head -5” takes the top five lines of this file, as follows: 
+
 ```
 2012-11-05,deer
 2012-11-05,rabbit
@@ -36,20 +39,26 @@ Challenges:
 2012-11-06,rabbit
 2012-11-06,deer
 ```
+
 while “tail -3” takes the bottom three lines, as follows:
+
 ```
 2012-11-05,raccoon
 2012-11-06,rabbit
 2012-11-06,deer
 ```
+
 Next, the sort –r command would sort these three lines in reverse alphabetical order, but as it happens this is the order they are already in, so the input to “sort –r” is actually the same as the text which the sort program outputs.
 Finally, this text, rather than being displayed on the screen, is placed in a text file called final.txt.
 
-5. The “uniq” command was just mentioned as a way to eliminate all adjacent duplicates, so we could eliminate all duplicates simply by first ensuring that they are adjacent. All we would need to do is to sort alphabetically, then use the uniq command, like so:
+5. The “uniq” command was just mentioned as a way to eliminate all adjacent duplicates, so we could eliminate all duplicates simply by first ensuring that they are adjacent. All we would need to do after cutting the dates off is to sort alphabetically, then use the uniq command, like so:
+
 ```
-cat animals.txt | sort | uniq
+cut -d , -f 2 animals.txt | sort | uniq
 ```
+
 The output would be:
+
 ```
 bear
 deer

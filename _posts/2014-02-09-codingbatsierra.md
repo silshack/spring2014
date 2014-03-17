@@ -2,7 +2,7 @@
 layout: post
 author: srmoore5
 title: Coding Bat Lists/strings/logic/warmup
-date: 02/09/14
+date: 2014-02-09
 ---
 
 Screenshots:

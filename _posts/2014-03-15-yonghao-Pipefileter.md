@@ -5,6 +5,7 @@ title: yonghao's Shell command exercise
 date: 2014-03-15
 ---
 
+
 ## Experience
 
 One senior software engineer tole me Linux system is a life skill for programmer. I have been learning linux command for a while. 

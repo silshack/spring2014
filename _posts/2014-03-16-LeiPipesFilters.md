@@ -24,7 +24,7 @@ The command `sort -n` compare according to string numerical value, rather than c
 
 **C4**
 
-we use "head -5" to get the first 5 lines of the animals.txt: 
+we use "head -5" to get the first 5 lines of the animals.txt:  
 
 ```
 2012-11-05,deer

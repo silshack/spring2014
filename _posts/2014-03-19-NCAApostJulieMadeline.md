@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Florida and UNC in the NCAA Tournament
-author: Julie
+author: 
+- julie
+- madeline
 ---
 
 Madeline & I worked together on the NCAA pages for UNC and Florida. Here are our pull requests:

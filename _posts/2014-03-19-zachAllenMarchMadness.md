@@ -1,8 +1,8 @@
 ---
 layout: post
 author: 
-  -zbay 
-  -allen
+  - zbay 
+  - allen
 title: Zach and Allen's March Madness post
 date: 2014-03-19
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 author:
-  -brittany
-  -sunhwap
+ - brittany
+ - sunhwap
 title: Brittany & Sunhwa's NCAA Post
 ---
 

@@ -39,10 +39,10 @@ I need four volunteers
 Pair up.  Each person pick a team (one team per person).  Make a new branch in Nitrous.  For Your partner's team, add these labels to the file:
 
 * Win-Loss Record:
-* Numebr of Times in the Tournament:
+* Number of Times in the Tournament:
 * Coach:
 
-Commit these changes and push them up to your branch.  Have your partner enter this information into the file and open a pull request.  Merge it whne it's correct.
+Commit these changes and push them up to your branch.  Have your partner enter this information into the file and open a pull request.  Merge it when it's correct.
 
 
 # What to turn in

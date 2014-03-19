@@ -7,6 +7,7 @@ author: Julie
 Madeline & I worked together on the NCAA pages for UNC and Florida. Here are our pull requests:
 
 https://github.com/silshack/NCAA/pull/20
+
 https://github.com/silshack/NCAA/pull/25
 
 The hardest part about working together was that Nitrous wouldn't work. Other than that, it was pretty easy to work together. It was easy to see the changes in Git, and everything changed instanteously. I could see any changes Madeline made immediately. It was also nice to be able to see everything she had done in GitHub. 

@@ -1,6 +1,7 @@
 ---
 author: elliott
 title: Collaborating on Github
+layout: post
 date: 2014-03-21 11:59pm
 categories: exercise
 ---
@@ -57,11 +58,3 @@ author:
   - gerbal
 ```
 
-
-
-```
-echo 'export PYTHONPATH=$PATH' >> ~/.bashrc
-easy_install --install-dir=$HOME/.local/bin -U distribute  
-pip install --user matplotlib
-pip install --user 
-```

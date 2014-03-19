@@ -17,7 +17,7 @@ I need four volunteers
 ## Person two
 
 * Clone the repository in Nitrous
-* Make a branch called `north-south`
+* Make a branch called `midwest-south`
 * Checkout this branch
 * Make Folders called `North` and `South` 
 * Fill the folders with one file for each basketball team in those NCAA brackets.  For instance, in the South folder make a file called `01 - University of Florida`

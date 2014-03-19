@@ -13,7 +13,8 @@ in the info (wins, appearances, and coach).
 
 We had to start over with the two separate branches to comply with the assignment, Mercer and Dayton. 
 The complexity of trying to undo what we had done caused some problems, including merge conflicts that had to be resolved in Nitrous.
+There was some nonsensical code added to the Dayton file when it was committed. Deleting it somehow fixed the merge conflict.
 
-I won't speak for Allen, but I will chalk our difficulties up to my inadequate grasp on the branching paradigm. Using a single
-branch for our edits seemed like a perfectly reasonable idea. It is just now setting in that branching must be done liberally and updated only
-from the master branch.
+We will chalk our difficulties up to an inadequate grasp on the branching paradigm. Using a single
+branch for our edits seemed like a reasonable idea at first. It is just now setting in, at least for Zach, that branching 
+must be done liberally and branches updated only from the master branch.

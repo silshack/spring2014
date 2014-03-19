@@ -6,13 +6,13 @@ author:
 title: Chunxi & Lei's Experience with NCAA
 ---
 
- ## Links
+## Links
  
  https://github.com/silshack/NCAA/pull/23
  
  https://github.com/silshack/NCAA/pull/22
  
- ## Reflection
+## Reflection
  
  Well, in general, it is simple. However, it is a little bit trickly for us to understand what this assignment is about. Because 
  we spent some time to figure out the job distribution among the pairs. However, once we understood the request, it was fairly easy.

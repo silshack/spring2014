@@ -36,13 +36,15 @@ I need four volunteers
 
 # For homework
 
-Pair up.  Each person pick a team (one team per person).  Make a new branch in Nitrous.  For Your partner's team, add these labels to the file:
+Pair up.  Each person pick a team (one team per person).  Make a new branch in Nitrous titled your partner's team.  For Your partner's team, add these labels to the file:
 
 * Win-Loss Record:
 * Number of Times in the Tournament:
 * Coach:
 
-Commit these changes and push them up to your branch.  Have your partner enter this information into the file and open a pull request.  Merge it when it's correct.
+Commit these changes and push them up to your partner's branch.  Your partner should then make a branch with the same name on Nitrous and `git pull origin branchname`.  Have your partner enter the information into the file and open a pull request.  Merge it when it's correct.
+
+Do this once per partner, switching off.
 
 
 # What to turn in

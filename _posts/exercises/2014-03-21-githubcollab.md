@@ -7,7 +7,7 @@ categories: exercise
 ---
 
 # Tournament Exercise
-Form groups of four.  
+I need four volunteers  
 
 ## Person one
 

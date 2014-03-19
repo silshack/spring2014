@@ -42,7 +42,7 @@ Pair up.  Each person pick a team (one team per person).  Make a new branch in N
 * Number of Times in the Tournament:
 * Coach:
 
-Commit these changes and push them up to your partner's branch.  Your partner should then make a branch with the same name on Nitrous and `git pull origin branchname`.  Have your partner enter the information into the file and open a pull request.  Merge it when it's correct.
+Commit these changes and push them up to your partner's branch.  Your partner should then make a branch with the same name on Nitrous and `git pull origin branchname`.  Have your partner enter the information into the file, open a well-formed pull request, and tag it to the correct milestone.  Merge it when it's correct.  With [emoji](http://www.emoji-cheat-sheet.com/) :)
 
 Do this once per partner, switching off.
 

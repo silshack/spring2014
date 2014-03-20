@@ -14,8 +14,6 @@ fields for Dayton, and we pushed from our local branches to the master. Then we 
 [Here's the link for Mercer...](https://github.com/silshack/NCAA/pull/27)
 [...and the one for Dayton.](https://github.com/silshack/NCAA/pull/28)
 
-
-
 We had to start over with the two separate branches to comply with the assignment, Mercer and Dayton. The complexity of trying to undo what we had 
 done caused some problems, including merge conflicts that had to be resolved in Nitrous.There was some nonsensical code added to the Dayton file when 
 it was committed. Deleting it somehow fixed the merge conflict.

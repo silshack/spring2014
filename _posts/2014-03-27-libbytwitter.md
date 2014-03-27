@@ -1,7 +1,7 @@
 ---
-author:libbby
-layout:post
-title:Libby's Twitter Post
+author: libbby
+layout: post
+title: Libby's Twitter Post
 ---
 
 #The Twitter

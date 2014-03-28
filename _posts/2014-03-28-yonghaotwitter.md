@@ -38,3 +38,5 @@ I have public my access secret in a google doc and share my doc to my google plu
 
 <blockquote class="twitter-tweet" lang="zh-cn"><p>test photo <a href="http://t.co/eGdesYkRax">pic.twitter.com/eGdesYkRax</a></p>&mdash; yonghao yu (@yonghao_yu) <a href="https://twitter.com/yonghao_yu/statuses/449633922729926656">2014年3月28日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+For some reason, the picture won't show in github's post, but it works in my twitter

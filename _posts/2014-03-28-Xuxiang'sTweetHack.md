@@ -1,7 +1,7 @@
 ---
 layout: post
 author: xuxiang
-title: NCAA assignment 
+title: Tweeting assignment 
 ---
 
 Here is my tweet which posted by the command line. It is pretty amazing that the command line can do so many things for me! I will dig out what other the linux command can do for me.

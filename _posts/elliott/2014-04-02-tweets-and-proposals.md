@@ -18,6 +18,10 @@ Nice work on this!  I'm [working on the tweethack repo as a project](https://git
 6. Resolve conflicts
 7. Commit & push resolution
 
+## Branching
+
+Always branch from the main branch!  (`gh-pages` for our site; `master` for most repos)
+
 ## Proposals
 
 The proposal assignment is up, Due Sunday.  We'll spend the balance of time in class workshopping a group's project and then working on the assignment.

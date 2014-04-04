@@ -1,5 +1,6 @@
 $(document).ready(function () {
     function main(idmod) {
+        //console.log(idmod)
         function strip(html) {
             var tmp = document.createElement("DIV");
             tmp.innerHTML = html;
@@ -8,6 +9,7 @@ $(document).ready(function () {
         }
         var strippedtext = strip($('#code' + idmod).text());
         $('#code' + idmod).text(strippedtext);
+        //console.log(document.getElementById('code' + idmod))
         var editor = CodeMirror.fromTextArea(document.getElementById('code' + idmod), {
             parserfile: ["parsepython.js"],
             autofocus: true,
@@ -91,9 +93,12 @@ $(document).ready(function () {
         editor.focus();
 
     };
-    for (var i = 0, len = idmods.length; i < len; i++) {
-        main(idmods[i])
+    function writeCodeMirrors(){
+    for (var i = 0, len = $('.codeWrapper').length; i < len; i++) {
+        main(i);
+    }
     };
+    writeTextBoxes().done(writeCodeMirrors);   
     $('[class*=language]').each(function () {
 
         var $this = $(this),

@@ -345,12 +345,3 @@ THE SOFTWARE.
   background: white;
   color: black;
 }
-
-.output {
-    background: #ccc;
-    color: #black;
-    height: 100px;
-    overflow: auto;
-    font-family: "Consolas","Lucida Console","Monaco",monospace;
-    font-size: 9pt;
-}

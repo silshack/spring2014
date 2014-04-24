@@ -66,9 +66,9 @@ These experiences will combine with class assignments, readings, and in-class ex
 
 **Readings:** Most, if not all, materials used in this course will be drawn from freely available resources on the Internet.  This mimics the working environment of most programmers.  I’ll select readings from blogs, project documentation, and leading free textbooks and developer reference books Think Python, Learn Python the Hard Way, and Pro Git.
 
-**Software:** The course will utilize free open source software almost exclusively.  For in-class exercises, some exercises will be completed via a browser and for actual development we’ll all use the same version of Ubuntu Linux to eliminate configuration and compatibility issues.  Students will be able to choose between installing Ubuntu on a VirtualBox virtual machine and installing the operating system on their own hardware.  VirtualBox is a free, open source project that allows Mac, Windows, and Linux systems to host other operating systems.  Detailed walkthroughs will be provided for all software installations and there will be time in class for troubleshooting.
+**Software:** The course will utilize free open source software almost exclusively.  For in-class exercises, some exercises will be completed via a browser and for actual development we’ll all use the cloud based development environments provided for free by Nitrous.io. This provides a headless Ubuntu server instance and a graphical text editor. It is a professional quality tool that students can use in most real-world development tasks with little modification. 
 
-**Hardware:**  Students will need their own laptops.  Computers conforming to CCI guidelines should do fine.  Older hardware or netbooks might have trouble with virtualization, so please contact me if you’d prefer to set up a dual-boot system.  My 2010 MacBook Pro runs VirtualBox just fine, and a native installation on an old 2007 MacBook works great as well.  Contact me if you have any questions.
+**Hardware:**  Students will need their own laptops able to run Chrome or other modern web browser compatible with nitrous.io. 
 
 ## Grading
 

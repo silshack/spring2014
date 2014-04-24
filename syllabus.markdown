@@ -60,6 +60,8 @@ These experiences will combine with class assignments, readings, and in-class ex
 
 **Extra Credit:** There will be infrequent opportunities to earn small amounts of extra credit.  This will usually involve doing things I might normally do, like deploying our class blog, tidying up code I write for this class for wider consumption, or helping moderate our forums.
 
+**Educational Privacy:** It is your FERPA right to keep your educational record, including enrollment in any specific class, private.  Assignments that require public submission (e.g our Github repository) may be completed pseudonymously if you would like to exercise this right. This choice will not affect your grade. 
+
 ## Materials
 
 **Readings:** Most, if not all, materials used in this course will be drawn from freely available resources on the Internet.  This mimics the working environment of most programmers.  I’ll select readings from blogs, project documentation, and leading free textbooks and developer reference books Think Python, Learn Python the Hard Way, and Pro Git.
